@@ -1,0 +1,4 @@
+[2026-04-09T19:25:13.615Z] [ERROR] 数据库连接池初始化失败 (1/5): DB_POOL_CONFIG is not defined
+[2026-04-09T19:25:15.649Z] [ERROR] 数据库连接池初始化失败 (2/5): DB_POOL_CONFIG is not defined
+[2026-04-09T19:25:19.662Z] [ERROR] 数据库连接池初始化失败 (3/5): DB_POOL_CONFIG is not defined
+[2026-04-09T19:25:25.675Z] [ERROR] 数据库连接池初始化失败 (4/5): DB_POOL_CONFIG is not defined

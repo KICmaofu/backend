@@ -1,0 +1,960 @@
+[2026-04-13T03:26:21.099Z] [ERROR] 数据处理失败 [ID: 2026-04-13T03-26-21-098Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T03:26:23.667Z] [ERROR] 数据处理失败 [ID: 2026-04-13T03-26-23-665Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T03:28:08.241Z] [ERROR] 数据处理失败 [ID: 2026-04-13T03-28-08-238Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T03:28:35.413Z] [ERROR] 数据处理失败 [ID: 2026-04-13T03-28-35-409Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T11:11:17.478Z] [ERROR] 数据处理失败 [ID: 2026-04-13T11-11-17-474Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T11:13:43.849Z] [ERROR] 数据处理失败 [ID: 2026-04-13T11-13-43-845Z]: 环境状态必须是字符串或数字
+[2026-04-13T11:14:59.650Z] [ERROR] 数据处理失败 [ID: 2026-04-13T11-14-59-645Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T11:14:59.650Z] [ERROR] 数据处理失败 [ID: 2026-04-13T11-14-59-646Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T11:15:31.002Z] [ERROR] 数据处理失败 [ID: 2026-04-13T11-15-31-000Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T11:15:31.002Z] [ERROR] 数据处理失败 [ID: 2026-04-13T11-15-31-001Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T11:15:37.245Z] [ERROR] 数据处理失败 [ID: 2026-04-13T11-15-37-243Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T11:16:59.614Z] [ERROR] 数据处理失败 [ID: 2026-04-13T11-16-59-613Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T11:16:59.616Z] [ERROR] 数据处理失败 [ID: 2026-04-13T11-16-59-613Z]: JSON解析失败: Unexpected token ',', ",22.75],[2"... is not valid JSON
+[2026-04-13T11:18:19.793Z] [ERROR] 数据处理失败 [ID: 2026-04-13T11-18-19-792Z]: JSON解析失败: Unterminated string in JSON at position 11
+[2026-04-13T11:21:41.754Z] [ERROR] 数据处理失败 [ID: 2026-04-13T11-21-41-751Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T11:21:48.074Z] [ERROR] 数据处理失败 [ID: 2026-04-13T11-21-48-067Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T11:22:27.316Z] [ERROR] 数据处理失败 [ID: 2026-04-13T11-22-27-312Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T11:45:52.551Z] [WARNING] 异常原始数据已保存到: /home/kic/project/ai-project/socket/data/raw/2026-04-13.json
+[2026-04-13T11:45:52.552Z] [WARNING] 异常原始数据已保存到: /home/kic/project/ai-project/socket/data/raw/2026-04-13.json
+[2026-04-13T11:45:52.553Z] [WARNING] 异常原始数据已保存到: /home/kic/project/ai-project/socket/data/raw/2026-04-13.json
+[2026-04-13T11:45:52.553Z] [WARNING] 异常原始数据已保存到: /home/kic/project/ai-project/socket/data/raw/2026-04-13.json
+[2026-04-13T11:45:52.554Z] [WARNING] 异常原始数据已保存到: /home/kic/project/ai-project/socket/data/raw/2026-04-13.json
+[2026-04-13T11:45:52.554Z] [WARNING] 异常原始数据已保存到: /home/kic/project/ai-project/socket/data/raw/2026-04-13.json
+[2026-04-13T11:45:52.554Z] [WARNING] 异常原始数据已保存到: /home/kic/project/ai-project/socket/data/raw/2026-04-13.json
+[2026-04-13T11:45:52.555Z] [WARNING] 异常原始数据已保存到: /home/kic/project/ai-project/socket/data/raw/2026-04-13.json
+[2026-04-13T11:45:52.555Z] [WARNING] 异常原始数据已保存到: /home/kic/project/ai-project/socket/data/raw/2026-04-13.json
+[2026-04-13T11:45:52.564Z] [WARNING] 异常处理数据已保存到: /home/kic/project/ai-project/socket/data/processed/2026-04-13.json
+[2026-04-13T11:45:52.565Z] [WARNING] 异常处理数据已保存到: /home/kic/project/ai-project/socket/data/processed/2026-04-13.json
+[2026-04-13T11:45:52.565Z] [WARNING] 异常处理数据已保存到: /home/kic/project/ai-project/socket/data/processed/2026-04-13.json
+[2026-04-13T11:45:52.565Z] [WARNING] 异常处理数据已保存到: /home/kic/project/ai-project/socket/data/processed/2026-04-13.json
+[2026-04-13T11:45:52.566Z] [WARNING] 异常处理数据已保存到: /home/kic/project/ai-project/socket/data/processed/2026-04-13.json
+[2026-04-13T11:45:52.566Z] [WARNING] 异常处理数据已保存到: /home/kic/project/ai-project/socket/data/processed/2026-04-13.json
+[2026-04-13T11:45:52.566Z] [WARNING] 异常处理数据已保存到: /home/kic/project/ai-project/socket/data/processed/2026-04-13.json
+[2026-04-13T11:45:52.566Z] [WARNING] 异常处理数据已保存到: /home/kic/project/ai-project/socket/data/processed/2026-04-13.json
+[2026-04-13T11:45:52.567Z] [WARNING] 异常处理数据已保存到: /home/kic/project/ai-project/socket/data/processed/2026-04-13.json
+[2026-04-13T11:47:10.678Z] [ERROR] 数据处理失败 [ID: 2026-04-13T11-47-10-675Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T11:48:00.018Z] [ERROR] 数据处理失败 [ID: 2026-04-13T11-48-00-016Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T11:48:00.018Z] [ERROR] 数据处理失败 [ID: 2026-04-13T11-48-00-016Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 5
+[2026-04-13T11:48:14.445Z] [ERROR] 数据处理失败 [ID: 2026-04-13T11-48-14-442Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T11:48:14.446Z] [ERROR] 数据处理失败 [ID: 2026-04-13T11-48-14-445Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T11:48:16.801Z] [ERROR] 数据处理失败 [ID: 2026-04-13T11-48-16-795Z]: JSON解析失败: Unexpected token ',', ",23.25],[2"... is not valid JSON
+[2026-04-13T11:48:16.801Z] [ERROR] 数据处理失败 [ID: 2026-04-13T11-48-16-796Z]: JSON解析失败: Expected ',' or ']' after array element in JSON at position 128
+[2026-04-13T11:48:20.947Z] [ERROR] 数据处理失败 [ID: 2026-04-13T11-48-20-944Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T11:48:20.947Z] [ERROR] 数据处理失败 [ID: 2026-04-13T11-48-20-944Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 5
+[2026-04-13T11:48:24.593Z] [ERROR] 数据处理失败 [ID: 2026-04-13T11-48-24-591Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T11:48:24.594Z] [ERROR] 数据处理失败 [ID: 2026-04-13T11-48-24-591Z]: JSON解析失败: Unexpected token ',', ",22.75],[2"... is not valid JSON
+[2026-04-13T11:49:10.615Z] [ERROR] 数据处理失败 [ID: 2026-04-13T11-49-10-610Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T11:49:10.615Z] [ERROR] 数据处理失败 [ID: 2026-04-13T11-49-10-612Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T11:49:43.200Z] [ERROR] 数据处理失败 [ID: 2026-04-13T11-49-43-197Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T11:49:43.200Z] [ERROR] 数据处理失败 [ID: 2026-04-13T11-49-43-198Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T11:49:43.200Z] [ERROR] 数据处理失败 [ID: 2026-04-13T11-49-43-199Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T11:49:43.200Z] [ERROR] 数据处理失败 [ID: 2026-04-13T11-49-43-199Z]: JSON解析失败: Unexpected end of JSON input
+[2026-04-13T11:49:55.641Z] [ERROR] 数据处理失败 [ID: 2026-04-13T11-49-55-639Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T11:50:46.918Z] [ERROR] 数据处理失败 [ID: 2026-04-13T11-50-46-915Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T11:50:46.918Z] [ERROR] 数据处理失败 [ID: 2026-04-13T11-50-46-916Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 5
+[2026-04-13T11:50:50.184Z] [ERROR] 数据处理失败 [ID: 2026-04-13T11-50-50-182Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T11:50:56.898Z] [ERROR] 数据处理失败 [ID: 2026-04-13T11-50-56-897Z]: JSON解析失败: Unexpected token ',', ",23.75],[3"... is not valid JSON
+[2026-04-13T11:50:56.898Z] [ERROR] 数据处理失败 [ID: 2026-04-13T11-50-56-897Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T11:51:01.077Z] [ERROR] 数据处理失败 [ID: 2026-04-13T11-51-01-076Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T11:51:01.077Z] [ERROR] 数据处理失败 [ID: 2026-04-13T11-51-01-076Z]: JSON解析失败: Unexpected token ',', ",24.25],[3"... is not valid JSON
+[2026-04-13T11:51:06.559Z] [ERROR] 数据处理失败 [ID: 2026-04-13T11-51-06-556Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T11:51:06.559Z] [ERROR] 数据处理失败 [ID: 2026-04-13T11-51-06-557Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 5
+[2026-04-13T11:51:06.559Z] [ERROR] 数据处理失败 [ID: 2026-04-13T11-51-06-557Z]: JSON解析失败: Expected ',' or ']' after array element in JSON at position 128
+[2026-04-13T11:51:24.573Z] [ERROR] 数据处理失败 [ID: 2026-04-13T11-51-24-572Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T11:51:24.574Z] [ERROR] 数据处理失败 [ID: 2026-04-13T11-51-24-572Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T11:51:24.574Z] [ERROR] 数据处理失败 [ID: 2026-04-13T11-51-24-573Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T11:51:24.574Z] [ERROR] 数据处理失败 [ID: 2026-04-13T11-51-24-573Z]: JSON解析失败: Unexpected end of JSON input
+[2026-04-13T11:51:24.574Z] [ERROR] 数据处理失败 [ID: 2026-04-13T11-51-24-573Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 5
+[2026-04-13T11:53:20.217Z] [ERROR] 数据处理失败 [ID: 2026-04-13T11-53-20-215Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T11:53:20.217Z] [ERROR] 数据处理失败 [ID: 2026-04-13T11-53-20-216Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T11:53:26.382Z] [WARNING] 异常原始数据已保存到: /home/kic/project/ai-project/socket/data/raw/2026-04-13.json
+[2026-04-13T11:53:26.382Z] [WARNING] 异常原始数据已保存到: /home/kic/project/ai-project/socket/data/raw/2026-04-13.json
+[2026-04-13T11:53:26.382Z] [WARNING] 异常原始数据已保存到: /home/kic/project/ai-project/socket/data/raw/2026-04-13.json
+[2026-04-13T11:53:26.384Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 1666
+[2026-04-13T11:53:26.385Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 1666
+[2026-04-13T11:53:26.385Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 1666
+[2026-04-13T11:53:26.386Z] [WARNING] 异常处理数据已保存到: /home/kic/project/ai-project/socket/data/processed/2026-04-13.json
+[2026-04-13T11:53:26.386Z] [WARNING] 异常处理数据已保存到: /home/kic/project/ai-project/socket/data/processed/2026-04-13.json
+[2026-04-13T11:53:26.387Z] [WARNING] 异常处理数据已保存到: /home/kic/project/ai-project/socket/data/processed/2026-04-13.json
+[2026-04-13T11:53:29.252Z] [WARNING] 读取现有原始数据文件失败: Unexpected non-whitespace character after JSON at position 1602
+[2026-04-13T11:53:29.253Z] [WARNING] 读取现有原始数据文件失败: Unexpected non-whitespace character after JSON at position 1602
+[2026-04-13T11:53:29.254Z] [WARNING] 读取现有原始数据文件失败: Unexpected non-whitespace character after JSON at position 1602
+[2026-04-13T11:53:29.254Z] [WARNING] 读取现有原始数据文件失败: Unexpected non-whitespace character after JSON at position 1602
+[2026-04-13T11:53:29.255Z] [WARNING] 读取现有原始数据文件失败: Unexpected non-whitespace character after JSON at position 1602
+[2026-04-13T11:53:29.256Z] [WARNING] 异常原始数据已保存到: /home/kic/project/ai-project/socket/data/raw/2026-04-13.json
+[2026-04-13T11:53:29.258Z] [WARNING] 异常原始数据已保存到: /home/kic/project/ai-project/socket/data/raw/2026-04-13.json
+[2026-04-13T11:53:29.258Z] [WARNING] 异常原始数据已保存到: /home/kic/project/ai-project/socket/data/raw/2026-04-13.json
+[2026-04-13T11:53:29.258Z] [WARNING] 异常原始数据已保存到: /home/kic/project/ai-project/socket/data/raw/2026-04-13.json
+[2026-04-13T11:53:29.259Z] [WARNING] 异常原始数据已保存到: /home/kic/project/ai-project/socket/data/raw/2026-04-13.json
+[2026-04-13T11:53:29.260Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 1660
+[2026-04-13T11:53:29.262Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 1660
+[2026-04-13T11:53:29.262Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 1660
+[2026-04-13T11:53:29.263Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 1660
+[2026-04-13T11:53:29.263Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 1660
+[2026-04-13T11:53:29.264Z] [WARNING] 异常处理数据已保存到: /home/kic/project/ai-project/socket/data/processed/2026-04-13.json
+[2026-04-13T11:53:29.265Z] [WARNING] 异常处理数据已保存到: /home/kic/project/ai-project/socket/data/processed/2026-04-13.json
+[2026-04-13T11:53:29.266Z] [WARNING] 异常处理数据已保存到: /home/kic/project/ai-project/socket/data/processed/2026-04-13.json
+[2026-04-13T11:53:29.266Z] [WARNING] 异常处理数据已保存到: /home/kic/project/ai-project/socket/data/processed/2026-04-13.json
+[2026-04-13T11:53:29.266Z] [WARNING] 异常处理数据已保存到: /home/kic/project/ai-project/socket/data/processed/2026-04-13.json
+[2026-04-13T11:53:32.149Z] [WARNING] 异常原始数据已保存到: /home/kic/project/ai-project/socket/data/raw/2026-04-13.json
+[2026-04-13T11:53:32.149Z] [WARNING] 异常原始数据已保存到: /home/kic/project/ai-project/socket/data/raw/2026-04-13.json
+[2026-04-13T11:53:32.149Z] [WARNING] 异常原始数据已保存到: /home/kic/project/ai-project/socket/data/raw/2026-04-13.json
+[2026-04-13T11:53:32.150Z] [WARNING] 异常原始数据已保存到: /home/kic/project/ai-project/socket/data/raw/2026-04-13.json
+[2026-04-13T11:53:32.150Z] [WARNING] 异常原始数据已保存到: /home/kic/project/ai-project/socket/data/raw/2026-04-13.json
+[2026-04-13T11:53:32.150Z] [WARNING] 异常原始数据已保存到: /home/kic/project/ai-project/socket/data/raw/2026-04-13.json
+[2026-04-13T11:53:32.150Z] [WARNING] 异常原始数据已保存到: /home/kic/project/ai-project/socket/data/raw/2026-04-13.json
+[2026-04-13T11:53:32.152Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 1666
+[2026-04-13T11:53:32.153Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 1666
+[2026-04-13T11:53:32.153Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 1666
+[2026-04-13T11:53:32.153Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 1666
+[2026-04-13T11:53:32.154Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 1666
+[2026-04-13T11:53:32.154Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 1666
+[2026-04-13T11:53:32.154Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 1666
+[2026-04-13T11:53:32.156Z] [WARNING] 异常处理数据已保存到: /home/kic/project/ai-project/socket/data/processed/2026-04-13.json
+[2026-04-13T11:53:32.156Z] [WARNING] 异常处理数据已保存到: /home/kic/project/ai-project/socket/data/processed/2026-04-13.json
+[2026-04-13T11:53:32.156Z] [WARNING] 异常处理数据已保存到: /home/kic/project/ai-project/socket/data/processed/2026-04-13.json
+[2026-04-13T11:53:32.157Z] [WARNING] 异常处理数据已保存到: /home/kic/project/ai-project/socket/data/processed/2026-04-13.json
+[2026-04-13T11:53:32.157Z] [WARNING] 异常处理数据已保存到: /home/kic/project/ai-project/socket/data/processed/2026-04-13.json
+[2026-04-13T11:53:32.157Z] [WARNING] 异常处理数据已保存到: /home/kic/project/ai-project/socket/data/processed/2026-04-13.json
+[2026-04-13T11:53:32.157Z] [WARNING] 异常处理数据已保存到: /home/kic/project/ai-project/socket/data/processed/2026-04-13.json
+[2026-04-13T11:53:35.383Z] [WARNING] 异常原始数据已保存到: /home/kic/project/ai-project/socket/data/raw/2026-04-13.json
+[2026-04-13T11:53:35.384Z] [WARNING] 读取现有原始数据文件失败: Unexpected end of JSON input
+[2026-04-13T11:53:35.385Z] [WARNING] 异常原始数据已保存到: /home/kic/project/ai-project/socket/data/raw/2026-04-13.json
+[2026-04-13T11:53:35.385Z] [WARNING] 异常原始数据已保存到: /home/kic/project/ai-project/socket/data/raw/2026-04-13.json
+[2026-04-13T11:53:35.385Z] [WARNING] 异常原始数据已保存到: /home/kic/project/ai-project/socket/data/raw/2026-04-13.json
+[2026-04-13T11:53:35.385Z] [WARNING] 异常原始数据已保存到: /home/kic/project/ai-project/socket/data/raw/2026-04-13.json
+[2026-04-13T11:53:35.386Z] [WARNING] 异常原始数据已保存到: /home/kic/project/ai-project/socket/data/raw/2026-04-13.json
+[2026-04-13T11:53:35.386Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 1665
+[2026-04-13T11:53:35.388Z] [WARNING] 异常原始数据已保存到: /home/kic/project/ai-project/socket/data/raw/2026-04-13.json
+[2026-04-13T11:53:35.388Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 1665
+[2026-04-13T11:53:35.389Z] [WARNING] 读取现有处理数据文件失败: Unexpected end of JSON input
+[2026-04-13T11:53:35.389Z] [WARNING] 读取现有处理数据文件失败: Unexpected end of JSON input
+[2026-04-13T11:53:35.389Z] [WARNING] 读取现有处理数据文件失败: Unexpected end of JSON input
+[2026-04-13T11:53:35.390Z] [WARNING] 异常处理数据已保存到: /home/kic/project/ai-project/socket/data/processed/2026-04-13.json
+[2026-04-13T11:53:35.391Z] [WARNING] 异常处理数据已保存到: /home/kic/project/ai-project/socket/data/processed/2026-04-13.json
+[2026-04-13T11:53:35.391Z] [WARNING] 异常处理数据已保存到: /home/kic/project/ai-project/socket/data/processed/2026-04-13.json
+[2026-04-13T11:53:35.392Z] [WARNING] 读取现有处理数据文件失败: Unexpected end of JSON input
+[2026-04-13T11:53:35.392Z] [WARNING] 异常处理数据已保存到: /home/kic/project/ai-project/socket/data/processed/2026-04-13.json
+[2026-04-13T11:53:35.392Z] [WARNING] 异常处理数据已保存到: /home/kic/project/ai-project/socket/data/processed/2026-04-13.json
+[2026-04-13T11:53:35.392Z] [WARNING] 异常处理数据已保存到: /home/kic/project/ai-project/socket/data/processed/2026-04-13.json
+[2026-04-13T11:53:35.394Z] [WARNING] 异常处理数据已保存到: /home/kic/project/ai-project/socket/data/processed/2026-04-13.json
+[2026-04-13T11:54:33.201Z] [ERROR] 数据处理失败 [ID: 2026-04-13T11-54-33-199Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T11:54:33.202Z] [ERROR] 数据处理失败 [ID: 2026-04-13T11-54-33-200Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 1
+[2026-04-13T11:54:46.392Z] [ERROR] 数据处理失败 [ID: 2026-04-13T11-54-46-391Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T11:54:49.051Z] [ERROR] 数据处理失败 [ID: 2026-04-13T11-54-49-048Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 5
+[2026-04-13T11:54:58.971Z] [ERROR] 数据处理失败 [ID: 2026-04-13T11-54-58-967Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T11:54:58.971Z] [ERROR] 数据处理失败 [ID: 2026-04-13T11-54-58-967Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 5
+[2026-04-13T11:54:58.972Z] [ERROR] 数据处理失败 [ID: 2026-04-13T11-54-58-969Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T11:54:58.972Z] [ERROR] 数据处理失败 [ID: 2026-04-13T11-54-58-969Z]: JSON解析失败: Unexpected token ',', ",22.75],[2"... is not valid JSON
+[2026-04-13T11:54:58.972Z] [ERROR] 数据处理失败 [ID: 2026-04-13T11-54-58-970Z]: JSON解析失败: Unexpected end of JSON input
+[2026-04-13T11:55:02.871Z] [ERROR] 数据处理失败 [ID: 2026-04-13T11-55-02-868Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T11:55:02.871Z] [ERROR] 数据处理失败 [ID: 2026-04-13T11-55-02-869Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 1
+[2026-04-13T11:55:07.019Z] [ERROR] 数据处理失败 [ID: 2026-04-13T11-55-07-016Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T11:55:07.019Z] [ERROR] 数据处理失败 [ID: 2026-04-13T11-55-07-016Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 1
+[2026-04-13T11:55:07.019Z] [ERROR] 数据处理失败 [ID: 2026-04-13T11-55-07-017Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T11:55:07.019Z] [ERROR] 数据处理失败 [ID: 2026-04-13T11-55-07-018Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 1
+[2026-04-13T11:55:14.191Z] [ERROR] 数据处理失败 [ID: 2026-04-13T11-55-14-189Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T11:55:14.192Z] [ERROR] 数据处理失败 [ID: 2026-04-13T11-55-14-190Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 1
+[2026-04-13T11:55:18.339Z] [ERROR] 数据处理失败 [ID: 2026-04-13T11-55-18-337Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T11:55:22.206Z] [ERROR] 数据处理失败 [ID: 2026-04-13T11-55-22-201Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T11:55:22.207Z] [ERROR] 数据处理失败 [ID: 2026-04-13T11-55-22-202Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 1
+[2026-04-13T11:55:22.207Z] [ERROR] 数据处理失败 [ID: 2026-04-13T11-55-22-203Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T11:55:22.207Z] [ERROR] 数据处理失败 [ID: 2026-04-13T11-55-22-203Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 1
+[2026-04-13T11:55:22.207Z] [ERROR] 数据处理失败 [ID: 2026-04-13T11-55-22-204Z]: JSON解析失败: Expected ',' or ']' after array element in JSON at position 128
+[2026-04-13T11:55:22.207Z] [ERROR] 数据处理失败 [ID: 2026-04-13T11-55-22-204Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T11:55:22.207Z] [ERROR] 数据处理失败 [ID: 2026-04-13T11-55-22-205Z]: JSON解析失败: Unexpected token ',', ",20.50],[2"... is not valid JSON
+[2026-04-13T12:00:38.838Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-00-38-837Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:00:38.839Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-00-38-838Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 1
+[2026-04-13T12:01:53.038Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-01-53-038Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:01:56.409Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-01-56-407Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:01:56.409Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-01-56-408Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 1
+[2026-04-13T12:02:02.928Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-02-02-927Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:02:06.949Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-02-06-948Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:02:09.588Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-02-09-587Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 1
+[2026-04-13T12:02:49.775Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-02-49-773Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:02:49.775Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-02-49-774Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 1
+[2026-04-13T12:03:41.439Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-03-41-437Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T12:03:41.439Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-03-41-438Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 5
+[2026-04-13T12:04:46.600Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-04-46-597Z]: 环境状态必须是字符串或数字
+[2026-04-13T12:04:56.423Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-04-56-420Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T12:04:56.423Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-04-56-421Z]: JSON解析失败: Unexpected token ',', ",22.50],[2"... is not valid JSON
+[2026-04-13T12:06:24.432Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-06-24-429Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:06:24.432Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-06-24-429Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 1
+[2026-04-13T12:06:36.612Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-06-36-610Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:10:10.733Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-10-10-730Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:42:44.254Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-42-44-245Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:42:44.255Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-42-44-246Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 1
+[2026-04-13T12:42:44.256Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-42-44-247Z]: JSON解析失败: Unexpected token '.', ".00,24.50,"... is not valid JSON
+[2026-04-13T12:42:44.257Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-42-44-252Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:42:47.503Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-42-47-495Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 1
+[2026-04-13T12:42:47.504Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-42-47-496Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:42:47.504Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-42-47-498Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 1
+[2026-04-13T12:42:47.504Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-42-47-498Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:42:55.888Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-42-55-882Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:42:55.889Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-42-55-883Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 1
+[2026-04-13T12:42:55.889Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-42-55-884Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:42:55.890Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-42-55-885Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 1
+[2026-04-13T12:42:55.890Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-42-55-886Z]: JSON解析失败: Unexpected token '.', ".25,25.00,"... is not valid JSON
+[2026-04-13T12:43:00.660Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-43-00-658Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:43:00.660Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-43-00-658Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 1
+[2026-04-13T12:43:00.707Z] [WARNING] 异常原始数据已保存到: /home/kic/project/ai-project/socket/data/raw/2026-04-13.json
+[2026-04-13T12:43:00.710Z] [WARNING] 异常处理数据已保存到: /home/kic/project/ai-project/socket/data/processed/2026-04-13.json
+[2026-04-13T12:43:10.328Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-43-10-327Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:43:10.328Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-43-10-327Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 1
+[2026-04-13T12:43:10.370Z] [WARNING] 读取现有原始数据文件失败: Unexpected end of JSON input
+[2026-04-13T12:43:10.370Z] [WARNING] 读取现有原始数据文件失败: Unexpected end of JSON input
+[2026-04-13T12:43:10.371Z] [WARNING] 读取现有原始数据文件失败: Unexpected end of JSON input
+[2026-04-13T12:43:10.372Z] [WARNING] 异常原始数据已保存到: /home/kic/project/ai-project/socket/data/raw/2026-04-13.json
+[2026-04-13T12:43:10.373Z] [WARNING] 异常原始数据已保存到: /home/kic/project/ai-project/socket/data/raw/2026-04-13.json
+[2026-04-13T12:43:10.375Z] [WARNING] 异常原始数据已保存到: /home/kic/project/ai-project/socket/data/raw/2026-04-13.json
+[2026-04-13T12:43:10.375Z] [WARNING] 异常原始数据已保存到: /home/kic/project/ai-project/socket/data/raw/2026-04-13.json
+[2026-04-13T12:43:10.375Z] [WARNING] 异常原始数据已保存到: /home/kic/project/ai-project/socket/data/raw/2026-04-13.json
+[2026-04-13T12:43:10.375Z] [WARNING] 异常原始数据已保存到: /home/kic/project/ai-project/socket/data/raw/2026-04-13.json
+[2026-04-13T12:43:10.379Z] [WARNING] 异常处理数据已保存到: /home/kic/project/ai-project/socket/data/processed/2026-04-13.json
+[2026-04-13T12:43:10.379Z] [WARNING] 异常处理数据已保存到: /home/kic/project/ai-project/socket/data/processed/2026-04-13.json
+[2026-04-13T12:43:10.380Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 5022
+[2026-04-13T12:43:10.380Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 5022
+[2026-04-13T12:43:10.381Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 5022
+[2026-04-13T12:43:10.381Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 5022
+[2026-04-13T12:43:10.384Z] [WARNING] 异常处理数据已保存到: /home/kic/project/ai-project/socket/data/processed/2026-04-13.json
+[2026-04-13T12:43:10.385Z] [WARNING] 异常处理数据已保存到: /home/kic/project/ai-project/socket/data/processed/2026-04-13.json
+[2026-04-13T12:43:10.385Z] [WARNING] 异常处理数据已保存到: /home/kic/project/ai-project/socket/data/processed/2026-04-13.json
+[2026-04-13T12:43:10.386Z] [WARNING] 异常处理数据已保存到: /home/kic/project/ai-project/socket/data/processed/2026-04-13.json
+[2026-04-13T12:43:15.335Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-43-15-332Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:43:15.336Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-43-15-332Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 1
+[2026-04-13T12:43:20.675Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-43-20-671Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:43:20.676Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-43-20-674Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:43:23.067Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-43-23-065Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 1
+[2026-04-13T12:43:23.067Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-43-23-065Z]: JSON解析失败: Unexpected token '.', ".25,25.00,"... is not valid JSON
+[2026-04-13T12:43:26.694Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-43-26-690Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:43:33.051Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-43-33-049Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:43:33.051Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-43-33-050Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 1
+[2026-04-13T12:43:37.890Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-43-37-886Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:43:37.890Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-43-37-886Z]: JSON解析失败: Unexpected token '.', ".50,23.50,"... is not valid JSON
+[2026-04-13T12:43:37.891Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-43-37-889Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:43:37.891Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-43-37-889Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 1
+[2026-04-13T12:43:41.740Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-43-41-738Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:43:41.740Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-43-41-738Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 1
+[2026-04-13T12:43:48.396Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-43-48-389Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T12:43:48.396Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-43-48-389Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T12:43:48.396Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-43-48-392Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T12:43:54.446Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-43-54-444Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T12:43:54.446Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-43-54-444Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T12:43:54.446Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-43-54-445Z]: JSON解析失败: Expected ',' or ']' after array element in JSON at position 128
+[2026-04-13T12:43:57.690Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-43-57-686Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T12:44:04.249Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-44-04-246Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T12:44:04.250Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-44-04-246Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T12:44:04.250Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-44-04-247Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T12:44:04.250Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-44-04-247Z]: JSON解析失败: Expected ',' or ']' after array element in JSON at position 128
+[2026-04-13T12:44:07.828Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-44-07-825Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T12:44:07.828Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-44-07-825Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T12:44:14.068Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-44-14-067Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T12:44:14.068Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-44-14-067Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T12:44:14.068Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-44-14-068Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T12:44:18.016Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-44-18-011Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T12:44:18.016Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-44-18-012Z]: JSON解析失败: Unexpected token '.', ".25,22.00,"... is not valid JSON
+[2026-04-13T12:44:18.016Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-44-18-012Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T12:44:18.017Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-44-18-014Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:44:18.017Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-44-18-015Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T12:44:21.023Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-44-21-019Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T12:44:21.023Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-44-21-021Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:44:24.620Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-44-24-619Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T12:44:24.620Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-44-24-619Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T12:44:24.620Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-44-24-619Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T12:44:28.824Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-44-28-824Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T12:44:28.824Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-44-28-824Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T12:44:32.889Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-44-32-887Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T12:44:32.889Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-44-32-887Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T12:44:41.110Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-44-41-105Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T12:44:41.111Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-44-41-106Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T12:44:41.111Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-44-41-107Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T12:44:41.112Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-44-41-107Z]: JSON解析失败: Expected ',' or ']' after array element in JSON at position 128
+[2026-04-13T12:44:41.113Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-44-41-108Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T12:44:44.159Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-44-44-155Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T12:44:44.160Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-44-44-155Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T12:44:44.160Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-44-44-156Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T12:44:51.277Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-44-51-276Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T12:44:51.277Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-44-51-276Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T12:44:51.277Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-44-51-276Z]: JSON解析失败: Expected ',' or ']' after array element in JSON at position 128
+[2026-04-13T12:44:55.383Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-44-55-380Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T12:44:55.384Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-44-55-382Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T12:44:55.384Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-44-55-383Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T12:44:58.676Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-44-58-675Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T12:45:14.544Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-45-14-544Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T12:45:23.483Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-45-23-481Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T12:45:23.483Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-45-23-481Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T12:45:23.483Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-45-23-482Z]: JSON解析失败: Expected ',' or ']' after array element in JSON at position 692
+[2026-04-13T12:45:23.483Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-45-23-482Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 5
+[2026-04-13T12:45:23.483Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-45-23-482Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 1
+[2026-04-13T12:45:23.483Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-45-23-482Z]: JSON解析失败: Unexpected end of JSON input
+[2026-04-13T12:45:27.381Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-45-27-379Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T12:45:27.382Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-45-27-380Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T12:45:27.646Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-45-27-644Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 1
+[2026-04-13T12:45:27.646Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-45-27-644Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:45:27.646Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-45-27-645Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:45:27.647Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-45-27-645Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 1
+[2026-04-13T12:45:30.866Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-45-30-862Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:45:30.867Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-45-30-863Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 1
+[2026-04-13T12:45:34.216Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-45-34-215Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:45:37.486Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-45-37-485Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:45:44.696Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-45-44-694Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T12:45:44.696Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-45-44-695Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:45:47.534Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-45-47-532Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:45:55.300Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-45-55-296Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:45:55.301Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-45-55-296Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 1
+[2026-04-13T12:45:55.301Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-45-55-297Z]: JSON解析失败: Unexpected token '.', ".50,21.50,"... is not valid JSON
+[2026-04-13T12:45:55.301Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-45-55-297Z]: JSON解析失败: Unexpected end of JSON input
+[2026-04-13T12:45:55.301Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-45-55-298Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:45:55.302Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-45-55-298Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 1
+[2026-04-13T12:45:59.197Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-45-59-191Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:45:59.197Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-45-59-192Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 1
+[2026-04-13T12:45:59.197Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-45-59-192Z]: JSON解析失败: Unexpected token '.', ".75,21.75,"... is not valid JSON
+[2026-04-13T12:45:59.197Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-45-59-193Z]: JSON解析失败: Unexpected end of JSON input
+[2026-04-13T12:45:59.198Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-45-59-193Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:45:59.198Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-45-59-194Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 1
+[2026-04-13T12:45:59.198Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-45-59-195Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:45:59.198Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-45-59-196Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 1
+[2026-04-13T12:46:08.713Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-46-08-710Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:46:08.713Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-46-08-710Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:46:08.713Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-46-08-711Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 1
+[2026-04-13T12:46:08.714Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-46-08-712Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:46:08.713Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-46-08-711Z]: JSON解析失败: Unexpected end of JSON input
+[2026-04-13T12:46:12.033Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-46-12-028Z]: JSON解析失败: Unexpected token '.', ".00,22.25,"... is not valid JSON
+[2026-04-13T12:46:12.033Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-46-12-029Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:46:12.033Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-46-12-030Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 1
+[2026-04-13T12:46:15.618Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-46-15-615Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:46:15.618Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-46-15-616Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 1
+[2026-04-13T12:46:33.130Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-46-33-124Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:46:33.130Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-46-33-125Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 1
+[2026-04-13T12:46:33.131Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-46-33-126Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:46:33.131Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-46-33-127Z]: JSON解析失败: Unexpected token '.', ".75,22.75,"... is not valid JSON
+[2026-04-13T12:46:33.131Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-46-33-128Z]: JSON解析失败: Unexpected end of JSON input
+[2026-04-13T12:46:33.132Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-46-33-129Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:46:37.997Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-46-37-992Z]: JSON解析失败: Unexpected token '.', ".25,22.50,"... is not valid JSON
+[2026-04-13T12:46:37.998Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-46-37-995Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:46:37.998Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-46-37-996Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 1
+[2026-04-13T12:46:37.998Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-46-37-997Z]: JSON解析失败: Unexpected end of JSON input
+[2026-04-13T12:46:42.044Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-46-42-040Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:46:42.044Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-46-42-040Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 1
+[2026-04-13T12:46:42.044Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-46-42-041Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:46:42.044Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-46-42-042Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 1
+[2026-04-13T12:46:48.874Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-46-48-870Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:46:48.875Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-46-48-871Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:46:48.875Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-46-48-873Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:46:52.860Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-46-52-856Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:46:52.860Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-46-52-857Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 1
+[2026-04-13T12:46:55.493Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-46-55-489Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:47:00.388Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-47-00-385Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:47:00.389Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-47-00-385Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 1
+[2026-04-13T12:47:00.389Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-47-00-387Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:47:00.389Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-47-00-387Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 1
+[2026-04-13T12:47:00.389Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-47-00-388Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:47:10.635Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-47-10-633Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 1
+[2026-04-13T12:47:16.352Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-47-16-350Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:47:16.353Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-47-16-350Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 1
+[2026-04-13T12:47:16.353Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-47-16-351Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 1
+[2026-04-13T12:47:16.354Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-47-16-351Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:47:18.914Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-47-18-911Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:47:24.644Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-47-24-640Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:47:24.645Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-47-24-641Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 1
+[2026-04-13T12:47:24.645Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-47-24-642Z]: JSON解析失败: Unexpected token '.', ".75,27.00,"... is not valid JSON
+[2026-04-13T12:47:32.624Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-47-32-621Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:47:32.624Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-47-32-621Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 1
+[2026-04-13T12:47:32.625Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-47-32-623Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:47:32.625Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-47-32-623Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 1
+[2026-04-13T12:47:35.671Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-47-35-670Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:47:45.635Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-47-45-631Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:47:45.635Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-47-45-631Z]: JSON解析失败: Unexpected token '.', ".75,25.00,"... is not valid JSON
+[2026-04-13T12:47:45.636Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-47-45-632Z]: JSON解析失败: Unexpected end of JSON input
+[2026-04-13T12:47:45.636Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-47-45-633Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:47:51.961Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-47-51-959Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:47:58.590Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-47-58-586Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:47:58.590Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-47-58-587Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 1
+[2026-04-13T12:47:58.591Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-47-58-587Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:47:58.591Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-47-58-588Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:47:58.591Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-47-58-588Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 1
+[2026-04-13T12:48:03.733Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-48-03-727Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:48:03.733Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-48-03-728Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 1
+[2026-04-13T12:48:03.733Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-48-03-729Z]: JSON解析失败: Unexpected token '.', ".75,26.00,"... is not valid JSON
+[2026-04-13T12:48:03.733Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-48-03-729Z]: JSON解析失败: Expected ',' or ']' after array element in JSON at position 692
+[2026-04-13T12:48:03.733Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-48-03-730Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 5
+[2026-04-13T12:48:03.734Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-48-03-730Z]: JSON解析失败: Unexpected token 'u', "tus":"28.75"... is not valid JSON
+[2026-04-13T12:48:03.734Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-48-03-732Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:48:03.734Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-48-03-732Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 1
+[2026-04-13T12:48:08.189Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-48-08-185Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:48:08.189Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-48-08-185Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 1
+[2026-04-13T12:48:08.189Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-48-08-186Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:48:08.190Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-48-08-188Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:48:12.327Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-48-12-326Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:48:12.328Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-48-12-326Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:48:12.328Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-48-12-326Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 1
+[2026-04-13T12:48:12.328Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-48-12-327Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:48:12.328Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-48-12-327Z]: JSON解析失败: Unexpected token '.', ".50,25.50,"... is not valid JSON
+[2026-04-13T12:48:16.303Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-48-16-301Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:48:16.304Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-48-16-302Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 1
+[2026-04-13T12:48:22.842Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-48-22-840Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:48:22.843Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-48-22-841Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 1
+[2026-04-13T12:48:22.843Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-48-22-841Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:48:22.843Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-48-22-841Z]: JSON解析失败: Unexpected end of JSON input
+[2026-04-13T12:48:26.531Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-48-26-529Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:48:26.532Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-48-26-530Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:48:33.499Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-48-33-496Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:48:33.499Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-48-33-498Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:48:36.715Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-48-36-712Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 1
+[2026-04-13T12:48:36.715Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-48-36-713Z]: JSON解析失败: Unexpected end of JSON input
+[2026-04-13T12:48:39.755Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-48-39-754Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:48:39.755Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-48-39-754Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 1
+[2026-04-13T12:48:39.755Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-48-39-755Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:48:39.755Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-48-39-755Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 1
+[2026-04-13T12:48:39.755Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-48-39-755Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:48:46.108Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-48-46-104Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:48:46.108Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-48-46-105Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 1
+[2026-04-13T12:48:46.109Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-48-46-105Z]: JSON解析失败: Unexpected end of JSON input
+[2026-04-13T12:48:46.109Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-48-46-107Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:48:46.109Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-48-46-108Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 1
+[2026-04-13T12:48:51.084Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-48-51-081Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:48:51.084Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-48-51-081Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 1
+[2026-04-13T12:48:51.084Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-48-51-083Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:48:51.085Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-48-51-083Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 1
+[2026-04-13T12:48:54.514Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-48-54-513Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 1
+[2026-04-13T12:48:54.514Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-48-54-514Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:48:54.514Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-48-54-514Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 1
+[2026-04-13T12:48:57.673Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-48-57-670Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:49:01.220Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-49-01-219Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:49:12.691Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-49-12-690Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:49:12.691Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-49-12-690Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 1
+[2026-04-13T12:49:12.691Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-49-12-690Z]: JSON解析失败: Unexpected end of JSON input
+[2026-04-13T12:49:12.691Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-49-12-691Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:49:12.691Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-49-12-691Z]: JSON解析失败: Unexpected token '.', ".50,22.25,"... is not valid JSON
+[2026-04-13T12:49:17.182Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-49-17-179Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:49:17.182Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-49-17-180Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 1
+[2026-04-13T12:49:17.182Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-49-17-180Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:49:17.182Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-49-17-180Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 1
+[2026-04-13T12:49:21.239Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-49-21-237Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:49:21.239Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-49-21-237Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 1
+[2026-04-13T12:49:21.239Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-49-21-238Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:49:21.239Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-49-21-238Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 5
+[2026-04-13T12:49:25.325Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-49-25-322Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T12:49:25.325Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-49-25-322Z]: JSON解析失败: Unexpected token ',', ",22.75],[2"... is not valid JSON
+[2026-04-13T12:49:25.325Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-49-25-323Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T12:49:25.326Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-49-25-324Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 1
+[2026-04-13T12:49:27.384Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-49-27-382Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:49:27.384Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-49-27-383Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 1
+[2026-04-13T12:49:31.330Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-49-31-329Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:49:31.330Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-49-31-329Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T12:49:31.331Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-49-31-330Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:49:37.473Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-49-37-472Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T12:50:12.155Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-50-12-154Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T12:50:15.963Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-50-15-962Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:50:15.963Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-50-15-962Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 1
+[2026-04-13T12:50:20.399Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-50-20-397Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T12:50:20.400Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-50-20-397Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 5
+[2026-04-13T12:50:20.400Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-50-20-398Z]: JSON解析失败: Unexpected token ',', ",54.25,54."... is not valid JSON
+[2026-04-13T12:50:23.689Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-50-23-685Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:50:23.689Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-50-23-686Z]: JSON解析失败: Unexpected token ',', ",59.75],[5"... is not valid JSON
+[2026-04-13T12:50:29.009Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-50-29-006Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T12:50:29.009Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-50-29-007Z]: JSON解析失败: Unexpected token ',', ",42.50],[4"... is not valid JSON
+[2026-04-13T12:50:29.009Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-50-29-007Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 1
+[2026-04-13T12:50:29.009Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-50-29-007Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:50:43.372Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-50-43-368Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T12:50:43.372Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-50-43-369Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:50:43.372Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-50-43-369Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 5
+[2026-04-13T12:50:43.372Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-50-43-370Z]: JSON解析失败: Unexpected end of JSON input
+[2026-04-13T12:50:43.373Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-50-43-371Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:50:45.945Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-50-45-941Z]: JSON解析失败: Unexpected token ',', ",25.75],[2"... is not valid JSON
+[2026-04-13T12:50:45.945Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-50-45-941Z]: JSON解析失败: Unexpected end of JSON input
+[2026-04-13T12:50:45.945Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-50-45-943Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:50:45.945Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-50-45-944Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 1
+[2026-04-13T12:50:49.936Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-50-49-933Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T12:50:49.936Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-50-49-934Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 5
+[2026-04-13T12:50:49.936Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-50-49-935Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T12:50:52.572Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-50-52-568Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T12:50:56.772Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-50-56-769Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:50:56.772Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-50-56-770Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T12:50:56.773Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-50-56-770Z]: JSON解析失败: Unexpected token ',', ",25.75],[3"... is not valid JSON
+[2026-04-13T12:50:56.773Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-50-56-771Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:51:04.675Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-51-04-673Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T12:51:04.675Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-51-04-674Z]: JSON解析失败: Unexpected token ',', ",51.00],[4"... is not valid JSON
+[2026-04-13T12:51:04.675Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-51-04-674Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:51:04.675Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-51-04-674Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 1
+[2026-04-13T12:51:11.165Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-51-11-162Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T12:51:11.166Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-51-11-163Z]: JSON解析失败: Unexpected token ',', ",49.50],[4"... is not valid JSON
+[2026-04-13T12:51:11.166Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-51-11-163Z]: JSON解析失败: Unexpected end of JSON input
+[2026-04-13T12:51:23.028Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-51-23-025Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:51:23.028Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-51-23-025Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 1
+[2026-04-13T12:51:23.028Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-51-23-026Z]: JSON解析失败: Unexpected end of JSON input
+[2026-04-13T12:51:23.028Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-51-23-027Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T12:51:23.029Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-51-23-027Z]: JSON解析失败: Unexpected token ',', ",23.25],[2"... is not valid JSON
+[2026-04-13T12:51:26.995Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-51-26-994Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T12:51:26.996Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-51-26-994Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:51:29.518Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-51-29-516Z]: JSON解析失败: Unexpected token ',', ",22.75],[2"... is not valid JSON
+[2026-04-13T12:51:32.765Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-51-32-762Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T12:51:32.765Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-51-32-763Z]: JSON解析失败: Unexpected token ',', ",22.25],[2"... is not valid JSON
+[2026-04-13T12:51:36.539Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-51-36-537Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T12:51:39.759Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-51-39-755Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:51:39.759Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-51-39-755Z]: JSON解析失败: Unexpected token ',', ",28.75],[2"... is not valid JSON
+[2026-04-13T12:51:39.759Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-51-39-757Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:51:39.759Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-51-39-757Z]: JSON解析失败: Unexpected token ',', ",31.50],[2"... is not valid JSON
+[2026-04-13T12:51:45.254Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-51-45-253Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T12:51:48.220Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-51-48-218Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 1
+[2026-04-13T12:51:48.221Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-51-48-219Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T12:51:48.221Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-51-48-218Z]: 最高温度数组长度错误: 4，应为8
+[2026-04-13T12:51:51.472Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-51-51-470Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T12:51:58.719Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-51-58-717Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T12:51:58.719Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-51-58-718Z]: JSON解析失败: Unexpected token ',', ",22.00,21."... is not valid JSON
+[2026-04-13T12:51:58.720Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-51-58-718Z]: JSON解析失败: Unexpected end of JSON input
+[2026-04-13T12:52:01.939Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-52-01-937Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T12:52:06.088Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-52-06-085Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T12:52:06.088Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-52-06-085Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 1
+[2026-04-13T12:52:15.284Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-52-15-279Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:52:15.284Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-52-15-279Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 1
+[2026-04-13T12:52:15.285Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-52-15-280Z]: JSON解析失败: Unexpected token ',', ",22.75],[2"... is not valid JSON
+[2026-04-13T12:52:15.285Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-52-15-280Z]: JSON解析失败: Expected ',' or ']' after array element in JSON at position 128
+[2026-04-13T12:52:15.285Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-52-15-282Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:52:15.285Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-52-15-283Z]: JSON解析失败: Unexpected token ',', ",22.75],[2"... is not valid JSON
+[2026-04-13T12:52:15.285Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-52-15-284Z]: JSON解析失败: Unexpected token '.', ".00,22.25,"... is not valid JSON
+[2026-04-13T12:52:18.341Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-52-18-337Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:52:18.341Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-52-18-338Z]: JSON解析失败: Unexpected token ',', ",22.25],[2"... is not valid JSON
+[2026-04-13T12:52:25.986Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-52-25-984Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:52:27.390Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-52-27-390Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T12:52:31.182Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-52-31-182Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T12:52:34.464Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-52-34-463Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 5
+[2026-04-13T12:52:37.359Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-52-37-357Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T12:52:37.359Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-52-37-358Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:52:47.890Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-52-47-889Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T12:52:47.890Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-52-47-889Z]: JSON解析失败: Unexpected token ',', ",20.75],[2"... is not valid JSON
+[2026-04-13T12:52:47.890Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-52-47-889Z]: JSON解析失败: Expected ',' or ']' after array element in JSON at position 691
+[2026-04-13T12:52:47.890Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-52-47-889Z]: JSON解析失败: Unexpected token '.', ".25,21.00,"... is not valid JSON
+[2026-04-13T12:52:47.890Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-52-47-889Z]: JSON解析失败: Unexpected end of JSON input
+[2026-04-13T12:52:47.890Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-52-47-890Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:52:50.865Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-52-50-863Z]: JSON解析失败: Unexpected token ',', ",28.75],[2"... is not valid JSON
+[2026-04-13T12:52:50.865Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-52-50-863Z]: JSON解析失败: Unexpected token ',', ",25.50,24."... is not valid JSON
+[2026-04-13T12:52:50.865Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-52-50-864Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:52:50.865Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-52-50-864Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T12:53:02.240Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-53-02-238Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:53:02.240Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-53-02-239Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 1
+[2026-04-13T12:53:02.240Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-53-02-239Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T12:53:02.240Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-53-02-239Z]: JSON解析失败: Unexpected token ',', ",22.00,21."... is not valid JSON
+[2026-04-13T12:53:02.240Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-53-02-240Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T12:53:05.681Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-53-05-680Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 5
+[2026-04-13T12:53:05.681Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-53-05-681Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:53:05.681Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-53-05-680Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T12:53:05.681Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-53-05-681Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 5
+[2026-04-13T12:53:05.681Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-53-05-680Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T12:53:18.174Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-53-18-169Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:53:18.176Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-53-18-170Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 1
+[2026-04-13T12:53:25.254Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-53-25-250Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:53:25.254Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-53-25-251Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 5
+[2026-04-13T12:53:25.254Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-53-25-252Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:53:25.255Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-53-25-252Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 5
+[2026-04-13T12:53:25.255Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-53-25-253Z]: JSON解析失败: Expected ',' or ']' after array element in JSON at position 128
+[2026-04-13T12:53:29.234Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-53-29-229Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T12:53:29.234Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-53-29-230Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T12:53:29.234Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-53-29-231Z]: JSON解析失败: Unexpected token ',', ",22.00,22."... is not valid JSON
+[2026-04-13T12:53:29.235Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-53-29-232Z]: JSON解析失败: Unexpected end of JSON input
+[2026-04-13T12:53:29.235Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-53-29-232Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T12:53:33.216Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-53-33-214Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T12:53:33.216Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-53-33-215Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:53:33.216Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-53-33-215Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 5
+[2026-04-13T12:53:38.804Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-53-38-801Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T12:53:38.806Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-53-38-803Z]: JSON解析失败: Unexpected token ',', ",23.25],[2"... is not valid JSON
+[2026-04-13T12:53:38.806Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-53-38-804Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T12:53:38.804Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-53-38-802Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 5
+[2026-04-13T12:53:38.805Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-53-38-802Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 5
+[2026-04-13T12:53:38.805Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-53-38-802Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:53:43.984Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-53-43-979Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 5
+[2026-04-13T12:53:43.984Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-53-43-979Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T12:53:43.984Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-53-43-980Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 5
+[2026-04-13T12:53:43.984Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-53-43-980Z]: JSON解析失败: Expected ',' or ']' after array element in JSON at position 128
+[2026-04-13T12:53:43.984Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-53-43-981Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:53:43.985Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-53-43-982Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:53:43.985Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-53-43-983Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T12:53:47.489Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-53-47-487Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:53:47.489Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-53-47-487Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T12:53:50.841Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-53-50-837Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T12:53:50.842Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-53-50-838Z]: JSON解析失败: Unexpected token ',', ",23.00],[2"... is not valid JSON
+[2026-04-13T12:56:45.498Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-56-45-493Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T12:56:45.499Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-56-45-494Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:56:45.499Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-56-45-495Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 1
+[2026-04-13T12:56:45.499Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-56-45-495Z]: JSON解析失败: Expected ',' or ']' after array element in JSON at position 128
+[2026-04-13T12:56:49.595Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-56-49-592Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T12:56:49.595Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-56-49-593Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 5
+[2026-04-13T12:56:49.596Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-56-49-594Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:56:49.596Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-56-49-594Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:56:54.142Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-56-54-139Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T12:56:54.142Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-56-54-140Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T12:56:54.142Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-56-54-141Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T12:56:54.143Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-56-54-141Z]: JSON解析失败: Unexpected token ',', ",21.25],[2"... is not valid JSON
+[2026-04-13T12:56:57.427Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-56-57-427Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T12:57:00.912Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-57-00-909Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T12:57:00.913Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-57-00-909Z]: JSON解析失败: Unexpected token ',', ",22.75],[2"... is not valid JSON
+[2026-04-13T12:57:11.927Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-57-11-922Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T12:57:11.927Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-57-11-922Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 5
+[2026-04-13T12:57:11.927Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-57-11-925Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T12:58:09.801Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-58-09-799Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T12:58:12.154Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-58-12-146Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 5
+[2026-04-13T12:58:12.155Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-58-12-147Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 5
+[2026-04-13T12:58:15.434Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-58-15-430Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:58:19.728Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-58-19-725Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T12:58:19.729Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-58-19-728Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T12:58:23.034Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-58-23-030Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 5
+[2026-04-13T12:58:23.034Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-58-23-031Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T12:58:23.035Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-58-23-031Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 5
+[2026-04-13T12:58:27.131Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-58-27-128Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T12:58:27.132Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-58-27-128Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 5
+[2026-04-13T12:58:27.132Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-58-27-130Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T12:58:38.003Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-58-38-001Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T12:58:38.003Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-58-38-001Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T12:58:38.003Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-58-38-002Z]: JSON解析失败: Expected ',' or ']' after array element in JSON at position 128
+[2026-04-13T12:58:41.197Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-58-41-195Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T12:58:41.197Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-58-41-195Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T12:58:57.993Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-58-57-988Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T12:58:57.995Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-58-57-991Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T12:58:57.995Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-58-57-992Z]: JSON解析失败: Unexpected token '.', ".00,21.75,"... is not valid JSON
+[2026-04-13T12:59:02.031Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-59-02-031Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 5
+[2026-04-13T12:59:11.774Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-59-11-771Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 5
+[2026-04-13T12:59:11.774Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-59-11-772Z]: JSON解析失败: Expected ',' or ']' after array element in JSON at position 128
+[2026-04-13T12:59:14.801Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-59-14-800Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 5
+[2026-04-13T12:59:20.014Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-59-20-013Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 5
+[2026-04-13T12:59:23.623Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-59-23-619Z]: JSON解析失败: Expected ',' or ']' after array element in JSON at position 128
+[2026-04-13T12:59:29.011Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-59-29-009Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 5
+[2026-04-13T12:59:29.011Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-59-29-010Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 5
+[2026-04-13T12:59:29.011Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-59-29-010Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 5
+[2026-04-13T12:59:32.828Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-59-32-824Z]: JSON解析失败: Unexpected token ',', ",23.25],[2"... is not valid JSON
+[2026-04-13T12:59:37.426Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-59-37-423Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 5
+[2026-04-13T12:59:40.978Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-59-40-977Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 5
+[2026-04-13T12:59:56.046Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-59-56-042Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 5
+[2026-04-13T12:59:56.046Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-59-56-043Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T12:59:56.047Z] [ERROR] 数据处理失败 [ID: 2026-04-13T12-59-56-045Z]: JSON解析失败: Unexpected token ',', ",26.25],[2"... is not valid JSON
+[2026-04-13T13:00:07.534Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-00-07-532Z]: JSON解析失败: Unexpected token '.', ".25,21.75,"... is not valid JSON
+[2026-04-13T13:00:07.534Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-00-07-533Z]: JSON解析失败: Expected ',' or ']' after array element in JSON at position 128
+[2026-04-13T13:00:12.308Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-00-12-305Z]: JSON解析失败: Unexpected token ',', ",22.50],[2"... is not valid JSON
+[2026-04-13T13:00:12.309Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-00-12-306Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T13:00:15.754Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-00-15-753Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T13:00:22.585Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-00-22-582Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T13:00:31.047Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-00-31-046Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T13:00:34.495Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-00-34-493Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T13:00:34.495Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-00-34-494Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T13:00:42.738Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-00-42-734Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T13:01:19.959Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-01-19-956Z]: JSON解析失败: 未找到JSON对象开始标记
+[2026-04-13T13:01:26.117Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-01-26-113Z]: JSON解析失败: 未找到JSON对象开始标记
+[2026-04-13T13:01:29.616Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-01-29-609Z]: JSON解析失败: 未找到JSON对象开始标记
+[2026-04-13T13:01:29.616Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-01-29-614Z]: JSON解析失败: 未找到JSON对象开始标记
+[2026-04-13T13:01:48.989Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-01-48-986Z]: JSON解析失败: 未找到JSON对象开始标记
+[2026-04-13T13:02:00.224Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-02-00-218Z]: JSON解析失败: 未找到JSON对象开始标记
+[2026-04-13T13:02:00.225Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-02-00-221Z]: JSON解析失败: 未找到JSON对象开始标记
+[2026-04-13T13:02:07.659Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-02-07-657Z]: JSON解析失败: 未找到JSON对象开始标记
+[2026-04-13T13:02:16.971Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-02-16-970Z]: JSON解析失败: 未找到JSON对象开始标记
+[2026-04-13T13:02:19.755Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-02-19-752Z]: JSON解析失败: 未找到JSON对象开始标记
+[2026-04-13T13:02:19.756Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-02-19-753Z]: JSON解析失败: 未找到JSON对象开始标记
+[2026-04-13T13:02:23.034Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-02-23-032Z]: JSON解析失败: 未找到JSON对象开始标记
+[2026-04-13T13:02:30.506Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-02-30-503Z]: JSON解析失败: 未找到JSON对象开始标记
+[2026-04-13T13:03:00.055Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-03-00-051Z]: JSON解析失败: 未找到JSON对象开始标记
+[2026-04-13T13:03:10.973Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-03-10-973Z]: JSON解析失败: 未找到JSON对象开始标记
+[2026-04-13T13:03:10.974Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-03-10-973Z]: JSON解析失败: 未找到JSON对象开始标记
+[2026-04-13T13:03:15.902Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-03-15-901Z]: JSON解析失败: 未找到JSON对象开始标记
+[2026-04-13T13:03:15.903Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-03-15-901Z]: JSON解析失败: 未找到JSON对象开始标记
+[2026-04-13T13:03:23.881Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-03-23-880Z]: JSON解析失败: 未找到JSON对象开始标记
+[2026-04-13T13:03:26.843Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-03-26-843Z]: JSON解析失败: 未找到JSON对象开始标记
+[2026-04-13T13:03:43.104Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-03-43-104Z]: JSON解析失败: 未找到JSON对象开始标记
+[2026-04-13T13:04:00.853Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-04-00-848Z]: JSON解析失败: 未找到JSON对象开始标记
+[2026-04-13T13:04:11.821Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-04-11-820Z]: JSON解析失败: 未找到JSON对象开始标记
+[2026-04-13T13:04:33.795Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-04-33-794Z]: JSON解析失败: 未找到JSON对象开始标记
+[2026-04-13T13:04:42.771Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-04-42-770Z]: JSON解析失败: 未找到JSON对象开始标记
+[2026-04-13T13:05:02.836Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-05-02-834Z]: JSON解析失败: 未找到JSON对象开始标记
+[2026-04-13T13:05:07.814Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-05-07-814Z]: JSON解析失败: 未找到JSON对象开始标记
+[2026-04-13T13:05:12.186Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-05-12-182Z]: JSON解析失败: 未找到JSON对象开始标记
+[2026-04-13T13:05:12.186Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-05-12-184Z]: JSON解析失败: 未找到JSON对象开始标记
+[2026-04-13T13:05:20.044Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-05-20-043Z]: JSON解析失败: 未找到JSON对象开始标记
+[2026-04-13T13:05:23.641Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-05-23-640Z]: JSON解析失败: 未找到JSON对象开始标记
+[2026-04-13T13:05:30.384Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-05-30-383Z]: JSON解析失败: 未找到JSON对象开始标记
+[2026-04-13T13:05:34.041Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-05-34-038Z]: JSON解析失败: 未找到JSON对象开始标记
+[2026-04-13T13:05:34.041Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-05-34-039Z]: JSON解析失败: 未找到JSON对象开始标记
+[2026-04-13T13:05:37.143Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-05-37-142Z]: JSON解析失败: 未找到JSON对象开始标记
+[2026-04-13T13:06:02.290Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-06-02-289Z]: JSON解析失败: 未找到JSON对象开始标记
+[2026-04-13T13:06:05.775Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-06-05-774Z]: JSON解析失败: 未找到JSON对象开始标记
+[2026-04-13T13:06:09.969Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-06-09-969Z]: JSON解析失败: 未找到JSON对象开始标记
+[2026-04-13T13:06:20.784Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-06-20-784Z]: JSON解析失败: 未找到JSON对象开始标记
+[2026-04-13T13:06:28.974Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-06-28-974Z]: JSON解析失败: 未找到JSON对象开始标记
+[2026-04-13T13:06:32.547Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-06-32-546Z]: JSON解析失败: 未找到JSON对象开始标记
+[2026-04-13T13:06:39.136Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-06-39-136Z]: JSON解析失败: 未找到JSON对象开始标记
+[2026-04-13T13:06:46.401Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-06-46-400Z]: JSON解析失败: 未找到JSON对象开始标记
+[2026-04-13T13:07:01.070Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-07-01-068Z]: JSON解析失败: 未找到JSON对象开始标记
+[2026-04-13T13:07:01.070Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-07-01-069Z]: JSON解析失败: 未找到JSON对象开始标记
+[2026-04-13T13:07:07.411Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-07-07-410Z]: JSON解析失败: 未找到JSON对象开始标记
+[2026-04-13T13:07:14.677Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-07-14-676Z]: JSON解析失败: 未找到JSON对象开始标记
+[2026-04-13T13:07:50.192Z] [WARNING] 保存到数据库失败，第1次重试: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-13T13:07:51.203Z] [WARNING] 保存到数据库失败，第2次重试: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-13T13:07:53.205Z] [ERROR] 保存到数据库失败（重试3次后仍失败）: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-13T13:07:53.206Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-07-50-187Z]: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-13T13:08:11.548Z] [WARNING] 保存到数据库失败，第1次重试: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-13T13:08:12.553Z] [WARNING] 保存到数据库失败，第2次重试: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-13T13:08:14.554Z] [ERROR] 保存到数据库失败（重试3次后仍失败）: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-13T13:08:14.555Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-08-11-544Z]: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-13T13:08:27.726Z] [WARNING] 保存到数据库失败，第1次重试: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-13T13:08:28.728Z] [WARNING] 保存到数据库失败，第2次重试: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-13T13:08:30.731Z] [ERROR] 保存到数据库失败（重试3次后仍失败）: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-13T13:08:30.732Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-08-27-724Z]: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-13T13:08:52.352Z] [WARNING] 保存到数据库失败，第1次重试: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-13T13:08:53.354Z] [WARNING] 保存到数据库失败，第2次重试: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-13T13:08:55.355Z] [ERROR] 保存到数据库失败（重试3次后仍失败）: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-13T13:08:55.356Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-08-52-349Z]: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-13T13:08:55.770Z] [WARNING] 保存到数据库失败，第1次重试: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-13T13:08:56.771Z] [WARNING] 保存到数据库失败，第2次重试: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-13T13:08:58.772Z] [ERROR] 保存到数据库失败（重试3次后仍失败）: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-13T13:08:58.773Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-08-55-763Z]: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-13T13:09:23.037Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-09-23-031Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:09:23.038Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-09-23-033Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T13:09:26.614Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-09-26-610Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:09:26.615Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-09-26-612Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T13:09:29.770Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-09-29-768Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:09:29.770Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-09-29-769Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:09:29.770Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-09-29-769Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:09:33.316Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-09-33-315Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:09:36.805Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-09-36-802Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:09:36.806Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-09-36-803Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T13:09:54.462Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-09-54-458Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:09:54.462Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-09-54-459Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:09:54.462Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-09-54-459Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:09:54.463Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-09-54-460Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T13:09:54.463Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-09-54-460Z]: JSON解析失败: Expected ',' or ']' after array element in JSON at position 128
+[2026-04-13T13:09:54.463Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-09-54-461Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:09:57.755Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-09-57-753Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T13:09:57.755Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-09-57-754Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:09:57.756Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-09-57-754Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:09:57.756Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-09-57-754Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T13:10:06.671Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-10-06-670Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:10:06.671Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-10-06-670Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T13:10:06.672Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-10-06-670Z]: JSON解析失败: Unexpected token '.', ".50,22.25,"... is not valid JSON
+[2026-04-13T13:10:09.379Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-10-09-376Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:10:13.433Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-10-13-428Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:10:13.433Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-10-13-428Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T13:10:13.434Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-10-13-430Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:10:25.072Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-10-25-068Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:10:25.072Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-10-25-070Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:10:25.072Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-10-25-071Z]: JSON解析失败: Unexpected token '.', ".75,22.00,"... is not valid JSON
+[2026-04-13T13:10:28.371Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-10-28-367Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:10:31.930Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-10-31-928Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:10:31.930Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-10-31-929Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:10:35.786Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-10-35-784Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:10:35.787Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-10-35-785Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T13:10:35.787Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-10-35-785Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:10:35.787Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-10-35-785Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T13:10:39.225Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-10-39-222Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:10:45.412Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-10-45-411Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:10:48.728Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-10-48-726Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:10:52.334Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-10-52-333Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:10:52.334Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-10-52-333Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:11:11.516Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-11-11-515Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:11:11.516Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-11-11-515Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T13:11:11.516Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-11-11-516Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:11:14.864Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-11-14-864Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:11:17.582Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-11-17-579Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T13:11:21.968Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-11-21-965Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:11:21.968Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-11-21-966Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:11:21.969Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-11-21-967Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:11:21.969Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-11-21-967Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T13:11:25.923Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-11-25-922Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:11:25.923Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-11-25-923Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:11:25.923Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-11-25-923Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T13:11:36.447Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-11-36-444Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:11:36.447Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-11-36-445Z]: JSON解析失败: Unexpected token '.', ".00,20.75,"... is not valid JSON
+[2026-04-13T13:12:29.602Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-12-29-602Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:12:32.804Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-12-32-803Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:12:43.419Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-12-43-418Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:12:43.419Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-12-43-419Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:12:43.419Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-12-43-419Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T13:12:43.421Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-12-43-421Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:13:20.955Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-13-20-954Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:13:20.957Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-13-20-957Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T13:13:24.396Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-13-24-396Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T13:13:24.397Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-13-24-397Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 5
+[2026-04-13T13:13:28.199Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-13-28-199Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:13:28.200Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-13-28-200Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T13:13:32.568Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-13-32-568Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:13:32.569Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-13-32-568Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T13:13:32.570Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-13-32-570Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:13:36.247Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-13-36-247Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T13:13:36.247Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-13-36-247Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:13:36.248Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-13-36-248Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T13:13:36.249Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-13-36-249Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:13:40.956Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-13-40-956Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:13:40.956Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-13-40-956Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T13:13:40.956Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-13-40-956Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T13:13:40.957Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-13-40-956Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:13:40.957Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-13-40-957Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T13:13:44.944Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-13-44-944Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:13:44.945Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-13-44-945Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T13:13:59.489Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-13-59-489Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:13:59.489Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-13-59-489Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T13:13:59.489Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-13-59-489Z]: JSON解析失败: Expected ',' or ']' after array element in JSON at position 128
+[2026-04-13T13:13:59.491Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-13-59-490Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:13:59.491Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-13-59-491Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T13:14:02.893Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-14-02-893Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 2
+[2026-04-13T13:14:02.893Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-14-02-893Z]: JSON解析失败: Expected ',' or ']' after array element in JSON at position 128
+[2026-04-13T13:14:02.894Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-14-02-894Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:14:02.894Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-14-02-894Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T13:14:02.894Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-14-02-894Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:14:02.894Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-14-02-894Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T13:14:12.303Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-14-12-303Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:14:12.303Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-14-12-303Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 5
+[2026-04-13T13:14:12.304Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-14-12-304Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:14:12.305Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-14-12-304Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T13:14:12.305Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-14-12-305Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:14:15.095Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-14-15-095Z]: JSON解析失败: Unexpected token '.', ".50,21.50,"... is not valid JSON
+[2026-04-13T13:14:15.096Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-14-15-095Z]: JSON解析失败: Expected ',' or ']' after array element in JSON at position 128
+[2026-04-13T13:14:15.100Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-14-15-100Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:14:21.183Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-14-21-183Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:14:33.945Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-14-33-945Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:14:33.945Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-14-33-945Z]: JSON解析失败: Expected ',' or ']' after array element in JSON at position 128
+[2026-04-13T13:14:33.945Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-14-33-945Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T13:14:33.946Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-14-33-945Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T13:14:33.946Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-14-33-946Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:14:38.389Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-14-38-389Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:14:38.389Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-14-38-389Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T13:14:38.390Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-14-38-390Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:14:38.391Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-14-38-391Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 5
+[2026-04-13T13:14:44.079Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-14-44-078Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:14:46.960Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-14-46-960Z]: JSON解析失败: Unexpected token '.', ".50,21.75,"... is not valid JSON
+[2026-04-13T13:14:46.960Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-14-46-960Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T13:14:46.960Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-14-46-960Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:14:46.961Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-14-46-961Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:14:51.256Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-14-51-255Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:14:51.256Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-14-51-256Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T13:14:51.257Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-14-51-256Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:14:51.257Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-14-51-257Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:14:55.149Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-14-55-149Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:14:55.150Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-14-55-150Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T13:14:55.151Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-14-55-150Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:14:55.152Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-14-55-151Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T13:15:02.045Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-15-02-044Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:15:02.045Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-15-02-045Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 5
+[2026-04-13T13:15:02.046Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-15-02-046Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:15:14.309Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-15-14-309Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:15:14.310Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-15-14-310Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T13:15:25.126Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-15-25-126Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:15:25.126Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-15-25-126Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T13:15:25.126Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-15-25-126Z]: JSON解析失败: Expected ',' or ']' after array element in JSON at position 128
+[2026-04-13T13:15:25.126Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-15-25-126Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:15:34.923Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-15-34-922Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:15:38.353Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-15-38-353Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:15:38.353Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-15-38-353Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T13:15:38.355Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-15-38-355Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:15:38.355Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-15-38-355Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T13:15:50.533Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-15-50-533Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:15:50.534Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-15-50-533Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T13:16:04.247Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-16-04-247Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:16:04.247Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-16-04-247Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T13:16:04.248Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-16-04-248Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:16:07.203Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-16-07-203Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T13:16:07.204Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-16-07-204Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:16:10.811Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-16-10-810Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:16:10.811Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-16-10-811Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T13:16:18.758Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-16-18-758Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:16:18.759Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-16-18-759Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T13:16:22.156Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-16-22-155Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:16:25.821Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-16-25-820Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:16:25.821Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-16-25-821Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T13:16:29.465Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-16-29-465Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:16:29.465Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-16-29-465Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T13:16:35.574Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-16-35-574Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:16:38.893Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-16-38-893Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:16:45.533Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-16-45-533Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:16:45.534Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-16-45-533Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T13:16:49.831Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-16-49-831Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:16:49.832Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-16-49-832Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T13:16:49.833Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-16-49-833Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 5
+[2026-04-13T13:16:49.835Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-16-49-834Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:16:49.836Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-16-49-835Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T13:16:55.944Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-16-55-943Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:17:01.343Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-17-01-343Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:17:01.344Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-17-01-344Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T13:17:01.345Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-17-01-345Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:17:01.345Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-17-01-345Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T13:17:01.346Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-17-01-346Z]: JSON解析失败: Unexpected token '.', ".50,22.00,"... is not valid JSON
+[2026-04-13T13:17:04.738Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-17-04-738Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:17:08.030Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-17-08-030Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T13:17:08.030Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-17-08-030Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:17:08.031Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-17-08-030Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:17:08.031Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-17-08-031Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T13:17:11.596Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-17-11-596Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:17:11.596Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-17-11-596Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T13:17:15.166Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-17-15-166Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:17:15.167Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-17-15-167Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T13:17:19.786Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-17-19-785Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:17:19.787Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-17-19-786Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:17:19.787Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-17-19-787Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:17:23.409Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-17-23-409Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:17:23.412Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-17-23-411Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:17:23.413Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-17-23-412Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T13:17:26.535Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-17-26-535Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:17:30.177Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-17-30-177Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:17:30.178Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-17-30-177Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T13:17:34.333Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-17-34-333Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:17:34.334Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-17-34-333Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:17:34.334Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-17-34-334Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T13:17:37.749Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-17-37-749Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:17:43.804Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-17-43-803Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:17:43.804Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-17-43-804Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T13:17:43.804Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-17-43-804Z]: JSON解析失败: Expected ',' or ']' after array element in JSON at position 128
+[2026-04-13T13:17:47.285Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-17-47-285Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:17:47.285Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-17-47-285Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T13:17:51.698Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-17-51-697Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:17:51.698Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-17-51-698Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 5
+[2026-04-13T13:17:51.699Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-17-51-699Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:17:51.700Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-17-51-700Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T13:17:55.904Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-17-55-903Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:17:55.904Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-17-55-904Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T13:17:55.906Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-17-55-906Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:17:55.908Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-17-55-908Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:18:12.748Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-18-12-748Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:18:16.439Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-18-16-439Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:18:16.440Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-18-16-439Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T13:18:20.590Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-18-20-590Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:18:20.590Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-18-20-590Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T13:18:20.590Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-18-20-590Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:18:20.591Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-18-20-591Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T13:18:25.679Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-18-25-679Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:18:25.680Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-18-25-680Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:18:25.681Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-18-25-680Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T13:18:29.541Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-18-29-541Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:18:29.541Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-18-29-541Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T13:18:29.542Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-18-29-542Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:18:29.544Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-18-29-544Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:18:33.155Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-18-33-155Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T13:18:33.156Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-18-33-156Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:18:33.156Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-18-33-155Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:18:33.156Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-18-33-156Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T13:18:33.157Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-18-33-157Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:18:33.157Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-18-33-157Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 5
+[2026-04-13T13:18:37.107Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-18-37-106Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:18:42.882Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-18-42-882Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T13:18:44.962Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-18-44-962Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:18:44.963Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-18-44-962Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T13:18:44.963Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-18-44-963Z]: JSON解析失败: Unexpected token '.', ".25,24.00,"... is not valid JSON
+[2026-04-13T13:19:28.729Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-19-28-729Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:19:31.986Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-19-31-986Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T13:19:31.987Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-19-31-987Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:19:31.987Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-19-31-987Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T13:19:35.553Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-19-35-552Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:19:35.554Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-19-35-553Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:19:35.554Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-19-35-554Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T13:19:38.914Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-19-38-914Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:19:48.784Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-19-48-784Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 564
+[2026-04-13T13:19:48.785Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-19-48-785Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 5
+[2026-04-13T13:19:48.786Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-19-48-786Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:19:52.128Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-19-52-128Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:19:55.696Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-19-55-696Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:19:55.696Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-19-55-696Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T13:20:22.938Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-20-22-937Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:20:41.285Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-20-41-285Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:21:51.182Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-21-51-182Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:21:51.183Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-21-51-183Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 5
+[2026-04-13T13:23:03.759Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-23-03-759Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:23:22.826Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-23-22-826Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:23:22.826Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-23-22-826Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T13:24:26.580Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-24-26-580Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:24:29.338Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-24-29-338Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4
+[2026-04-13T13:24:50.920Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-24-50-920Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 563
+[2026-04-13T13:24:50.920Z] [ERROR] 数据处理失败 [ID: 2026-04-13T13-24-50-920Z]: JSON解析失败: Unexpected non-whitespace character after JSON at position 4

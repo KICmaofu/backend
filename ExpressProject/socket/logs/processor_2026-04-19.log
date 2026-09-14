@@ -1,0 +1,1445 @@
+[2026-04-19T01:31:26.436Z] [ERROR] 数据库连接池初始化失败 (1/5): DB_POOL_CONFIG is not defined
+[2026-04-19T01:31:28.459Z] [ERROR] 数据库连接池初始化失败 (2/5): DB_POOL_CONFIG is not defined
+[2026-04-19T01:31:32.471Z] [ERROR] 数据库连接池初始化失败 (3/5): DB_POOL_CONFIG is not defined
+[2026-04-19T01:31:38.481Z] [ERROR] 数据库连接池初始化失败 (4/5): DB_POOL_CONFIG is not defined
+[2026-04-19T01:31:46.484Z] [ERROR] 数据库连接池初始化失败 (5/5): DB_POOL_CONFIG is not defined
+[2026-04-19T01:31:46.485Z] [ERROR] 达到最大重试次数，数据库连接池初始化失败
+[2026-04-19T01:34:47.281Z] [WARNING] 保存到数据库失败，第1次重试: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T01:34:48.290Z] [WARNING] 保存到数据库失败，第2次重试: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T01:34:50.302Z] [ERROR] 保存到数据库失败（重试3次后仍失败）: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T01:34:50.304Z] [ERROR] 数据处理失败 [ID: 2026-04-19T01-34-47-280Z]: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T01:39:30.523Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T01:39:30.523Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T01:39:30.523Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T01:39:30.524Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T01:39:30.524Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T01:39:30.524Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T01:39:35.570Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T01:39:35.570Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T01:39:35.571Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T01:39:35.571Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T01:39:35.571Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T01:39:35.572Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T01:39:35.572Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T01:39:35.572Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T01:39:35.574Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 1664 (line 101 column 3)
+[2026-04-19T01:39:35.574Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 1664 (line 101 column 3)
+[2026-04-19T01:39:35.575Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 1664 (line 101 column 3)
+[2026-04-19T01:39:35.575Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 1664 (line 101 column 3)
+[2026-04-19T01:39:35.575Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 1664 (line 101 column 3)
+[2026-04-19T01:39:35.575Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 1664 (line 101 column 3)
+[2026-04-19T01:39:35.576Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 1664 (line 101 column 3)
+[2026-04-19T01:39:35.576Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 1664 (line 101 column 3)
+[2026-04-19T01:39:35.578Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T01:39:35.578Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T01:39:35.578Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T01:39:35.579Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T01:39:35.579Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T01:39:35.579Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T01:39:35.580Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T01:39:35.580Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T01:55:05.167Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T01:55:05.167Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T01:55:05.167Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T01:55:05.167Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T01:55:05.167Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T01:55:05.170Z] [WARNING] 读取现有处理数据文件失败: Unexpected end of JSON input
+[2026-04-19T01:55:05.170Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T01:55:05.170Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T01:55:05.170Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T01:55:05.171Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T01:55:05.172Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T01:55:10.160Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T01:55:10.163Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T01:55:10.163Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T01:55:10.163Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T01:55:10.163Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T01:55:10.164Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T01:55:10.164Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T01:55:10.164Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T01:55:10.164Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T01:55:10.165Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T01:55:10.166Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T01:55:10.169Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T01:55:10.169Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T01:55:10.169Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T01:55:10.169Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T01:55:10.170Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T01:55:10.170Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T01:55:10.170Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T01:55:10.170Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T01:55:10.171Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T01:55:15.167Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T01:55:15.170Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T01:55:15.170Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T01:55:15.170Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T01:55:15.171Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T01:55:15.171Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T01:55:15.171Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T01:55:15.171Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T01:55:15.171Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T01:55:15.172Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T01:55:15.173Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T01:55:15.175Z] [WARNING] 读取现有处理数据文件失败: Unexpected end of JSON input
+[2026-04-19T01:55:15.175Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T01:55:15.175Z] [WARNING] 读取现有处理数据文件失败: Unexpected end of JSON input
+[2026-04-19T01:55:15.175Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T01:55:15.175Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T01:55:15.175Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T01:55:15.175Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T01:55:15.176Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T01:55:15.176Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T01:55:15.177Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T01:55:15.177Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T01:55:30.177Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T01:55:30.177Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T01:55:30.179Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T01:55:30.179Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T01:55:55.398Z] [WARNING] 读取现有原始数据文件失败: Unexpected non-whitespace character after JSON at position 6396 (line 66 column 2)
+[2026-04-19T01:55:55.400Z] [WARNING] 读取现有原始数据文件失败: Unexpected non-whitespace character after JSON at position 6396 (line 66 column 2)
+[2026-04-19T01:55:55.401Z] [WARNING] 读取现有原始数据文件失败: Unexpected non-whitespace character after JSON at position 6396 (line 66 column 2)
+[2026-04-19T01:55:55.401Z] [WARNING] 读取现有原始数据文件失败: Unexpected non-whitespace character after JSON at position 6396 (line 66 column 2)
+[2026-04-19T01:55:55.401Z] [WARNING] 读取现有原始数据文件失败: Unexpected non-whitespace character after JSON at position 6396 (line 66 column 2)
+[2026-04-19T01:55:55.401Z] [WARNING] 读取现有原始数据文件失败: Unexpected non-whitespace character after JSON at position 6396 (line 66 column 2)
+[2026-04-19T01:55:55.402Z] [WARNING] 读取现有原始数据文件失败: Unexpected non-whitespace character after JSON at position 6396 (line 66 column 2)
+[2026-04-19T01:55:55.401Z] [WARNING] 读取现有原始数据文件失败: Unexpected non-whitespace character after JSON at position 6396 (line 66 column 2)
+[2026-04-19T01:55:55.402Z] [WARNING] 读取现有原始数据文件失败: Unexpected non-whitespace character after JSON at position 6396 (line 66 column 2)
+[2026-04-19T01:55:55.402Z] [WARNING] 读取现有原始数据文件失败: Unexpected non-whitespace character after JSON at position 6396 (line 66 column 2)
+[2026-04-19T01:55:55.403Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T01:55:55.405Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T01:55:55.405Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T01:55:55.405Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T01:55:55.405Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T01:55:55.405Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T01:55:55.406Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T01:55:55.406Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T01:55:55.406Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T01:55:55.406Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T01:55:55.408Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T01:55:55.410Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T01:55:55.410Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T01:55:55.410Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T01:55:55.411Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T01:55:55.411Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T01:55:55.411Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T01:55:55.411Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T01:55:55.411Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T01:55:55.412Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T01:56:00.440Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T01:56:00.440Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T01:56:00.441Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T01:56:00.441Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T01:56:00.441Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T01:56:00.441Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T01:56:00.442Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T01:56:00.442Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T01:56:00.442Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T01:56:00.444Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 6703 (line 399 column 3)
+[2026-04-19T01:56:00.444Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 6703 (line 399 column 3)
+[2026-04-19T01:56:00.444Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 6703 (line 399 column 3)
+[2026-04-19T01:56:00.444Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 6703 (line 399 column 3)
+[2026-04-19T01:56:00.444Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 6703 (line 399 column 3)
+[2026-04-19T01:56:00.445Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 6703 (line 399 column 3)
+[2026-04-19T01:56:00.445Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 6703 (line 399 column 3)
+[2026-04-19T01:56:00.445Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 6703 (line 399 column 3)
+[2026-04-19T01:56:00.445Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 6703 (line 399 column 3)
+[2026-04-19T01:56:00.446Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T01:56:00.447Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T01:56:00.448Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T01:56:00.448Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T01:56:00.448Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T01:56:00.449Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T01:56:00.449Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T01:56:00.450Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T01:56:00.450Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T01:56:10.512Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T01:56:10.515Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T01:56:10.515Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T01:56:10.515Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T01:56:10.516Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T01:56:10.516Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T01:56:10.516Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T01:56:10.516Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T01:56:10.517Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T01:56:10.517Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T01:56:10.517Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 1663 (line 101 column 2)
+[2026-04-19T01:56:10.519Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 1663 (line 101 column 2)
+[2026-04-19T01:56:10.519Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 1663 (line 101 column 2)
+[2026-04-19T01:56:10.519Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 1663 (line 101 column 2)
+[2026-04-19T01:56:10.520Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 1663 (line 101 column 2)
+[2026-04-19T01:56:10.520Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 1663 (line 101 column 2)
+[2026-04-19T01:56:10.520Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 1663 (line 101 column 2)
+[2026-04-19T01:56:10.520Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 1663 (line 101 column 2)
+[2026-04-19T01:56:10.521Z] [WARNING] 读取现有处理数据文件失败: Unexpected end of JSON input
+[2026-04-19T01:56:10.521Z] [WARNING] 读取现有处理数据文件失败: Unexpected end of JSON input
+[2026-04-19T01:56:10.521Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T01:56:10.524Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T01:56:10.523Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T01:56:10.524Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T01:56:10.524Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T01:56:10.524Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T01:56:10.525Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T01:56:10.525Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T01:56:10.525Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T01:56:10.526Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T01:56:15.552Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T01:56:15.553Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T01:56:15.553Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T01:56:15.553Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T01:56:15.554Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T01:56:15.554Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T01:56:15.554Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T01:56:15.556Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 1673 (line 101 column 2)
+[2026-04-19T01:56:15.556Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 1673 (line 101 column 2)
+[2026-04-19T01:56:15.557Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 1673 (line 101 column 2)
+[2026-04-19T01:56:15.557Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 1673 (line 101 column 2)
+[2026-04-19T01:56:15.557Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 1673 (line 101 column 2)
+[2026-04-19T01:56:15.558Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 1673 (line 101 column 2)
+[2026-04-19T01:56:15.558Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 1673 (line 101 column 2)
+[2026-04-19T01:56:15.560Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T01:56:15.560Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T01:56:15.560Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T01:56:15.561Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T01:56:15.561Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T01:56:15.562Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T01:56:15.562Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T01:56:20.580Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T01:56:20.581Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T01:58:05.655Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T01:58:05.656Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:17:23.979Z] [WARNING] 保存到数据库失败，第1次重试: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T02:17:24.982Z] [WARNING] 保存到数据库失败，第2次重试: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T02:17:26.511Z] [WARNING] 保存到数据库失败，第1次重试: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T02:17:26.511Z] [WARNING] 保存到数据库失败，第1次重试: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T02:17:26.992Z] [ERROR] 保存到数据库失败（重试3次后仍失败）: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T02:17:26.993Z] [ERROR] 数据处理失败 [ID: 2026-04-19T02-17-23-976Z]: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T02:17:27.518Z] [WARNING] 保存到数据库失败，第2次重试: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T02:17:27.519Z] [WARNING] 保存到数据库失败，第2次重试: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T02:17:29.533Z] [ERROR] 保存到数据库失败（重试3次后仍失败）: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T02:17:29.534Z] [ERROR] 保存到数据库失败（重试3次后仍失败）: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T02:17:29.535Z] [ERROR] 数据处理失败 [ID: 2026-04-19T02-17-26-505Z]: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T02:17:29.536Z] [ERROR] 数据处理失败 [ID: 2026-04-19T02-17-26-509Z]: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T02:17:34.469Z] [WARNING] 保存到数据库失败，第1次重试: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T02:17:35.470Z] [WARNING] 保存到数据库失败，第2次重试: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T02:17:37.480Z] [ERROR] 保存到数据库失败（重试3次后仍失败）: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T02:17:37.481Z] [ERROR] 数据处理失败 [ID: 2026-04-19T02-17-34-465Z]: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T02:17:41.964Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:17:41.964Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:17:41.965Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:17:41.965Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:17:41.967Z] [WARNING] 读取现有处理数据文件失败: Unexpected end of JSON input
+[2026-04-19T02:17:41.967Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:17:41.968Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:17:41.968Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:17:41.970Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:17:44.661Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:17:44.664Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:17:44.664Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:17:44.664Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:17:44.664Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:17:44.665Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:17:44.665Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:17:44.665Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:17:44.665Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:17:44.665Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:17:44.668Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:17:44.669Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:17:44.669Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:17:44.670Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:17:44.670Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:17:44.670Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:17:44.670Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:17:44.670Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:17:44.671Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:17:44.671Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:17:47.202Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:17:47.203Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:17:47.204Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 5008 (line 299 column 2)
+[2026-04-19T02:17:47.204Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:17:47.204Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:17:47.204Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:17:47.205Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:17:47.206Z] [WARNING] 读取现有处理数据文件失败: Unexpected end of JSON input
+[2026-04-19T02:17:47.206Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:17:47.207Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:17:47.207Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:17:47.208Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:19:58.723Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:19:58.723Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:19:58.724Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:19:58.724Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:20:01.318Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:20:01.319Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:20:01.319Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:20:01.319Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:20:01.320Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 3347 (line 200 column 3)
+[2026-04-19T02:20:01.321Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 3347 (line 200 column 3)
+[2026-04-19T02:20:01.321Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 3347 (line 200 column 3)
+[2026-04-19T02:20:01.322Z] [WARNING] 读取现有处理数据文件失败: Unexpected end of JSON input
+[2026-04-19T02:20:01.322Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:20:01.323Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:20:01.324Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:20:01.324Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:20:03.852Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:20:03.853Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:20:03.853Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:20:03.854Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:20:03.855Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:20:03.856Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:21:09.280Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:21:09.280Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:21:09.281Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:21:09.281Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:21:11.826Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:21:11.826Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:21:11.826Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:21:11.827Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:21:11.827Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:21:11.827Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:21:11.827Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:21:11.830Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:21:11.830Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:21:11.831Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:21:11.831Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:21:11.831Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:21:11.832Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:21:11.833Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:21:14.652Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:21:14.652Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:21:14.652Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 8315 (line 497 column 2)
+[2026-04-19T02:21:14.653Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:21:14.653Z] [WARNING] 读取现有处理数据文件失败: Unexpected end of JSON input
+[2026-04-19T02:21:14.653Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:21:14.654Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:21:14.654Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:21:55.418Z] [WARNING] 保存到数据库失败，第1次重试: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T02:21:56.426Z] [WARNING] 保存到数据库失败，第2次重试: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T02:21:58.441Z] [ERROR] 保存到数据库失败（重试3次后仍失败）: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T02:21:58.443Z] [ERROR] 数据处理失败 [ID: 2026-04-19T02-21-55-414Z]: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T02:23:03.380Z] [WARNING] 保存到数据库失败，第1次重试: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T02:23:04.383Z] [WARNING] 保存到数据库失败，第2次重试: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T02:23:06.386Z] [ERROR] 保存到数据库失败（重试3次后仍失败）: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T02:23:06.388Z] [ERROR] 数据处理失败 [ID: 2026-04-19T02-23-03-375Z]: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T02:24:40.357Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:24:40.357Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:24:40.357Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:24:40.357Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:24:40.357Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:24:40.358Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:24:40.358Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:24:40.359Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 1664 (line 101 column 3)
+[2026-04-19T02:24:40.360Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 1664 (line 101 column 3)
+[2026-04-19T02:24:40.360Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 1664 (line 101 column 3)
+[2026-04-19T02:24:40.360Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 1664 (line 101 column 3)
+[2026-04-19T02:24:40.360Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 1664 (line 101 column 3)
+[2026-04-19T02:24:40.360Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 1664 (line 101 column 3)
+[2026-04-19T02:24:40.361Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 1664 (line 101 column 3)
+[2026-04-19T02:24:40.362Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:24:40.362Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:24:40.362Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:24:40.363Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:24:40.363Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:24:40.363Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:24:40.364Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:24:42.754Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:24:42.755Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:24:55.475Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:24:55.475Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:24:55.475Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:24:55.476Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:24:55.476Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:24:55.476Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:24:55.478Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:24:55.478Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:24:55.478Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:24:55.479Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:24:55.479Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:24:55.479Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:25:02.817Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:25:02.817Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:25:02.817Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:25:02.819Z] [WARNING] 读取现有处理数据文件失败: Unexpected end of JSON input
+[2026-04-19T02:25:02.819Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:25:02.819Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:25:02.820Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:25:05.352Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:25:05.353Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:25:05.353Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:25:05.353Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:25:05.353Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:25:05.353Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:25:05.353Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:25:05.353Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:25:05.354Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:25:05.355Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:25:05.355Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:25:05.355Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:25:05.355Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:25:05.355Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:25:05.355Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:25:05.355Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:26:35.341Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:26:35.341Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:26:35.342Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:26:35.342Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:26:35.342Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 4995 (line 299 column 2)
+[2026-04-19T02:26:35.342Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 4995 (line 299 column 2)
+[2026-04-19T02:26:35.343Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 4995 (line 299 column 2)
+[2026-04-19T02:26:35.343Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:26:35.343Z] [WARNING] 读取现有处理数据文件失败: Unexpected end of JSON input
+[2026-04-19T02:26:35.344Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:26:35.344Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:26:35.344Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:26:37.901Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:26:37.901Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:26:37.902Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:26:37.902Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:26:37.902Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:26:37.902Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:26:37.902Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:26:37.902Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:26:37.905Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:26:37.905Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:26:37.906Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:26:37.906Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:26:37.906Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:26:37.907Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:26:37.907Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:26:37.907Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:26:40.426Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:26:40.427Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:26:40.427Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:26:40.427Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:26:40.428Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:26:40.428Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:26:40.427Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:26:40.428Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:26:40.428Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 3334 (line 200 column 2)
+[2026-04-19T02:26:40.430Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 3334 (line 200 column 2)
+[2026-04-19T02:26:40.430Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 3334 (line 200 column 2)
+[2026-04-19T02:26:40.430Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 3334 (line 200 column 2)
+[2026-04-19T02:26:40.430Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 3334 (line 200 column 2)
+[2026-04-19T02:26:40.430Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 3334 (line 200 column 2)
+[2026-04-19T02:26:40.431Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 3334 (line 200 column 2)
+[2026-04-19T02:26:40.431Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 3334 (line 200 column 2)
+[2026-04-19T02:26:40.431Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:26:40.433Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:26:40.433Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:26:40.433Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:26:40.433Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:26:40.434Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:26:40.434Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:26:40.434Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:28:27.688Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:28:27.689Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:28:30.214Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:28:30.214Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:28:30.214Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:28:30.216Z] [WARNING] 读取现有处理数据文件失败: Unexpected end of JSON input
+[2026-04-19T02:28:30.216Z] [WARNING] 读取现有处理数据文件失败: Unexpected end of JSON input
+[2026-04-19T02:28:30.216Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:28:30.217Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:28:30.217Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:28:32.703Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:28:32.704Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:28:32.704Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:28:32.704Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:28:32.704Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:28:32.704Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:28:32.704Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:28:32.705Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:28:32.705Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:28:32.705Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:28:32.705Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:28:32.705Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:28:35.165Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:28:35.165Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:28:35.166Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:28:35.166Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:28:35.166Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:28:35.166Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:28:35.167Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:28:35.168Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 4997 (line 299 column 2)
+[2026-04-19T02:28:35.169Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 4997 (line 299 column 2)
+[2026-04-19T02:28:35.169Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 4997 (line 299 column 2)
+[2026-04-19T02:28:35.169Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 4997 (line 299 column 2)
+[2026-04-19T02:28:35.169Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 4997 (line 299 column 2)
+[2026-04-19T02:28:35.169Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 4997 (line 299 column 2)
+[2026-04-19T02:28:35.169Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 4997 (line 299 column 2)
+[2026-04-19T02:28:35.171Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:28:35.171Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:28:35.171Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:28:35.171Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:28:35.172Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:28:35.172Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:28:35.173Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:28:37.567Z] [WARNING] 读取现有原始数据文件失败: Unexpected end of JSON input
+[2026-04-19T02:28:37.567Z] [WARNING] 读取现有原始数据文件失败: Unexpected end of JSON input
+[2026-04-19T02:28:37.567Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:28:37.568Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:28:37.568Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:28:37.569Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:28:37.569Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:28:37.570Z] [WARNING] 读取现有处理数据文件失败: Unexpected end of JSON input
+[2026-04-19T02:28:37.570Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:28:37.570Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:28:37.572Z] [WARNING] 读取现有处理数据文件失败: Unexpected end of JSON input
+[2026-04-19T02:28:37.572Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:28:37.572Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:28:37.573Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:28:40.020Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:28:40.022Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:28:40.023Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:28:40.023Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:28:40.023Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:28:40.023Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:28:40.024Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:28:40.024Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T02:28:40.025Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:28:40.027Z] [WARNING] 读取现有处理数据文件失败: Unexpected end of JSON input
+[2026-04-19T02:28:40.027Z] [WARNING] 读取现有处理数据文件失败: Unexpected end of JSON input
+[2026-04-19T02:28:40.027Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:28:40.027Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:28:40.028Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:28:40.028Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:28:40.028Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:28:40.030Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:28:40.030Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T02:37:41.705Z] [WARNING] 保存到数据库失败，第1次重试: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T02:37:42.717Z] [WARNING] 保存到数据库失败，第2次重试: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T02:37:43.883Z] [ERROR] 数据处理失败 [ID: 2026-04-19T02-37-43-882Z]: JSON解析失败: Unexpected token '.', ".75,22.50,"... is not valid JSON
+[2026-04-19T02:37:44.732Z] [ERROR] 保存到数据库失败（重试3次后仍失败）: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T02:37:44.733Z] [ERROR] 数据处理失败 [ID: 2026-04-19T02-37-41-704Z]: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T02:43:31.655Z] [ERROR] 数据处理失败 [ID: 2026-04-19T02-43-31-655Z]: JSON解析失败: Unexpected token '.', ".75,23.00,"... is not valid JSON
+[2026-04-19T02:43:31.656Z] [WARNING] 保存到数据库失败，第1次重试: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T02:43:32.669Z] [WARNING] 保存到数据库失败，第2次重试: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T02:43:34.680Z] [ERROR] 保存到数据库失败（重试3次后仍失败）: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T02:43:34.681Z] [ERROR] 数据处理失败 [ID: 2026-04-19T02-43-31-655Z]: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T02:43:41.420Z] [WARNING] 保存到数据库失败，第1次重试: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T02:43:41.420Z] [WARNING] 保存到数据库失败，第1次重试: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T02:43:42.422Z] [WARNING] 保存到数据库失败，第2次重试: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T02:43:42.423Z] [WARNING] 保存到数据库失败，第2次重试: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T02:43:43.891Z] [ERROR] 数据处理失败 [ID: 2026-04-19T02-43-43-890Z]: JSON解析失败: Expected ',' or ']' after array element in JSON at position 128 (line 1 column 129)
+[2026-04-19T02:43:43.897Z] [WARNING] 保存到数据库失败，第1次重试: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T02:43:44.424Z] [ERROR] 保存到数据库失败（重试3次后仍失败）: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T02:43:44.425Z] [ERROR] 保存到数据库失败（重试3次后仍失败）: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T02:43:44.426Z] [ERROR] 数据处理失败 [ID: 2026-04-19T02-43-41-417Z]: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T02:43:44.426Z] [ERROR] 数据处理失败 [ID: 2026-04-19T02-43-41-419Z]: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T02:43:44.906Z] [WARNING] 保存到数据库失败，第2次重试: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T02:43:46.918Z] [ERROR] 保存到数据库失败（重试3次后仍失败）: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T02:43:46.919Z] [ERROR] 数据处理失败 [ID: 2026-04-19T02-43-43-893Z]: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:09:08.433Z] [ERROR] 数据库连接池初始化失败 (1/5): DB_POOL_CONFIG is not defined
+[2026-04-19T05:09:10.452Z] [ERROR] 数据库连接池初始化失败 (2/5): DB_POOL_CONFIG is not defined
+[2026-04-19T05:09:14.458Z] [ERROR] 数据库连接池初始化失败 (3/5): DB_POOL_CONFIG is not defined
+[2026-04-19T05:09:20.460Z] [ERROR] 数据库连接池初始化失败 (4/5): DB_POOL_CONFIG is not defined
+[2026-04-19T05:09:28.465Z] [ERROR] 数据库连接池初始化失败 (5/5): DB_POOL_CONFIG is not defined
+[2026-04-19T05:09:28.466Z] [ERROR] 达到最大重试次数，数据库连接池初始化失败
+[2026-04-19T05:12:13.687Z] [WARNING] 保存到数据库失败，第1次重试: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:14.700Z] [WARNING] 保存到数据库失败，第2次重试: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:16.139Z] [WARNING] 保存到数据库失败，第1次重试: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:16.140Z] [WARNING] 保存到数据库失败，第1次重试: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:16.140Z] [WARNING] 保存到数据库失败，第1次重试: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:16.140Z] [WARNING] 保存到数据库失败，第1次重试: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:16.140Z] [WARNING] 保存到数据库失败，第1次重试: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:16.143Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:12:16.143Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:12:16.143Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:12:16.143Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:12:16.144Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:12:16.144Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 1654 (line 101 column 2)
+[2026-04-19T05:12:16.144Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 1654 (line 101 column 2)
+[2026-04-19T05:12:16.144Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 1654 (line 101 column 2)
+[2026-04-19T05:12:16.145Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 1654 (line 101 column 2)
+[2026-04-19T05:12:16.145Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 1654 (line 101 column 2)
+[2026-04-19T05:12:16.145Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:12:16.146Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:12:16.146Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:12:16.146Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:12:16.146Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:12:16.718Z] [ERROR] 保存到数据库失败（重试3次后仍失败）: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:16.718Z] [ERROR] 数据处理失败 [ID: 2026-04-19T05-12-13-684Z]: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:17.152Z] [WARNING] 保存到数据库失败，第2次重试: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:17.152Z] [WARNING] 保存到数据库失败，第2次重试: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:17.153Z] [WARNING] 保存到数据库失败，第2次重试: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:17.153Z] [WARNING] 保存到数据库失败，第2次重试: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:17.153Z] [WARNING] 保存到数据库失败，第2次重试: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:18.487Z] [WARNING] 保存到数据库失败，第1次重试: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:18.487Z] [WARNING] 保存到数据库失败，第1次重试: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:18.488Z] [WARNING] 保存到数据库失败，第1次重试: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:18.489Z] [WARNING] 保存到数据库失败，第1次重试: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:18.488Z] [WARNING] 保存到数据库失败，第1次重试: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:18.489Z] [WARNING] 保存到数据库失败，第1次重试: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:18.489Z] [WARNING] 保存到数据库失败，第1次重试: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:18.488Z] [WARNING] 保存到数据库失败，第1次重试: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:18.490Z] [WARNING] 保存到数据库失败，第1次重试: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:18.490Z] [WARNING] 保存到数据库失败，第1次重试: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:19.154Z] [ERROR] 保存到数据库失败（重试3次后仍失败）: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:19.154Z] [ERROR] 保存到数据库失败（重试3次后仍失败）: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:19.155Z] [ERROR] 保存到数据库失败（重试3次后仍失败）: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:19.155Z] [ERROR] 保存到数据库失败（重试3次后仍失败）: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:19.155Z] [ERROR] 保存到数据库失败（重试3次后仍失败）: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:19.155Z] [ERROR] 数据处理失败 [ID: 2026-04-19T05-12-16-138Z]: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:19.155Z] [ERROR] 数据处理失败 [ID: 2026-04-19T05-12-16-138Z]: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:19.156Z] [ERROR] 数据处理失败 [ID: 2026-04-19T05-12-16-138Z]: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:19.156Z] [ERROR] 数据处理失败 [ID: 2026-04-19T05-12-16-139Z]: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:19.156Z] [ERROR] 数据处理失败 [ID: 2026-04-19T05-12-16-138Z]: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:19.500Z] [WARNING] 保存到数据库失败，第2次重试: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:19.500Z] [WARNING] 保存到数据库失败，第2次重试: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:19.501Z] [WARNING] 保存到数据库失败，第2次重试: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:19.501Z] [WARNING] 保存到数据库失败，第2次重试: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:19.502Z] [WARNING] 保存到数据库失败，第2次重试: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:19.502Z] [WARNING] 保存到数据库失败，第2次重试: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:19.503Z] [WARNING] 保存到数据库失败，第2次重试: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:19.503Z] [WARNING] 保存到数据库失败，第2次重试: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:19.502Z] [WARNING] 保存到数据库失败，第2次重试: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:19.503Z] [WARNING] 保存到数据库失败，第2次重试: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:21.033Z] [WARNING] 保存到数据库失败，第1次重试: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:21.036Z] [WARNING] 保存到数据库失败，第1次重试: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:21.036Z] [WARNING] 保存到数据库失败，第1次重试: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:21.040Z] [WARNING] 读取现有原始数据文件失败: Unexpected non-whitespace character after JSON at position 3204 (line 34 column 2)
+[2026-04-19T05:12:21.041Z] [WARNING] 读取现有原始数据文件失败: Unexpected non-whitespace character after JSON at position 3204 (line 34 column 2)
+[2026-04-19T05:12:21.041Z] [WARNING] 读取现有原始数据文件失败: Unexpected non-whitespace character after JSON at position 3204 (line 34 column 2)
+[2026-04-19T05:12:21.043Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:12:21.043Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:12:21.044Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:12:21.046Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:12:21.046Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:12:21.046Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:12:21.046Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:12:21.046Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:12:21.046Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:12:21.046Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:12:21.048Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 3356 (line 200 column 2)
+[2026-04-19T05:12:21.048Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 3356 (line 200 column 2)
+[2026-04-19T05:12:21.048Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 3356 (line 200 column 2)
+[2026-04-19T05:12:21.048Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 3356 (line 200 column 2)
+[2026-04-19T05:12:21.049Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:12:21.049Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:12:21.049Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:12:21.049Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:12:21.518Z] [ERROR] 保存到数据库失败（重试3次后仍失败）: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:21.518Z] [ERROR] 保存到数据库失败（重试3次后仍失败）: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:21.518Z] [ERROR] 保存到数据库失败（重试3次后仍失败）: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:21.518Z] [ERROR] 保存到数据库失败（重试3次后仍失败）: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:21.518Z] [ERROR] 保存到数据库失败（重试3次后仍失败）: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:21.518Z] [ERROR] 保存到数据库失败（重试3次后仍失败）: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:21.518Z] [ERROR] 保存到数据库失败（重试3次后仍失败）: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:21.519Z] [ERROR] 保存到数据库失败（重试3次后仍失败）: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:21.519Z] [ERROR] 保存到数据库失败（重试3次后仍失败）: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:21.519Z] [ERROR] 保存到数据库失败（重试3次后仍失败）: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:21.519Z] [ERROR] 数据处理失败 [ID: 2026-04-19T05-12-18-481Z]: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:21.519Z] [ERROR] 数据处理失败 [ID: 2026-04-19T05-12-18-481Z]: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:21.519Z] [ERROR] 数据处理失败 [ID: 2026-04-19T05-12-18-484Z]: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:21.519Z] [ERROR] 数据处理失败 [ID: 2026-04-19T05-12-18-482Z]: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:21.519Z] [ERROR] 数据处理失败 [ID: 2026-04-19T05-12-18-484Z]: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:21.519Z] [ERROR] 数据处理失败 [ID: 2026-04-19T05-12-18-482Z]: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:21.519Z] [ERROR] 数据处理失败 [ID: 2026-04-19T05-12-18-485Z]: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:21.519Z] [ERROR] 数据处理失败 [ID: 2026-04-19T05-12-18-482Z]: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:21.519Z] [ERROR] 数据处理失败 [ID: 2026-04-19T05-12-18-483Z]: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:21.520Z] [ERROR] 数据处理失败 [ID: 2026-04-19T05-12-18-484Z]: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:22.044Z] [WARNING] 保存到数据库失败，第2次重试: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:22.045Z] [WARNING] 保存到数据库失败，第2次重试: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:22.045Z] [WARNING] 保存到数据库失败，第2次重试: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:23.572Z] [WARNING] 读取现有原始数据文件失败: Unexpected non-whitespace character after JSON at position 1606 (line 18 column 2)
+[2026-04-19T05:12:23.572Z] [WARNING] 读取现有原始数据文件失败: Unexpected non-whitespace character after JSON at position 1606 (line 18 column 2)
+[2026-04-19T05:12:23.573Z] [WARNING] 读取现有原始数据文件失败: Unexpected non-whitespace character after JSON at position 1606 (line 18 column 2)
+[2026-04-19T05:12:23.573Z] [WARNING] 读取现有原始数据文件失败: Unexpected non-whitespace character after JSON at position 1606 (line 18 column 2)
+[2026-04-19T05:12:23.574Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:12:23.574Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:12:23.575Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:12:23.575Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:12:23.576Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 1659 (line 101 column 2)
+[2026-04-19T05:12:23.576Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 1659 (line 101 column 2)
+[2026-04-19T05:12:23.577Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 1659 (line 101 column 2)
+[2026-04-19T05:12:23.577Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 1659 (line 101 column 2)
+[2026-04-19T05:12:23.577Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:12:23.577Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:12:23.578Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:12:23.578Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:12:24.061Z] [ERROR] 保存到数据库失败（重试3次后仍失败）: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:24.061Z] [ERROR] 保存到数据库失败（重试3次后仍失败）: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:24.062Z] [ERROR] 保存到数据库失败（重试3次后仍失败）: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:24.063Z] [ERROR] 数据处理失败 [ID: 2026-04-19T05-12-21-022Z]: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:24.063Z] [ERROR] 数据处理失败 [ID: 2026-04-19T05-12-21-022Z]: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:24.063Z] [ERROR] 数据处理失败 [ID: 2026-04-19T05-12-21-021Z]: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:26.166Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:12:26.166Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:12:26.166Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:12:26.166Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:12:26.166Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:12:26.167Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:12:26.167Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:12:26.167Z] [WARNING] 读取现有处理数据文件失败: Unexpected end of JSON input
+[2026-04-19T05:12:26.167Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:12:26.168Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:12:26.168Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:12:26.168Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:12:26.168Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:12:26.168Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:12:26.169Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:12:28.708Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:12:28.709Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:12:28.709Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:12:28.710Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 1669 (line 101 column 2)
+[2026-04-19T05:12:28.710Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:12:28.710Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:12:28.712Z] [WARNING] 读取现有处理数据文件失败: Unexpected end of JSON input
+[2026-04-19T05:12:28.712Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:12:28.713Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:12:28.713Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:12:28.713Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:12:28.713Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:12:31.241Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:12:31.242Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:12:31.242Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:12:31.243Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:12:31.243Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:12:31.243Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:12:31.243Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:12:31.243Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:12:31.243Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:12:31.243Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 1658 (line 101 column 2)
+[2026-04-19T05:12:31.243Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:12:31.244Z] [WARNING] 读取现有处理数据文件失败: Unexpected end of JSON input
+[2026-04-19T05:12:31.244Z] [WARNING] 读取现有处理数据文件失败: Unexpected end of JSON input
+[2026-04-19T05:12:31.244Z] [WARNING] 读取现有处理数据文件失败: Unexpected end of JSON input
+[2026-04-19T05:12:31.244Z] [WARNING] 读取现有处理数据文件失败: Unexpected end of JSON input
+[2026-04-19T05:12:31.244Z] [WARNING] 读取现有处理数据文件失败: Unexpected end of JSON input
+[2026-04-19T05:12:31.245Z] [WARNING] 读取现有处理数据文件失败: Unexpected end of JSON input
+[2026-04-19T05:12:31.245Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:12:31.246Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:12:31.246Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:12:31.246Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:12:31.246Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:12:31.247Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:12:31.247Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:12:31.247Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:12:31.247Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:12:31.247Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:12:33.885Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:12:33.885Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:12:33.886Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 1676 (line 101 column 2)
+[2026-04-19T05:12:33.886Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 1676 (line 101 column 2)
+[2026-04-19T05:12:33.887Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:12:33.887Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:12:53.815Z] [WARNING] 保存到数据库失败，第1次重试: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:53.816Z] [WARNING] 保存到数据库失败，第1次重试: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:53.816Z] [WARNING] 保存到数据库失败，第1次重试: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:53.816Z] [WARNING] 保存到数据库失败，第1次重试: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:53.816Z] [WARNING] 保存到数据库失败，第1次重试: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:53.816Z] [WARNING] 保存到数据库失败，第1次重试: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:53.816Z] [WARNING] 保存到数据库失败，第1次重试: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:54.831Z] [WARNING] 保存到数据库失败，第2次重试: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:54.831Z] [WARNING] 保存到数据库失败，第2次重试: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:54.831Z] [WARNING] 保存到数据库失败，第2次重试: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:54.831Z] [WARNING] 保存到数据库失败，第2次重试: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:54.831Z] [WARNING] 保存到数据库失败，第2次重试: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:54.831Z] [WARNING] 保存到数据库失败，第2次重试: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:54.832Z] [WARNING] 保存到数据库失败，第2次重试: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:56.276Z] [WARNING] 读取现有原始数据文件失败: Unexpected end of JSON input
+[2026-04-19T05:12:56.276Z] [WARNING] 读取现有原始数据文件失败: Unexpected end of JSON input
+[2026-04-19T05:12:56.276Z] [WARNING] 读取现有原始数据文件失败: Unexpected end of JSON input
+[2026-04-19T05:12:56.276Z] [WARNING] 读取现有原始数据文件失败: Unexpected end of JSON input
+[2026-04-19T05:12:56.276Z] [WARNING] 读取现有原始数据文件失败: Unexpected end of JSON input
+[2026-04-19T05:12:56.276Z] [WARNING] 读取现有原始数据文件失败: Unexpected end of JSON input
+[2026-04-19T05:12:56.277Z] [WARNING] 读取现有原始数据文件失败: Unexpected end of JSON input
+[2026-04-19T05:12:56.277Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:12:56.278Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:12:56.278Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:12:56.278Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:12:56.278Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:12:56.279Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:12:56.279Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:12:56.279Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:12:56.279Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:12:56.279Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:12:56.279Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:12:56.280Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:12:56.281Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:12:56.281Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:12:56.281Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:12:56.281Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:12:56.281Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:12:56.281Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:12:56.281Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:12:56.281Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:12:56.844Z] [ERROR] 保存到数据库失败（重试3次后仍失败）: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:56.844Z] [ERROR] 保存到数据库失败（重试3次后仍失败）: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:56.845Z] [ERROR] 保存到数据库失败（重试3次后仍失败）: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:56.845Z] [ERROR] 保存到数据库失败（重试3次后仍失败）: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:56.845Z] [ERROR] 保存到数据库失败（重试3次后仍失败）: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:56.845Z] [ERROR] 保存到数据库失败（重试3次后仍失败）: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:56.845Z] [ERROR] 保存到数据库失败（重试3次后仍失败）: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:56.845Z] [ERROR] 数据处理失败 [ID: 2026-04-19T05-12-53-814Z]: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:56.845Z] [ERROR] 数据处理失败 [ID: 2026-04-19T05-12-53-814Z]: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:56.846Z] [ERROR] 数据处理失败 [ID: 2026-04-19T05-12-53-814Z]: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:56.846Z] [ERROR] 数据处理失败 [ID: 2026-04-19T05-12-53-814Z]: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:56.845Z] [ERROR] 数据处理失败 [ID: 2026-04-19T05-12-53-814Z]: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:56.845Z] [ERROR] 数据处理失败 [ID: 2026-04-19T05-12-53-814Z]: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:56.846Z] [ERROR] 数据处理失败 [ID: 2026-04-19T05-12-53-814Z]: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:58.725Z] [WARNING] 保存到数据库失败，第1次重试: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:58.725Z] [WARNING] 保存到数据库失败，第1次重试: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:58.725Z] [WARNING] 保存到数据库失败，第1次重试: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:58.726Z] [WARNING] 保存到数据库失败，第1次重试: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:58.726Z] [WARNING] 保存到数据库失败，第1次重试: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:58.728Z] [WARNING] 读取现有原始数据文件失败: Unexpected non-whitespace character after JSON at position 803 (line 10 column 2)
+[2026-04-19T05:12:58.729Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:12:58.730Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 5012 (line 299 column 2)
+[2026-04-19T05:12:58.731Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:12:59.733Z] [WARNING] 保存到数据库失败，第2次重试: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:59.734Z] [WARNING] 保存到数据库失败，第2次重试: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:59.735Z] [WARNING] 保存到数据库失败，第2次重试: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:59.735Z] [WARNING] 保存到数据库失败，第2次重试: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:12:59.736Z] [WARNING] 保存到数据库失败，第2次重试: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:13:01.266Z] [WARNING] 保存到数据库失败，第1次重试: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:13:01.267Z] [WARNING] 保存到数据库失败，第1次重试: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:13:01.268Z] [WARNING] 保存到数据库失败，第1次重试: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:13:01.268Z] [WARNING] 保存到数据库失败，第1次重试: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:13:01.267Z] [WARNING] 保存到数据库失败，第1次重试: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:13:01.268Z] [WARNING] 保存到数据库失败，第1次重试: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:13:01.268Z] [WARNING] 保存到数据库失败，第1次重试: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:13:01.268Z] [WARNING] 保存到数据库失败，第1次重试: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:13:01.268Z] [WARNING] 保存到数据库失败，第1次重试: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:13:01.268Z] [WARNING] 保存到数据库失败，第1次重试: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:13:01.740Z] [ERROR] 保存到数据库失败（重试3次后仍失败）: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:13:01.740Z] [ERROR] 保存到数据库失败（重试3次后仍失败）: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:13:01.741Z] [ERROR] 保存到数据库失败（重试3次后仍失败）: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:13:01.741Z] [ERROR] 保存到数据库失败（重试3次后仍失败）: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:13:01.741Z] [ERROR] 保存到数据库失败（重试3次后仍失败）: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:13:01.742Z] [ERROR] 数据处理失败 [ID: 2026-04-19T05-12-58-722Z]: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:13:01.742Z] [ERROR] 数据处理失败 [ID: 2026-04-19T05-12-58-722Z]: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:13:01.743Z] [ERROR] 数据处理失败 [ID: 2026-04-19T05-12-58-723Z]: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:13:01.743Z] [ERROR] 数据处理失败 [ID: 2026-04-19T05-12-58-723Z]: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:13:01.743Z] [ERROR] 数据处理失败 [ID: 2026-04-19T05-12-58-722Z]: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:13:02.271Z] [WARNING] 保存到数据库失败，第2次重试: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:13:02.272Z] [WARNING] 保存到数据库失败，第2次重试: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:13:02.272Z] [WARNING] 保存到数据库失败，第2次重试: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:13:02.272Z] [WARNING] 保存到数据库失败，第2次重试: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:13:02.272Z] [WARNING] 保存到数据库失败，第2次重试: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:13:02.272Z] [WARNING] 保存到数据库失败，第2次重试: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:13:02.272Z] [WARNING] 保存到数据库失败，第2次重试: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:13:02.272Z] [WARNING] 保存到数据库失败，第2次重试: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:13:02.273Z] [WARNING] 保存到数据库失败，第2次重试: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:13:02.273Z] [WARNING] 保存到数据库失败，第2次重试: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:13:04.093Z] [WARNING] 保存到数据库失败，第1次重试: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:13:04.094Z] [WARNING] 保存到数据库失败，第1次重试: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:13:04.094Z] [WARNING] 保存到数据库失败，第1次重试: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:13:04.094Z] [WARNING] 保存到数据库失败，第1次重试: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:13:04.094Z] [WARNING] 保存到数据库失败，第1次重试: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:13:04.094Z] [WARNING] 保存到数据库失败，第1次重试: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:13:04.096Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:13:04.096Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:13:04.096Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:13:04.096Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:13:04.096Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:13:04.098Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:13:04.098Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:13:04.098Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:13:04.286Z] [ERROR] 保存到数据库失败（重试3次后仍失败）: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:13:04.287Z] [ERROR] 保存到数据库失败（重试3次后仍失败）: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:13:04.287Z] [ERROR] 保存到数据库失败（重试3次后仍失败）: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:13:04.288Z] [ERROR] 保存到数据库失败（重试3次后仍失败）: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:13:04.286Z] [ERROR] 保存到数据库失败（重试3次后仍失败）: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:13:04.288Z] [ERROR] 保存到数据库失败（重试3次后仍失败）: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:13:04.289Z] [ERROR] 保存到数据库失败（重试3次后仍失败）: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:13:04.288Z] [ERROR] 保存到数据库失败（重试3次后仍失败）: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:13:04.289Z] [ERROR] 保存到数据库失败（重试3次后仍失败）: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:13:04.289Z] [ERROR] 保存到数据库失败（重试3次后仍失败）: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:13:04.290Z] [ERROR] 数据处理失败 [ID: 2026-04-19T05-13-01-263Z]: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:13:04.290Z] [ERROR] 数据处理失败 [ID: 2026-04-19T05-13-01-263Z]: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:13:04.290Z] [ERROR] 数据处理失败 [ID: 2026-04-19T05-13-01-263Z]: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:13:04.290Z] [ERROR] 数据处理失败 [ID: 2026-04-19T05-13-01-262Z]: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:13:04.290Z] [ERROR] 数据处理失败 [ID: 2026-04-19T05-13-01-264Z]: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:13:04.290Z] [ERROR] 数据处理失败 [ID: 2026-04-19T05-13-01-263Z]: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:13:04.290Z] [ERROR] 数据处理失败 [ID: 2026-04-19T05-13-01-264Z]: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:13:04.290Z] [ERROR] 数据处理失败 [ID: 2026-04-19T05-13-01-264Z]: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:13:04.290Z] [ERROR] 数据处理失败 [ID: 2026-04-19T05-13-01-263Z]: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:13:04.290Z] [ERROR] 数据处理失败 [ID: 2026-04-19T05-13-01-264Z]: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:13:05.099Z] [WARNING] 保存到数据库失败，第2次重试: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:13:05.099Z] [WARNING] 保存到数据库失败，第2次重试: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:13:05.100Z] [WARNING] 保存到数据库失败，第2次重试: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:13:05.101Z] [WARNING] 保存到数据库失败，第2次重试: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:13:05.100Z] [WARNING] 保存到数据库失败，第2次重试: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:13:05.101Z] [WARNING] 保存到数据库失败，第2次重试: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:13:06.636Z] [ERROR] 数据处理失败 [ID: 2026-04-19T05-13-06-635Z]: JSON解析失败: Expected ',' or ']' after array element in JSON at position 428 (line 1 column 429)
+[2026-04-19T05:13:06.644Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:13:06.644Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:13:06.644Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:13:06.645Z] [WARNING] 读取现有原始数据文件失败: Unexpected non-whitespace character after JSON at position 3209 (line 34 column 2)
+[2026-04-19T05:13:06.645Z] [WARNING] 读取现有原始数据文件失败: Unexpected non-whitespace character after JSON at position 3209 (line 34 column 2)
+[2026-04-19T05:13:06.645Z] [WARNING] 读取现有原始数据文件失败: Unexpected non-whitespace character after JSON at position 3209 (line 34 column 2)
+[2026-04-19T05:13:06.647Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:13:06.647Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:13:06.647Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:13:06.647Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:13:06.648Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:13:06.648Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:13:06.649Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:13:06.649Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:13:06.649Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:13:07.104Z] [ERROR] 保存到数据库失败（重试3次后仍失败）: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:13:07.104Z] [ERROR] 保存到数据库失败（重试3次后仍失败）: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:13:07.105Z] [ERROR] 保存到数据库失败（重试3次后仍失败）: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:13:07.104Z] [ERROR] 保存到数据库失败（重试3次后仍失败）: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:13:07.105Z] [ERROR] 保存到数据库失败（重试3次后仍失败）: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:13:07.105Z] [ERROR] 保存到数据库失败（重试3次后仍失败）: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:13:07.106Z] [ERROR] 数据处理失败 [ID: 2026-04-19T05-13-04-091Z]: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:13:07.106Z] [ERROR] 数据处理失败 [ID: 2026-04-19T05-13-04-092Z]: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:13:07.106Z] [ERROR] 数据处理失败 [ID: 2026-04-19T05-13-04-092Z]: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:13:07.106Z] [ERROR] 数据处理失败 [ID: 2026-04-19T05-13-04-092Z]: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:13:07.107Z] [ERROR] 数据处理失败 [ID: 2026-04-19T05-13-04-092Z]: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:13:07.107Z] [ERROR] 数据处理失败 [ID: 2026-04-19T05-13-04-092Z]: Out of range value for column 'smoke_level' at row 1
+[2026-04-19T05:16:12.734Z] [WARNING] 保存到数据库失败，第1次重试: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:16:13.746Z] [WARNING] 保存到数据库失败，第2次重试: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:16:15.747Z] [ERROR] 保存到数据库失败（重试3次后仍失败）: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:16:15.748Z] [ERROR] 数据处理失败 [ID: 2026-04-19T05-16-12-730Z]: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:20:13.000Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:20:13.000Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:20:13.001Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 8331 (line 497 column 3)
+[2026-04-19T05:20:13.001Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 8331 (line 497 column 3)
+[2026-04-19T05:20:13.002Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:20:13.002Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:20:14.982Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:20:14.982Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:20:14.984Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:20:14.984Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:20:14.984Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:20:14.985Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:20:14.985Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:20:14.987Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:20:14.987Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:20:14.988Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:26:05.023Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:26:05.025Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:26:35.377Z] [ERROR] 数据处理失败 [ID: 2026-04-19T05-26-35-377Z]: JSON解析失败: Expected ',' or ']' after array element in JSON at position 128 (line 1 column 129)
+[2026-04-19T05:26:35.379Z] [WARNING] 保存到数据库失败，第1次重试: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:26:35.379Z] [WARNING] 保存到数据库失败，第1次重试: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:26:36.383Z] [WARNING] 保存到数据库失败，第2次重试: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:26:36.384Z] [WARNING] 保存到数据库失败，第2次重试: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:26:38.396Z] [ERROR] 保存到数据库失败（重试3次后仍失败）: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:26:38.396Z] [ERROR] 保存到数据库失败（重试3次后仍失败）: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:26:38.397Z] [ERROR] 数据处理失败 [ID: 2026-04-19T05-26-35-375Z]: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:26:38.398Z] [ERROR] 数据处理失败 [ID: 2026-04-19T05-26-35-376Z]: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:26:39.610Z] [ERROR] 数据处理失败 [ID: 2026-04-19T05-26-39-610Z]: JSON解析失败: Expected ',' or ']' after array element in JSON at position 128 (line 1 column 129)
+[2026-04-19T05:26:39.611Z] [ERROR] 数据处理失败 [ID: 2026-04-19T05-26-39-611Z]: JSON解析失败: Expected ',' or ']' after array element in JSON at position 128 (line 1 column 129)
+[2026-04-19T05:26:39.614Z] [WARNING] 保存到数据库失败，第1次重试: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:26:39.613Z] [WARNING] 保存到数据库失败，第1次重试: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:26:39.614Z] [WARNING] 保存到数据库失败，第1次重试: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:26:39.614Z] [WARNING] 保存到数据库失败，第1次重试: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:26:40.622Z] [WARNING] 保存到数据库失败，第2次重试: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:26:40.623Z] [WARNING] 保存到数据库失败，第2次重试: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:26:40.623Z] [WARNING] 保存到数据库失败，第2次重试: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:26:40.624Z] [WARNING] 保存到数据库失败，第2次重试: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:26:42.633Z] [ERROR] 保存到数据库失败（重试3次后仍失败）: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:26:42.634Z] [ERROR] 保存到数据库失败（重试3次后仍失败）: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:26:42.634Z] [ERROR] 保存到数据库失败（重试3次后仍失败）: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:26:42.635Z] [ERROR] 保存到数据库失败（重试3次后仍失败）: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:26:42.635Z] [ERROR] 数据处理失败 [ID: 2026-04-19T05-26-39-609Z]: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:26:42.636Z] [ERROR] 数据处理失败 [ID: 2026-04-19T05-26-39-610Z]: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:26:42.636Z] [ERROR] 数据处理失败 [ID: 2026-04-19T05-26-39-608Z]: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:26:42.636Z] [ERROR] 数据处理失败 [ID: 2026-04-19T05-26-39-609Z]: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:26:48.681Z] [ERROR] 数据处理失败 [ID: 2026-04-19T05-26-48-681Z]: JSON解析失败: Expected ',' or ']' after array element in JSON at position 128 (line 1 column 129)
+[2026-04-19T05:26:48.684Z] [ERROR] 数据处理失败 [ID: 2026-04-19T05-26-48-684Z]: JSON解析失败: Expected ',' or ']' after array element in JSON at position 128 (line 1 column 129)
+[2026-04-19T05:26:48.685Z] [ERROR] 数据处理失败 [ID: 2026-04-19T05-26-48-685Z]: JSON解析失败: Expected ',' or ']' after array element in JSON at position 128 (line 1 column 129)
+[2026-04-19T05:26:48.686Z] [WARNING] 保存到数据库失败，第1次重试: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:26:48.686Z] [WARNING] 保存到数据库失败，第1次重试: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:26:48.686Z] [WARNING] 保存到数据库失败，第1次重试: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:26:48.686Z] [WARNING] 保存到数据库失败，第1次重试: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:26:48.686Z] [WARNING] 保存到数据库失败，第1次重试: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:26:49.690Z] [WARNING] 保存到数据库失败，第2次重试: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:26:49.691Z] [WARNING] 保存到数据库失败，第2次重试: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:26:49.691Z] [WARNING] 保存到数据库失败，第2次重试: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:26:49.691Z] [WARNING] 保存到数据库失败，第2次重试: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:26:49.691Z] [WARNING] 保存到数据库失败，第2次重试: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:26:51.699Z] [ERROR] 保存到数据库失败（重试3次后仍失败）: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:26:51.699Z] [ERROR] 保存到数据库失败（重试3次后仍失败）: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:26:51.700Z] [ERROR] 保存到数据库失败（重试3次后仍失败）: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:26:51.700Z] [ERROR] 保存到数据库失败（重试3次后仍失败）: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:26:51.700Z] [ERROR] 保存到数据库失败（重试3次后仍失败）: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:26:51.701Z] [ERROR] 数据处理失败 [ID: 2026-04-19T05-26-48-681Z]: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:26:51.701Z] [ERROR] 数据处理失败 [ID: 2026-04-19T05-26-48-680Z]: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:26:51.701Z] [ERROR] 数据处理失败 [ID: 2026-04-19T05-26-48-685Z]: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:26:51.702Z] [ERROR] 数据处理失败 [ID: 2026-04-19T05-26-48-682Z]: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:26:51.702Z] [ERROR] 数据处理失败 [ID: 2026-04-19T05-26-48-683Z]: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:26:55.028Z] [WARNING] 保存到数据库失败，第1次重试: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:26:56.045Z] [WARNING] 保存到数据库失败，第2次重试: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:26:58.059Z] [ERROR] 保存到数据库失败（重试3次后仍失败）: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:26:58.060Z] [ERROR] 数据处理失败 [ID: 2026-04-19T05-26-55-025Z]: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:27:03.580Z] [ERROR] 数据处理失败 [ID: 2026-04-19T05-27-03-579Z]: JSON解析失败: Expected ',' or ']' after array element in JSON at position 128 (line 1 column 129)
+[2026-04-19T05:27:03.582Z] [WARNING] 保存到数据库失败，第1次重试: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:27:03.582Z] [WARNING] 保存到数据库失败，第1次重试: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:27:04.584Z] [WARNING] 保存到数据库失败，第2次重试: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:27:04.585Z] [WARNING] 保存到数据库失败，第2次重试: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:27:06.591Z] [ERROR] 保存到数据库失败（重试3次后仍失败）: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:27:06.592Z] [ERROR] 保存到数据库失败（重试3次后仍失败）: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:27:06.593Z] [ERROR] 数据处理失败 [ID: 2026-04-19T05-27-03-579Z]: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:27:06.594Z] [ERROR] 数据处理失败 [ID: 2026-04-19T05-27-03-580Z]: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:27:07.311Z] [ERROR] 数据处理失败 [ID: 2026-04-19T05-27-07-311Z]: JSON解析失败: Expected ',' or ']' after array element in JSON at position 128 (line 1 column 129)
+[2026-04-19T05:27:07.313Z] [WARNING] 保存到数据库失败，第1次重试: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:27:07.313Z] [WARNING] 保存到数据库失败，第1次重试: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:27:08.328Z] [WARNING] 保存到数据库失败，第2次重试: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:27:08.329Z] [WARNING] 保存到数据库失败，第2次重试: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:27:10.343Z] [ERROR] 保存到数据库失败（重试3次后仍失败）: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:27:10.344Z] [ERROR] 保存到数据库失败（重试3次后仍失败）: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:27:10.344Z] [ERROR] 数据处理失败 [ID: 2026-04-19T05-27-07-310Z]: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:27:10.345Z] [ERROR] 数据处理失败 [ID: 2026-04-19T05-27-07-311Z]: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:27:12.427Z] [ERROR] 数据处理失败 [ID: 2026-04-19T05-27-12-427Z]: JSON解析失败: Expected ',' or ']' after array element in JSON at position 128 (line 1 column 129)
+[2026-04-19T05:27:12.428Z] [WARNING] 保存到数据库失败，第1次重试: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:27:12.428Z] [WARNING] 保存到数据库失败，第1次重试: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:27:12.428Z] [WARNING] 保存到数据库失败，第1次重试: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:27:12.428Z] [WARNING] 保存到数据库失败，第1次重试: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:27:13.441Z] [WARNING] 保存到数据库失败，第2次重试: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:27:13.442Z] [WARNING] 保存到数据库失败，第2次重试: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:27:13.442Z] [WARNING] 保存到数据库失败，第2次重试: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:27:13.443Z] [WARNING] 保存到数据库失败，第2次重试: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:27:15.444Z] [ERROR] 保存到数据库失败（重试3次后仍失败）: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:27:15.444Z] [ERROR] 保存到数据库失败（重试3次后仍失败）: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:27:15.444Z] [ERROR] 保存到数据库失败（重试3次后仍失败）: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:27:15.444Z] [ERROR] 保存到数据库失败（重试3次后仍失败）: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:27:15.445Z] [ERROR] 数据处理失败 [ID: 2026-04-19T05-27-12-426Z]: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:27:15.445Z] [ERROR] 数据处理失败 [ID: 2026-04-19T05-27-12-427Z]: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:27:15.445Z] [ERROR] 数据处理失败 [ID: 2026-04-19T05-27-12-428Z]: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:27:15.445Z] [ERROR] 数据处理失败 [ID: 2026-04-19T05-27-12-427Z]: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:27:20.247Z] [WARNING] 保存到数据库失败，第1次重试: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:27:21.252Z] [WARNING] 保存到数据库失败，第2次重试: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:27:22.730Z] [WARNING] 保存到数据库失败，第1次重试: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:27:23.257Z] [ERROR] 保存到数据库失败（重试3次后仍失败）: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:27:23.258Z] [ERROR] 数据处理失败 [ID: 2026-04-19T05-27-20-246Z]: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:27:23.741Z] [WARNING] 保存到数据库失败，第2次重试: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:27:25.680Z] [WARNING] 保存到数据库失败，第1次重试: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:27:25.747Z] [ERROR] 保存到数据库失败（重试3次后仍失败）: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:27:25.748Z] [ERROR] 数据处理失败 [ID: 2026-04-19T05-27-22-727Z]: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:27:26.691Z] [WARNING] 保存到数据库失败，第2次重试: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:27:28.697Z] [ERROR] 保存到数据库失败（重试3次后仍失败）: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:27:28.698Z] [ERROR] 数据处理失败 [ID: 2026-04-19T05-27-25-679Z]: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:32:48.152Z] [WARNING] 保存到数据库失败，第1次重试: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:32:49.154Z] [WARNING] 保存到数据库失败，第2次重试: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:32:51.169Z] [ERROR] 保存到数据库失败（重试3次后仍失败）: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:32:51.170Z] [ERROR] 数据处理失败 [ID: 2026-04-19T05-32-48-151Z]: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:36:36.455Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:36:36.455Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:36:36.456Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:36:36.457Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:36:36.457Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:36:36.458Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:36:38.757Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:36:38.759Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:36:38.759Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:36:38.760Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:36:38.760Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:36:38.760Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:36:38.760Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:36:38.760Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:36:38.760Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:36:38.760Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:36:38.761Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 8400 (line 497 column 2)
+[2026-04-19T05:36:38.763Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 8400 (line 497 column 2)
+[2026-04-19T05:36:38.763Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 8400 (line 497 column 2)
+[2026-04-19T05:36:38.763Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 8400 (line 497 column 2)
+[2026-04-19T05:36:38.763Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 8400 (line 497 column 2)
+[2026-04-19T05:36:38.763Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 8400 (line 497 column 2)
+[2026-04-19T05:36:38.763Z] [WARNING] 读取现有处理数据文件失败: Unexpected end of JSON input
+[2026-04-19T05:36:38.763Z] [WARNING] 读取现有处理数据文件失败: Unexpected end of JSON input
+[2026-04-19T05:36:38.764Z] [WARNING] 读取现有处理数据文件失败: Unexpected end of JSON input
+[2026-04-19T05:36:38.764Z] [WARNING] 读取现有处理数据文件失败: Unexpected end of JSON input
+[2026-04-19T05:36:38.764Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:36:38.766Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:36:38.766Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:36:38.766Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:36:38.767Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:36:38.767Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:36:38.767Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:36:38.767Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:36:38.767Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:36:38.768Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:36:40.973Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:36:40.976Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:36:40.976Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:36:40.977Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:36:40.977Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:36:40.977Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:36:40.977Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:36:40.977Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:36:40.977Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:36:40.977Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:36:40.978Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 1664 (line 101 column 2)
+[2026-04-19T05:36:40.979Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 1664 (line 101 column 2)
+[2026-04-19T05:36:40.980Z] [WARNING] 读取现有处理数据文件失败: Unexpected end of JSON input
+[2026-04-19T05:36:40.980Z] [WARNING] 读取现有处理数据文件失败: Unexpected end of JSON input
+[2026-04-19T05:36:40.980Z] [WARNING] 读取现有处理数据文件失败: Unexpected end of JSON input
+[2026-04-19T05:36:40.980Z] [WARNING] 读取现有处理数据文件失败: Unexpected end of JSON input
+[2026-04-19T05:36:40.980Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:36:40.980Z] [WARNING] 读取现有处理数据文件失败: Unexpected end of JSON input
+[2026-04-19T05:36:40.980Z] [WARNING] 读取现有处理数据文件失败: Unexpected end of JSON input
+[2026-04-19T05:36:40.982Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:36:40.982Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:36:40.983Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:36:40.983Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:36:40.983Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:36:40.983Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:36:40.984Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:36:40.984Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:36:40.985Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:36:43.273Z] [WARNING] 读取现有原始数据文件失败: Unexpected end of JSON input
+[2026-04-19T05:36:43.273Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:36:43.274Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:36:43.274Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:36:43.274Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:36:43.274Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:36:43.274Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:36:43.274Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:36:43.275Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:36:43.275Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:36:43.275Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:36:43.275Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:36:43.277Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:36:43.277Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:36:43.277Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:36:43.277Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:36:43.277Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:36:43.278Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:36:43.278Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:36:43.278Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:36:43.280Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:36:45.486Z] [WARNING] 读取现有原始数据文件失败: Unexpected non-whitespace character after JSON at position 805 (line 11 column 3)
+[2026-04-19T05:36:45.487Z] [WARNING] 读取现有原始数据文件失败: Unexpected non-whitespace character after JSON at position 805 (line 11 column 3)
+[2026-04-19T05:36:45.489Z] [WARNING] 读取现有原始数据文件失败: Unexpected non-whitespace character after JSON at position 805 (line 11 column 3)
+[2026-04-19T05:36:45.489Z] [WARNING] 读取现有原始数据文件失败: Unexpected non-whitespace character after JSON at position 805 (line 11 column 3)
+[2026-04-19T05:36:45.489Z] [WARNING] 读取现有原始数据文件失败: Unexpected non-whitespace character after JSON at position 805 (line 11 column 3)
+[2026-04-19T05:36:45.490Z] [WARNING] 读取现有原始数据文件失败: Unexpected non-whitespace character after JSON at position 805 (line 11 column 3)
+[2026-04-19T05:36:45.490Z] [WARNING] 读取现有原始数据文件失败: Unexpected non-whitespace character after JSON at position 805 (line 11 column 3)
+[2026-04-19T05:36:45.490Z] [WARNING] 读取现有原始数据文件失败: Unexpected non-whitespace character after JSON at position 805 (line 11 column 3)
+[2026-04-19T05:36:45.490Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:36:45.491Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:36:45.492Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:36:45.492Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:36:45.492Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:36:45.492Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:36:45.493Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:36:45.493Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:36:45.494Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:36:45.494Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:36:45.496Z] [WARNING] 读取现有处理数据文件失败: Unexpected end of JSON input
+[2026-04-19T05:36:45.497Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:36:45.497Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:36:45.497Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:36:45.497Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:36:45.497Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:36:45.499Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:36:56.761Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:36:56.761Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:36:56.763Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:36:56.763Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:45:32.232Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:45:32.233Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:45:34.488Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:45:34.489Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:45:34.490Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:45:34.491Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:45:36.727Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:45:36.728Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:45:36.729Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:45:36.729Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:45:38.974Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:45:38.974Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:45:38.975Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:45:38.975Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:45:38.975Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:45:38.976Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:45:38.976Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:45:38.976Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:45:41.200Z] [WARNING] 读取现有原始数据文件失败: Unexpected end of JSON input
+[2026-04-19T05:45:41.200Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:45:41.201Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:45:41.201Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:45:41.201Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:45:41.201Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:45:41.202Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:45:41.204Z] [WARNING] 读取现有处理数据文件失败: Unexpected end of JSON input
+[2026-04-19T05:45:41.204Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:45:41.205Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:45:41.205Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:45:41.205Z] [WARNING] 读取现有处理数据文件失败: Unexpected end of JSON input
+[2026-04-19T05:45:41.206Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:45:41.207Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:45:41.208Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:45:43.460Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:45:43.461Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:45:43.461Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:45:43.462Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:45:43.462Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:45:43.463Z] [WARNING] 读取现有处理数据文件失败: Unexpected end of JSON input
+[2026-04-19T05:45:43.463Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:45:43.463Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:45:43.463Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:45:45.669Z] [WARNING] 读取现有原始数据文件失败: Unexpected non-whitespace character after JSON at position 2464 (line 26 column 3)
+[2026-04-19T05:45:45.669Z] [WARNING] 读取现有原始数据文件失败: Unexpected non-whitespace character after JSON at position 2464 (line 26 column 3)
+[2026-04-19T05:45:45.669Z] [WARNING] 读取现有原始数据文件失败: Unexpected non-whitespace character after JSON at position 2464 (line 26 column 3)
+[2026-04-19T05:45:45.671Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:45:45.671Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:45:45.671Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:45:45.673Z] [WARNING] 读取现有处理数据文件失败: Unexpected end of JSON input
+[2026-04-19T05:45:45.673Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:45:45.674Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:45:45.674Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:45:47.986Z] [WARNING] 读取现有原始数据文件失败: Unexpected non-whitespace character after JSON at position 802 (line 10 column 2)
+[2026-04-19T05:45:47.988Z] [WARNING] 读取现有原始数据文件失败: Unexpected non-whitespace character after JSON at position 802 (line 10 column 2)
+[2026-04-19T05:45:47.988Z] [WARNING] 读取现有原始数据文件失败: Unexpected non-whitespace character after JSON at position 802 (line 10 column 2)
+[2026-04-19T05:45:47.988Z] [WARNING] 读取现有原始数据文件失败: Unexpected non-whitespace character after JSON at position 802 (line 10 column 2)
+[2026-04-19T05:45:47.989Z] [WARNING] 读取现有原始数据文件失败: Unexpected non-whitespace character after JSON at position 802 (line 10 column 2)
+[2026-04-19T05:45:47.989Z] [WARNING] 读取现有原始数据文件失败: Unexpected non-whitespace character after JSON at position 802 (line 10 column 2)
+[2026-04-19T05:45:47.989Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:45:47.991Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:45:47.991Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:45:47.991Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:45:47.991Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:45:47.992Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:45:47.993Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:45:47.994Z] [WARNING] 读取现有处理数据文件失败: Unexpected end of JSON input
+[2026-04-19T05:45:47.994Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:45:47.994Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:45:47.994Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:45:47.994Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:45:47.996Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:50:33.569Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:50:33.570Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:50:33.570Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:50:33.570Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:50:33.570Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:50:33.571Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:50:33.571Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:50:33.571Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:50:33.571Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:50:33.571Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:50:35.880Z] [WARNING] 读取现有原始数据文件失败: Unexpected non-whitespace character after JSON at position 1621 (line 18 column 2)
+[2026-04-19T05:50:35.882Z] [WARNING] 读取现有原始数据文件失败: Unexpected non-whitespace character after JSON at position 1621 (line 18 column 2)
+[2026-04-19T05:50:35.883Z] [WARNING] 读取现有原始数据文件失败: Unexpected non-whitespace character after JSON at position 1621 (line 18 column 2)
+[2026-04-19T05:50:35.883Z] [WARNING] 读取现有原始数据文件失败: Unexpected non-whitespace character after JSON at position 1621 (line 18 column 2)
+[2026-04-19T05:50:35.883Z] [WARNING] 读取现有原始数据文件失败: Unexpected non-whitespace character after JSON at position 1621 (line 18 column 2)
+[2026-04-19T05:50:35.884Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:50:35.885Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:50:35.886Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:50:35.885Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:50:35.886Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:50:35.887Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:50:35.889Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:50:35.889Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:50:35.889Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:50:35.889Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:50:56.204Z] [WARNING] 读取现有原始数据文件失败: Unexpected non-whitespace character after JSON at position 801 (line 10 column 2)
+[2026-04-19T05:50:56.204Z] [WARNING] 读取现有原始数据文件失败: Unexpected non-whitespace character after JSON at position 801 (line 10 column 2)
+[2026-04-19T05:50:56.204Z] [WARNING] 读取现有原始数据文件失败: Unexpected non-whitespace character after JSON at position 801 (line 10 column 2)
+[2026-04-19T05:50:56.206Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:50:56.206Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:50:56.206Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:50:56.208Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:50:56.208Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:50:56.208Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:50:58.524Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:50:58.524Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:50:58.524Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:50:58.525Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:50:58.525Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:50:58.525Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:50:58.525Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:50:58.525Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:50:58.529Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:50:58.529Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:50:58.529Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:50:58.529Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:50:58.530Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:50:58.530Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:50:58.530Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:50:58.530Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:51:00.751Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:51:00.752Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:51:00.753Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:51:00.753Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:51:00.753Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:51:00.753Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:51:00.754Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:51:00.755Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:51:00.757Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:51:00.757Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:51:00.757Z] [WARNING] 读取现有处理数据文件失败: Unexpected end of JSON input
+[2026-04-19T05:51:00.757Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:51:00.757Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:51:00.757Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:51:00.759Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:52:04.429Z] [WARNING] 保存到数据库失败，第1次重试: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:52:05.432Z] [WARNING] 保存到数据库失败，第2次重试: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:52:07.434Z] [ERROR] 保存到数据库失败（重试3次后仍失败）: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:52:07.435Z] [ERROR] 数据处理失败 [ID: 2026-04-19T05-52-04-423Z]: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:53:55.013Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:53:55.015Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:54:19.782Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:54:19.782Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:54:19.782Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:54:19.784Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:54:19.784Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:54:19.785Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:54:44.715Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:54:44.716Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:54:44.716Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:54:44.716Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:54:44.716Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:54:44.718Z] [WARNING] 读取现有处理数据文件失败: Unexpected end of JSON input
+[2026-04-19T05:54:44.718Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:54:44.719Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:54:44.719Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:54:44.719Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:54:44.720Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:55:09.505Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:55:09.505Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:55:09.505Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:55:09.505Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:55:09.505Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:55:09.505Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:55:09.506Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:55:09.506Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:55:09.508Z] [WARNING] 读取现有处理数据文件失败: Unexpected end of JSON input
+[2026-04-19T05:55:09.509Z] [WARNING] 读取现有处理数据文件失败: Unexpected end of JSON input
+[2026-04-19T05:55:09.509Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:55:09.509Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:55:09.509Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:55:09.509Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:55:09.509Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:55:09.509Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:55:09.511Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:55:09.511Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:55:11.805Z] [WARNING] 读取现有原始数据文件失败: Unexpected non-whitespace character after JSON at position 6399 (line 66 column 2)
+[2026-04-19T05:55:11.807Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:55:11.809Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:55:34.673Z] [WARNING] 保存到数据库失败，第1次重试: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:55:34.677Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:55:34.678Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:55:34.678Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:55:34.679Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:55:34.680Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:55:34.680Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:55:34.680Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:55:34.681Z] [WARNING] 读取现有处理数据文件失败: Unexpected end of JSON input
+[2026-04-19T05:55:34.681Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:55:34.682Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:55:34.683Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:55:34.683Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:55:34.683Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:55:35.674Z] [WARNING] 保存到数据库失败，第2次重试: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:55:36.821Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:55:36.823Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:55:36.823Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:55:36.824Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:55:36.825Z] [WARNING] 读取现有处理数据文件失败: Unexpected end of JSON input
+[2026-04-19T05:55:36.825Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:55:36.826Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:55:37.685Z] [ERROR] 保存到数据库失败（重试3次后仍失败）: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:55:37.687Z] [ERROR] 数据处理失败 [ID: 2026-04-19T05-55-34-672Z]: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:55:59.509Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:55:59.510Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:55:59.510Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:55:59.511Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:55:59.512Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:55:59.513Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:56:01.845Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:56:01.845Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:56:01.846Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:56:01.846Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:56:01.846Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:56:01.846Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:56:01.848Z] [WARNING] 读取现有处理数据文件失败: Unexpected end of JSON input
+[2026-04-19T05:56:01.849Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:56:01.849Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:56:01.849Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:56:01.849Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:56:01.850Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:56:01.851Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:56:04.059Z] [WARNING] 读取现有原始数据文件失败: Unexpected non-whitespace character after JSON at position 7339 (line 66 column 2)
+[2026-04-19T05:56:04.059Z] [WARNING] 读取现有原始数据文件失败: Unexpected non-whitespace character after JSON at position 7339 (line 66 column 2)
+[2026-04-19T05:56:04.061Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:56:04.061Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T05:56:04.063Z] [WARNING] 读取现有处理数据文件失败: Unexpected end of JSON input
+[2026-04-19T05:56:04.063Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:56:04.064Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T05:57:37.551Z] [WARNING] 保存到数据库失败，第1次重试: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:57:38.558Z] [WARNING] 保存到数据库失败，第2次重试: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:57:40.571Z] [ERROR] 保存到数据库失败（重试3次后仍失败）: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T05:57:40.572Z] [ERROR] 数据处理失败 [ID: 2026-04-19T05-57-37-549Z]: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T06:26:30.474Z] [ERROR] 数据处理失败 [ID: 2026-04-19T06-26-30-474Z]: JSON解析失败: Unterminated string in JSON at position 498 (line 1 column 499)
+[2026-04-19T11:42:03.848Z] [ERROR] 数据库连接池初始化失败 (1/5): DB_POOL_CONFIG is not defined
+[2026-04-19T11:42:05.870Z] [ERROR] 数据库连接池初始化失败 (2/5): DB_POOL_CONFIG is not defined
+[2026-04-19T11:42:09.874Z] [ERROR] 数据库连接池初始化失败 (3/5): DB_POOL_CONFIG is not defined
+[2026-04-19T11:42:15.891Z] [ERROR] 数据库连接池初始化失败 (4/5): DB_POOL_CONFIG is not defined
+[2026-04-19T11:42:23.899Z] [ERROR] 数据库连接池初始化失败 (5/5): DB_POOL_CONFIG is not defined
+[2026-04-19T11:42:23.900Z] [ERROR] 达到最大重试次数，数据库连接池初始化失败
+[2026-04-19T11:51:13.286Z] [ERROR] 数据处理失败 [ID: 2026-04-19T11-51-13-284Z]: JSON解析失败: Expected ',' or ']' after array element in JSON at position 254 (line 1 column 255)
+[2026-04-19T11:53:04.764Z] [ERROR] 数据处理失败 [ID: 2026-04-19T11-53-04-763Z]: JSON解析失败: Unexpected token '.', ".75,22.50,"... is not valid JSON
+[2026-04-19T11:53:04.767Z] [WARNING] 保存到数据库失败，第1次重试: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T11:53:05.778Z] [WARNING] 保存到数据库失败，第2次重试: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T11:53:07.788Z] [ERROR] 保存到数据库失败（重试3次后仍失败）: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T11:53:07.789Z] [ERROR] 数据处理失败 [ID: 2026-04-19T11-53-04-763Z]: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T11:54:42.941Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T11:54:42.941Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T11:54:42.942Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T11:54:42.942Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T11:54:42.942Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T11:54:42.944Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T11:54:42.945Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T11:54:42.945Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T11:54:42.945Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T11:54:42.946Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T12:05:28.818Z] [WARNING] 保存到数据库失败，第1次重试: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T12:05:29.834Z] [WARNING] 保存到数据库失败，第2次重试: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T12:05:31.848Z] [ERROR] 保存到数据库失败（重试3次后仍失败）: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T12:05:31.849Z] [ERROR] 数据处理失败 [ID: 2026-04-19T12-05-28-816Z]: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T12:06:32.496Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T12:06:32.496Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T12:06:32.496Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T12:06:32.497Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T12:06:32.497Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T12:06:32.497Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T12:06:35.242Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T12:06:35.244Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T12:06:35.244Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T12:06:35.244Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T12:06:35.244Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T12:06:35.244Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T12:06:35.245Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T12:06:35.245Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T12:06:35.245Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T12:06:35.245Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T12:06:35.245Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T12:06:35.246Z] [WARNING] 读取现有处理数据文件失败: Unexpected end of JSON input
+[2026-04-19T12:06:35.247Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T12:06:35.247Z] [WARNING] 读取现有处理数据文件失败: Unexpected end of JSON input
+[2026-04-19T12:06:35.247Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T12:06:35.247Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T12:06:35.248Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T12:06:35.248Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T12:06:35.249Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T12:06:35.249Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T12:06:35.250Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T12:06:35.250Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T12:06:38.033Z] [WARNING] 读取现有原始数据文件失败: Unexpected end of JSON input
+[2026-04-19T12:06:38.033Z] [WARNING] 读取现有原始数据文件失败: Unexpected end of JSON input
+[2026-04-19T12:06:38.033Z] [WARNING] 读取现有原始数据文件失败: Unexpected end of JSON input
+[2026-04-19T12:06:38.033Z] [WARNING] 读取现有原始数据文件失败: Unexpected end of JSON input
+[2026-04-19T12:06:38.033Z] [WARNING] 读取现有原始数据文件失败: Unexpected end of JSON input
+[2026-04-19T12:06:38.033Z] [WARNING] 读取现有原始数据文件失败: Unexpected end of JSON input
+[2026-04-19T12:06:38.034Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T12:06:38.036Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T12:06:38.036Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T12:06:38.036Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T12:06:38.037Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T12:06:38.037Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T12:06:38.037Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-19.json
+[2026-04-19T12:06:38.038Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T12:06:38.040Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T12:06:38.041Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T12:06:38.041Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T12:06:38.041Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T12:06:38.041Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T12:06:38.041Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-19.json
+[2026-04-19T12:09:01.477Z] [WARNING] 保存到数据库失败，第1次重试: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T12:09:02.490Z] [WARNING] 保存到数据库失败，第2次重试: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T12:09:04.496Z] [ERROR] 保存到数据库失败（重试3次后仍失败）: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-04-19T12:09:04.497Z] [ERROR] 数据处理失败 [ID: 2026-04-19T12-09-01-476Z]: Bind parameters must not contain undefined. To pass SQL NULL specify JS null

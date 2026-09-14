@@ -1,0 +1,68 @@
+[2026-04-16T12:07:03.054Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-16.json
+[2026-04-16T12:07:03.055Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-16.json
+[2026-04-16T12:07:03.055Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-16.json
+[2026-04-16T12:07:03.055Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-16.json
+[2026-04-16T12:07:03.058Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-16.json
+[2026-04-16T12:07:03.059Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-16.json
+[2026-04-16T12:07:03.059Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-16.json
+[2026-04-16T12:07:03.060Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-16.json
+[2026-04-16T12:08:11.054Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-16.json
+[2026-04-16T12:08:11.054Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-16.json
+[2026-04-16T12:08:11.055Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 1670 (line 101 column 2)
+[2026-04-16T12:08:11.055Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 1670 (line 101 column 2)
+[2026-04-16T12:08:11.056Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-16.json
+[2026-04-16T12:08:11.056Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-16.json
+[2026-04-16T12:08:16.050Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-16.json
+[2026-04-16T12:08:16.050Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-16.json
+[2026-04-16T12:08:16.051Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-16.json
+[2026-04-16T12:08:16.050Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-16.json
+[2026-04-16T12:08:16.051Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-16.json
+[2026-04-16T12:08:16.051Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-16.json
+[2026-04-16T12:08:16.051Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-16.json
+[2026-04-16T12:08:16.052Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-16.json
+[2026-04-16T12:08:16.054Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-16.json
+[2026-04-16T12:08:16.054Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-16.json
+[2026-04-16T12:08:16.055Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-16.json
+[2026-04-16T12:08:16.055Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-16.json
+[2026-04-16T12:08:16.055Z] [WARNING] 读取现有处理数据文件失败: Expected ',' or '}' after property value in JSON at position 3351 (line 199 column 1)
+[2026-04-16T12:08:16.055Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-16.json
+[2026-04-16T12:08:16.055Z] [WARNING] 读取现有处理数据文件失败: Unexpected non-whitespace character after JSON at position 3353 (line 200 column 4)
+[2026-04-16T12:08:16.056Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-16.json
+[2026-04-16T12:08:16.057Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-16.json
+[2026-04-16T12:08:16.057Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-16.json
+[2026-04-16T12:08:21.051Z] [WARNING] 读取现有原始数据文件失败: Unexpected end of JSON input
+[2026-04-16T12:08:21.051Z] [WARNING] 读取现有原始数据文件失败: Unexpected end of JSON input
+[2026-04-16T12:08:21.051Z] [WARNING] 读取现有原始数据文件失败: Unexpected end of JSON input
+[2026-04-16T12:08:21.051Z] [WARNING] 读取现有原始数据文件失败: Unexpected end of JSON input
+[2026-04-16T12:08:21.051Z] [WARNING] 读取现有原始数据文件失败: Unexpected end of JSON input
+[2026-04-16T12:08:21.052Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-16.json
+[2026-04-16T12:08:21.052Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-16.json
+[2026-04-16T12:08:21.052Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-16.json
+[2026-04-16T12:08:21.053Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-16.json
+[2026-04-16T12:08:21.053Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-16.json
+[2026-04-16T12:08:21.053Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-16.json
+[2026-04-16T12:08:21.053Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-16.json
+[2026-04-16T12:08:21.053Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-16.json
+[2026-04-16T12:08:21.053Z] [WARNING] 读取现有处理数据文件失败: Unexpected end of JSON input
+[2026-04-16T12:08:21.053Z] [WARNING] 读取现有处理数据文件失败: Unexpected end of JSON input
+[2026-04-16T12:08:21.053Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-16.json
+[2026-04-16T12:08:21.054Z] [WARNING] 读取现有处理数据文件失败: Unexpected end of JSON input
+[2026-04-16T12:08:21.054Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-16.json
+[2026-04-16T12:08:21.054Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-16.json
+[2026-04-16T12:08:21.054Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-16.json
+[2026-04-16T12:08:21.055Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-16.json
+[2026-04-16T12:08:21.055Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-16.json
+[2026-04-16T12:08:21.055Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-16.json
+[2026-04-16T12:08:21.055Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-16.json
+[2026-04-16T12:08:41.110Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-16.json
+[2026-04-16T12:08:41.111Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-16.json
+[2026-04-16T12:09:16.461Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-16.json
+[2026-04-16T12:09:16.462Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-16.json
+[2026-04-16T12:09:21.505Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-16.json
+[2026-04-16T12:09:21.505Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-16.json
+[2026-04-16T12:09:21.506Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-16.json
+[2026-04-16T12:09:21.507Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-16.json
+[2026-04-16T12:09:56.836Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-16.json
+[2026-04-16T12:09:56.836Z] [WARNING] 异常原始数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\raw\2026-04-16.json
+[2026-04-16T12:09:56.838Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-16.json
+[2026-04-16T12:09:56.838Z] [WARNING] 异常处理数据已保存到: C:\Users\admin\Desktop\smart-project\socket\data\processed\2026-04-16.json

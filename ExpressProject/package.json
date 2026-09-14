@@ -1,0 +1,50 @@
+{
+  "name": "ai-project",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "socket-server": "node socket/socket-server.js",
+    "socket-html-server": "node socket/socket-html-server.js",
+    "db:optimize": "node scripts/run-optimization.js optimize",
+    "db:backup": "node scripts/run-optimization.js backup",
+    "db:status": "node scripts/run-optimization.js status",
+    "db:verify": "node scripts/run-optimization.js verify",
+    "db:report": "node scripts/run-optimization.js report",
+    "test": "jest tests/complete-api-tests.test.js --verbose"
+  },
+  "dependencies": {
+    "archiver": "^6.0.1",
+    "axios": "^1.13.6",
+    "bcrypt": "^6.0.0",
+    "compression": "^1.8.1",
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.6",
+    "cosr": "^5.0.0",
+    "debug": "~2.6.9",
+    "dotenv": "^17.3.1",
+    "ejs": "^5.0.1",
+    "exceljs": "^4.4.0",
+    "express": "~4.16.1",
+    "express-rate-limit": "^7.4.0",
+    "helmet": "^7.2.0",
+    "http-errors": "~1.6.3",
+    "iconv-lite": "^0.6.3",
+    "joi": "^17.11.0",
+    "jsonwebtoken": "^9.0.3",
+    "morgan": "~1.9.1",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.20.0",
+    "node-cache": "^5.1.2",
+    "pako": "^2.1.0",
+    "pg": "^8.20.0",
+    "pug": "2.0.0-beta11",
+    "socket.io": "^4.8.3",
+    "uuid": "^9.0.1",
+    "winston": "^3.11.0"
+  },
+  "devDependencies": {
+    "jest": "^30.3.0",
+    "supertest": "^7.2.2"
+  }
+}
