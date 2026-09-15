@@ -9,3 +9,60 @@ GET http://127.0.0.1:8000/hello/User
 Accept: application/json
 
 ###
+
+# 查询商品列表（查询参数：过滤 + 分页）
+GET http://127.0.0.1:8000/items/?q=键盘&skip=0&limit=10
+Accept: application/json
+
+###
+
+# 查询单个商品（路径参数）
+GET http://127.0.0.1:8000/items/1
+Accept: application/json
+
+###
+
+# 创建商品（请求体，201）
+POST http://127.0.0.1:8000/items/
+Content-Type: application/json
+
+{
+  "name": "无线鼠标",
+  "price": 99.9,
+  "tags": ["电子产品", "外设"]
+}
+
+###
+
+# 创建商品失败示例：price <= 0 -> 422
+POST http://127.0.0.1:8000/items/
+Content-Type: application/json
+
+{
+  "name": "鼠标",
+  "price": -1
+}
+
+###
+
+# 更新商品（仅更新传入字段）
+PUT http://127.0.0.1:8000/items/1
+Content-Type: application/json
+
+{
+  "price": 259.0
+}
+
+###
+
+# 删除商品（204）
+DELETE http://127.0.0.1:8000/items/1
+Accept: application/json
+
+###
+
+# 查询不存在的商品 -> 404
+GET http://127.0.0.1:8000/items/999
+Accept: application/json
+
+###
