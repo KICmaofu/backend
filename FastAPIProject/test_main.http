@@ -1,4 +1,6 @@
 # Test your FastAPI endpoints
+# 所有接口（含异常）均返回统一格式：{"code": 0, "message": "success", "data": ...}
+# 失败时 code 为 HTTP 状态码（404/422/500），data 可能包含错误详情
 
 GET http://127.0.0.1:8000/
 Accept: application/json
@@ -22,7 +24,8 @@ Accept: application/json
 
 ###
 
-# 创建商品（请求体，201）
+# 创建商品（请求体，201），成功后统一返回 {"code": 0, "message": "创建成功", "data": {...}}
+# name 会自动去除首尾空白；tags 会去重（["电子产品", "电子产品", " 外设 "] -> ["电子产品", "外设"]）
 POST http://127.0.0.1:8000/items/
 Content-Type: application/json
 
@@ -34,7 +37,7 @@ Content-Type: application/json
 
 ###
 
-# 创建商品失败示例：price <= 0 -> 422
+# 创建商品失败示例：price <= 0 -> 422，data 中携带字段级错误详情
 POST http://127.0.0.1:8000/items/
 Content-Type: application/json
 
@@ -55,13 +58,31 @@ Content-Type: application/json
 
 ###
 
-# 删除商品（204）
+# 更新失败示例：空对象未提交任何字段 -> 422
+PUT http://127.0.0.1:8000/items/1
+Content-Type: application/json
+
+{}
+
+###
+
+# 更新失败示例：显式传 null -> 422（不允许把已有字段置空）
+PUT http://127.0.0.1:8000/items/1
+Content-Type: application/json
+
+{
+  "name": null
+}
+
+###
+
+# 删除商品（200，统一响应体；删除成功后 data 为 null）
 DELETE http://127.0.0.1:8000/items/1
 Accept: application/json
 
 ###
 
-# 查询不存在的商品 -> 404
+# 查询不存在的商品 -> 404，{"code": 404, "message": "商品不存在", "data": null}
 GET http://127.0.0.1:8000/items/999
 Accept: application/json
 
