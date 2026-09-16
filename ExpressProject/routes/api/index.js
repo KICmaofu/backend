@@ -13,8 +13,6 @@ const messagesRouter = require('./messages');
 const usersRouter = require('./users');
 const systemRouter = require('./system');
 const reportsRouter = require('./reports');
-const qwenRouter = require('./qwen');
-const aiRouter = require('./ai');
 
 // SSE 路由不需要缓存
 router.use('/sse', sseRouter);
@@ -31,7 +29,5 @@ router.use('/messages', messagesRouter);
 router.use('/users', usersRouter);
 router.use('/system', systemRouter);
 router.use('/reports', reportsRouter);
-router.use('/qwen', qwenRouter);
-router.use('/ai', aiRouter);
 router.use(apiErrorHandler);
 module.exports = router;

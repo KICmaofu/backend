@@ -1,12 +1,29 @@
 var app = require('../app');
 var debug = require('debug')('ai-project:server');
 var http = require('http');
+var path = require('path');
+var { fork } = require('child_process');
 var port = normalizePort(process.env.PORT || '8080');
 app.set('port', port);
 var server = http.createServer(app);
 server.listen(port);
 server.on('error', onError);
 server.on('listening', onListening);
+// 随后端启动 TCP 数据接收服务器（独立子进程，stdio 默认继承，日志可见）
+var socketServer = fork(path.join(__dirname, '../socket/socket-server.js'));
+socketServer.on('exit', function (code, signal) {
+  if (signal) {
+    debug('socket server killed by signal ' + signal);
+  } else if (code !== 0) {
+    console.error('socket server exited with code ' + code);
+  }
+});
+// 主进程退出时同步终止 socket 子进程，避免残留
+process.on('exit', function () {
+  if (socketServer && !socketServer.killed) {
+    socketServer.kill('SIGINT');
+  }
+});
 function normalizePort(val) {
   var port = parseInt(val, 10);
   if (isNaN(port)) {

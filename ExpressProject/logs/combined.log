@@ -8558,3 +8558,110 @@
 {"level":"info","message":"数据库连接创建:","metadata":{"threadId":40},"service":"ai-project","timestamp":"2026-09-14 11:01:18.666"}
 {"level":"info","message":"数据库连接成功","metadata":{},"service":"ai-project","timestamp":"2026-09-14 11:01:18.679"}
 {"level":"info","message":"正在关闭连接...","metadata":{},"service":"ai-project","timestamp":"2026-09-14 11:01:20.807"}
+{"level":"info","message":"数据库连接创建:","metadata":{"threadId":8},"service":"ai-project","timestamp":"2026-09-16 00:06:37.322"}
+{"level":"info","message":"数据库连接成功","metadata":{},"service":"ai-project","timestamp":"2026-09-16 00:06:37.331"}
+{"level":"info","message":"============================================================","metadata":{},"service":"ai-project","timestamp":"2026-09-16 00:08:01.214"}
+{"level":"info","message":"热成像传感器数据服务器已成功启动","metadata":{},"service":"ai-project","timestamp":"2026-09-16 00:08:01.219"}
+{"level":"info","message":"监听地址: 0.0.0.0:8888","metadata":{},"service":"ai-project","timestamp":"2026-09-16 00:08:01.220"}
+{"level":"info","message":"等待客户端连接...","metadata":{},"service":"ai-project","timestamp":"2026-09-16 00:08:01.220"}
+{"level":"info","message":"============================================================","metadata":{},"service":"ai-project","timestamp":"2026-09-16 00:08:01.220"}
+{"level":"info","message":"心跳机制已启动，间隔: 30000ms, 超时: 90000ms","metadata":{},"service":"ai-project","timestamp":"2026-09-16 00:08:01.221"}
+{"level":"info","message":"性能监控已启动，间隔: 60000ms","metadata":{},"service":"ai-project","timestamp":"2026-09-16 00:08:01.221"}
+{"level":"info","message":"收到退出信号，正在关闭服务器...","metadata":{"activeConnections":0,"totalConnections":0},"service":"ai-project","timestamp":"2026-09-16 00:08:04.480"}
+{"level":"info","message":"============================================================","metadata":{},"service":"ai-project","timestamp":"2026-09-16 00:08:07.013"}
+{"level":"info","message":"热成像传感器数据服务器已成功启动","metadata":{},"service":"ai-project","timestamp":"2026-09-16 00:08:07.016"}
+{"level":"info","message":"监听地址: 0.0.0.0:8888","metadata":{},"service":"ai-project","timestamp":"2026-09-16 00:08:07.017"}
+{"level":"info","message":"等待客户端连接...","metadata":{},"service":"ai-project","timestamp":"2026-09-16 00:08:07.017"}
+{"level":"info","message":"============================================================","metadata":{},"service":"ai-project","timestamp":"2026-09-16 00:08:07.017"}
+{"level":"info","message":"心跳机制已启动，间隔: 30000ms, 超时: 90000ms","metadata":{},"service":"ai-project","timestamp":"2026-09-16 00:08:07.018"}
+{"level":"info","message":"性能监控已启动，间隔: 60000ms","metadata":{},"service":"ai-project","timestamp":"2026-09-16 00:08:07.018"}
+{"level":"info","message":"================================================================================","metadata":{},"service":"ai-project","timestamp":"2026-09-16 00:09:07.030"}
+{"level":"info","message":"性能监控指标","metadata":{},"service":"ai-project","timestamp":"2026-09-16 00:09:07.031"}
+{"level":"info","message":"================================================================================","metadata":{},"service":"ai-project","timestamp":"2026-09-16 00:09:07.031"}
+{"level":"info","message":"服务器运行时间: 60 秒","metadata":{},"service":"ai-project","timestamp":"2026-09-16 00:09:07.032"}
+{"level":"info","message":"总请求数: 0","metadata":{},"service":"ai-project","timestamp":"2026-09-16 00:09:07.032"}
+{"level":"info","message":"成功请求数: 0","metadata":{},"service":"ai-project","timestamp":"2026-09-16 00:09:07.032"}
+{"level":"info","message":"失败请求数: 0","metadata":{},"service":"ai-project","timestamp":"2026-09-16 00:09:07.032"}
+{"level":"info","message":"请求成功率: 0.00%","metadata":{},"service":"ai-project","timestamp":"2026-09-16 00:09:07.033"}
+{"level":"info","message":"平均响应时间: 0.00 ms","metadata":{},"service":"ai-project","timestamp":"2026-09-16 00:09:07.033"}
+{"level":"info","message":"总接收数据: 0.00 KB","metadata":{},"service":"ai-project","timestamp":"2026-09-16 00:09:07.033"}
+{"level":"info","message":"总发送数据: 0.00 KB","metadata":{},"service":"ai-project","timestamp":"2026-09-16 00:09:07.034"}
+{"level":"info","message":"当前连接数: 0","metadata":{},"service":"ai-project","timestamp":"2026-09-16 00:09:07.034"}
+{"level":"info","message":"连接池使用率: 0.00%","metadata":{},"service":"ai-project","timestamp":"2026-09-16 00:09:07.034"}
+{"level":"info","message":"连接池峰值: 0","metadata":{},"service":"ai-project","timestamp":"2026-09-16 00:09:07.034"}
+{"level":"info","message":"总连接数: 0","metadata":{},"service":"ai-project","timestamp":"2026-09-16 00:09:07.035"}
+{"level":"info","message":"失败连接数: 0","metadata":{},"service":"ai-project","timestamp":"2026-09-16 00:09:07.035"}
+{"level":"info","message":"已关闭连接数: 0","metadata":{},"service":"ai-project","timestamp":"2026-09-16 00:09:07.035"}
+{"level":"info","message":"================================================================================","metadata":{},"service":"ai-project","timestamp":"2026-09-16 00:09:07.035"}
+{"level":"info","message":"收到退出信号，正在关闭服务器...","metadata":{"activeConnections":0,"totalConnections":0},"service":"ai-project","timestamp":"2026-09-16 00:09:34.873"}
+{"level":"info","message":"正在关闭连接...","metadata":{},"service":"ai-project","timestamp":"2026-09-16 00:12:20.421"}
+{"level":"info","message":"数据库连接创建:","metadata":{"threadId":11},"service":"ai-project","timestamp":"2026-09-16 00:12:29.602"}
+{"level":"info","message":"数据库连接成功","metadata":{},"service":"ai-project","timestamp":"2026-09-16 00:12:29.610"}
+{"level":"info","message":"============================================================","metadata":{},"service":"ai-project","timestamp":"2026-09-16 00:12:29.919"}
+{"level":"info","message":"热成像传感器数据服务器已成功启动","metadata":{},"service":"ai-project","timestamp":"2026-09-16 00:12:29.923"}
+{"level":"info","message":"监听地址: 0.0.0.0:8888","metadata":{},"service":"ai-project","timestamp":"2026-09-16 00:12:29.924"}
+{"level":"info","message":"等待客户端连接...","metadata":{},"service":"ai-project","timestamp":"2026-09-16 00:12:29.924"}
+{"level":"info","message":"============================================================","metadata":{},"service":"ai-project","timestamp":"2026-09-16 00:12:29.924"}
+{"level":"info","message":"心跳机制已启动，间隔: 30000ms, 超时: 90000ms","metadata":{},"service":"ai-project","timestamp":"2026-09-16 00:12:29.924"}
+{"level":"info","message":"性能监控已启动，间隔: 60000ms","metadata":{},"service":"ai-project","timestamp":"2026-09-16 00:12:29.925"}
+{"level":"info","message":"数据库连接创建:","metadata":{"threadId":13},"service":"ai-project","timestamp":"2026-09-16 00:13:44.627"}
+{"level":"info","message":"数据库连接成功","metadata":{},"service":"ai-project","timestamp":"2026-09-16 00:13:44.635"}
+{"level":"info","message":"============================================================","metadata":{},"service":"ai-project","timestamp":"2026-09-16 00:13:44.928"}
+{"level":"info","message":"热成像传感器数据服务器已成功启动","metadata":{},"service":"ai-project","timestamp":"2026-09-16 00:13:44.931"}
+{"level":"info","message":"监听地址: 0.0.0.0:8888","metadata":{},"service":"ai-project","timestamp":"2026-09-16 00:13:44.932"}
+{"level":"info","message":"等待客户端连接...","metadata":{},"service":"ai-project","timestamp":"2026-09-16 00:13:44.932"}
+{"level":"info","message":"============================================================","metadata":{},"service":"ai-project","timestamp":"2026-09-16 00:13:44.933"}
+{"level":"info","message":"心跳机制已启动，间隔: 30000ms, 超时: 90000ms","metadata":{},"service":"ai-project","timestamp":"2026-09-16 00:13:44.933"}
+{"level":"info","message":"性能监控已启动，间隔: 60000ms","metadata":{},"service":"ai-project","timestamp":"2026-09-16 00:13:44.934"}
+{"level":"info","message":"正在关闭连接...","metadata":{},"service":"ai-project","timestamp":"2026-09-16 00:14:39.605"}
+{"level":"info","message":"收到退出信号，正在关闭服务器...","metadata":{"activeConnections":0,"totalConnections":0},"service":"ai-project","timestamp":"2026-09-16 00:14:39.604"}
+{"level":"info","message":"数据库连接创建:","metadata":{"threadId":15},"service":"ai-project","timestamp":"2026-09-16 00:17:49.556"}
+{"level":"info","message":"数据库连接成功","metadata":{},"service":"ai-project","timestamp":"2026-09-16 00:17:49.564"}
+{"level":"info","message":"============================================================","metadata":{},"service":"ai-project","timestamp":"2026-09-16 00:17:49.862"}
+{"level":"info","message":"热成像传感器数据服务器已成功启动","metadata":{},"service":"ai-project","timestamp":"2026-09-16 00:17:49.865"}
+{"level":"info","message":"监听地址: 0.0.0.0:8888","metadata":{},"service":"ai-project","timestamp":"2026-09-16 00:17:49.866"}
+{"level":"info","message":"等待客户端连接...","metadata":{},"service":"ai-project","timestamp":"2026-09-16 00:17:49.866"}
+{"level":"info","message":"============================================================","metadata":{},"service":"ai-project","timestamp":"2026-09-16 00:17:49.867"}
+{"level":"info","message":"心跳机制已启动，间隔: 30000ms, 超时: 90000ms","metadata":{},"service":"ai-project","timestamp":"2026-09-16 00:17:49.868"}
+{"level":"info","message":"性能监控已启动，间隔: 60000ms","metadata":{},"service":"ai-project","timestamp":"2026-09-16 00:17:49.868"}
+{"level":"info","message":"================================================================================","metadata":{},"service":"ai-project","timestamp":"2026-09-16 00:18:49.877"}
+{"level":"info","message":"性能监控指标","metadata":{},"service":"ai-project","timestamp":"2026-09-16 00:18:49.878"}
+{"level":"info","message":"================================================================================","metadata":{},"service":"ai-project","timestamp":"2026-09-16 00:18:49.878"}
+{"level":"info","message":"服务器运行时间: 60 秒","metadata":{},"service":"ai-project","timestamp":"2026-09-16 00:18:49.878"}
+{"level":"info","message":"总请求数: 0","metadata":{},"service":"ai-project","timestamp":"2026-09-16 00:18:49.879"}
+{"level":"info","message":"成功请求数: 0","metadata":{},"service":"ai-project","timestamp":"2026-09-16 00:18:49.879"}
+{"level":"info","message":"失败请求数: 0","metadata":{},"service":"ai-project","timestamp":"2026-09-16 00:18:49.879"}
+{"level":"info","message":"请求成功率: 0.00%","metadata":{},"service":"ai-project","timestamp":"2026-09-16 00:18:49.879"}
+{"level":"info","message":"平均响应时间: 0.00 ms","metadata":{},"service":"ai-project","timestamp":"2026-09-16 00:18:49.879"}
+{"level":"info","message":"总接收数据: 0.00 KB","metadata":{},"service":"ai-project","timestamp":"2026-09-16 00:18:49.880"}
+{"level":"info","message":"总发送数据: 0.00 KB","metadata":{},"service":"ai-project","timestamp":"2026-09-16 00:18:49.880"}
+{"level":"info","message":"当前连接数: 0","metadata":{},"service":"ai-project","timestamp":"2026-09-16 00:18:49.880"}
+{"level":"info","message":"连接池使用率: 0.00%","metadata":{},"service":"ai-project","timestamp":"2026-09-16 00:18:49.880"}
+{"level":"info","message":"连接池峰值: 0","metadata":{},"service":"ai-project","timestamp":"2026-09-16 00:18:49.880"}
+{"level":"info","message":"总连接数: 0","metadata":{},"service":"ai-project","timestamp":"2026-09-16 00:18:49.881"}
+{"level":"info","message":"失败连接数: 0","metadata":{},"service":"ai-project","timestamp":"2026-09-16 00:18:49.881"}
+{"level":"info","message":"已关闭连接数: 0","metadata":{},"service":"ai-project","timestamp":"2026-09-16 00:18:49.881"}
+{"level":"info","message":"================================================================================","metadata":{},"service":"ai-project","timestamp":"2026-09-16 00:18:49.882"}
+{"level":"info","message":"获取SSE服务状态","metadata":{"connectedClients":0},"service":"ai-project","timestamp":"2026-09-16 00:18:52.852"}
+{"level":"info","message":"数据库连接创建:","metadata":{"threadId":17},"service":"ai-project","timestamp":"2026-09-16 00:19:34.960"}
+{"level":"info","message":"数据库连接成功","metadata":{},"service":"ai-project","timestamp":"2026-09-16 00:19:34.968"}
+{"level":"info","message":"============================================================","metadata":{},"service":"ai-project","timestamp":"2026-09-16 00:19:35.265"}
+{"level":"info","message":"热成像传感器数据服务器已成功启动","metadata":{},"service":"ai-project","timestamp":"2026-09-16 00:19:35.268"}
+{"level":"info","message":"监听地址: 0.0.0.0:8888","metadata":{},"service":"ai-project","timestamp":"2026-09-16 00:19:35.269"}
+{"level":"info","message":"等待客户端连接...","metadata":{},"service":"ai-project","timestamp":"2026-09-16 00:19:35.269"}
+{"level":"info","message":"============================================================","metadata":{},"service":"ai-project","timestamp":"2026-09-16 00:19:35.269"}
+{"level":"info","message":"心跳机制已启动，间隔: 30000ms, 超时: 90000ms","metadata":{},"service":"ai-project","timestamp":"2026-09-16 00:19:35.270"}
+{"level":"info","message":"性能监控已启动，间隔: 60000ms","metadata":{},"service":"ai-project","timestamp":"2026-09-16 00:19:35.270"}
+{"level":"info","message":"正在关闭连接...","metadata":{},"service":"ai-project","timestamp":"2026-09-16 00:19:42.469"}
+{"level":"info","message":"收到退出信号，正在关闭服务器...","metadata":{"activeConnections":0,"totalConnections":0},"service":"ai-project","timestamp":"2026-09-16 00:19:42.469"}
+{"level":"info","message":"数据库连接创建:","metadata":{"threadId":19},"service":"ai-project","timestamp":"2026-09-16 08:45:30.363"}
+{"level":"info","message":"数据库连接成功","metadata":{},"service":"ai-project","timestamp":"2026-09-16 08:45:30.372"}
+{"level":"info","message":"============================================================","metadata":{},"service":"ai-project","timestamp":"2026-09-16 08:45:30.715"}
+{"level":"info","message":"热成像传感器数据服务器已成功启动","metadata":{},"service":"ai-project","timestamp":"2026-09-16 08:45:30.719"}
+{"level":"info","message":"监听地址: 0.0.0.0:8888","metadata":{},"service":"ai-project","timestamp":"2026-09-16 08:45:30.720"}
+{"level":"info","message":"等待客户端连接...","metadata":{},"service":"ai-project","timestamp":"2026-09-16 08:45:30.720"}
+{"level":"info","message":"============================================================","metadata":{},"service":"ai-project","timestamp":"2026-09-16 08:45:30.721"}
+{"level":"info","message":"心跳机制已启动，间隔: 30000ms, 超时: 90000ms","metadata":{},"service":"ai-project","timestamp":"2026-09-16 08:45:30.721"}
+{"level":"info","message":"性能监控已启动，间隔: 60000ms","metadata":{},"service":"ai-project","timestamp":"2026-09-16 08:45:30.722"}
+{"level":"info","message":"正在关闭连接...","metadata":{},"service":"ai-project","timestamp":"2026-09-16 08:45:34.186"}
+{"level":"info","message":"收到退出信号，正在关闭服务器...","metadata":{"activeConnections":0,"totalConnections":0},"service":"ai-project","timestamp":"2026-09-16 08:45:34.186"}

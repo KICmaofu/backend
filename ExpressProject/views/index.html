@@ -96,7 +96,7 @@
 
       <h2>1. 项目概述</h2>
 
-      <p>AI Project 是一个智能监控系统，集成了环境数据采集、设备管理、机器人控制、AI智能分析等功能。项目采用Express框架构建，使用MySQL作为数据库，集成了Qwen大语言模型实现智能化功能增强。</p>
+      <p>AI Project 是一个监控系统，集成了环境数据采集、设备管理、机器人控制等功能。项目采用Express框架构建，使用MySQL作为数据库。</p>
 
       <h3>1.1 核心功能</h3>
 
@@ -106,8 +106,6 @@
         <li><strong>传感器管理</strong>：传感器CRUD、数据采集</li>
         <li><strong>环境数据监控</strong>：温度、湿度、烟雾浓度监测</li>
         <li><strong>系统状态监控</strong>：数据库连接、内存使用、CPU负载、磁盘使用、网络状态</li>
-        <li><strong>AI智能分析</strong>：环境预测、故障预测、异常检测、智能报告</li>
-        <li><strong>自然语言交互</strong>：智能问答、聊天对话</li>
       </ul>
 
       <h3>1.2 技术栈</h3>
@@ -154,19 +152,9 @@
           <td>WebSocket支持</td>
         </tr>
         <tr>
-          <td>axios</td>
-          <td>^1.13.6</td>
-          <td>HTTP客户端</td>
-        </tr>
-        <tr>
           <td>winston</td>
           <td>^3.11.0</td>
           <td>日志管理</td>
-        </tr>
-        <tr>
-          <td>Qwen AI</td>
-          <td>-</td>
-          <td>大语言模型</td>
         </tr>
       </table>
 
@@ -193,20 +181,16 @@
 │   └── validator.js       # 验证中间件
 ├── public/                # 静态资源
 │   ├── javascripts/       # 前端JavaScript
-│   │   ├── chat.js        # 聊天界面脚本
 │   │   └── sse-client.js  # SSE客户端
 │   ├── stylesheets/       # 前端样式
-│   └── chat.html          # 聊天界面
 ├── routes/                # 路由
 │   ├── api/               # API路由
 │   │   ├── alerts.js      # 告警API
-│   │   ├── ai.js          # AI功能API
 │   │   ├── auth.js        # 认证API
 │   │   ├── devices.js     # 设备API
 │   │   ├── environment.js # 环境API
 │   │   ├── index.js       # API路由索引
 │   │   ├── messages.js    # 消息API
-│   │   ├── qwen.js        # Qwen聊天API
 │   │   ├── reports.js     # 报告API
 │   │   ├── robot.js       # 机器人API
 │   │   ├── sensors.js     # 传感器API
@@ -218,7 +202,6 @@
 ├── scripts/               # 脚本
 │   └── db-optimize.js     # 数据库优化脚本
 ├── services/              # 服务层
-│   ├── aiService.js       # AI服务
 │   └── cacheService.js    # 缓存服务
 ├── socket/                # Socket相关
 │   ├── data/              # 数据存储
@@ -270,15 +253,7 @@ JWT_EXPIRES_IN=24h
 # Socket配置
 SOCKET_PORT=443
 SOCKET_HOST=0.0.0.0
-SOCKET_TIMEOUT=300000
-
-# Qwen API配置
-QWEN_API_KEY=sk-dc6cf9bff20548a587d89464f9329247
-QWEN_API_HOST=llm-wbuueus977t5f1ux.cn-beijing.maas.aliyuncs.com
-QWEN_OPENAI_COMPATIBLE=https://llm-wbuueus977t5f1ux.cn-beijing.maas.aliyuncs.com/compatible-mode/v1
-QWEN_DASH_SCOPE=https://llm-wbuueus977t5f1ux.cn-beijing.maas.aliyuncs.com/api/v1
-QWEN_WORKSPACE_NAME=默认业务空间
-QWEN_WORKSPACE_ID=llm-wbuueus977t5f1ux</code></pre>
+SOCKET_TIMEOUT=300000</code></pre>
 
       <h3>3.2 安装部署</h3>
 
@@ -548,248 +523,9 @@ npm run socket-server</code></pre>
 
       <hr>
 
-      <h3>4.6 AI功能接口</h3>
+      <h3>4.6 系统管理接口</h3>
 
-      <h4>4.6.1 环境数据预测</h4>
-
-      <ul>
-        <li><strong>URL</strong>: <code>POST /api/ai/predict/environment</code></li>
-        <li><strong>描述</strong>: 基于历史环境数据预测未来趋势</li>
-        <li><strong>请求参数</strong>:</li>
-      </ul>
-
-      <table>
-        <tr>
-          <th>参数名</th>
-          <th>类型</th>
-          <th>必填</th>
-          <th>描述</th>
-        </tr>
-        <tr>
-          <td>data</td>
-          <td>array</td>
-          <td>是</td>
-          <td>历史环境数据数组</td>
-        </tr>
-      </table>
-
-      <ul>
-        <li><strong>请求示例</strong>:</li>
-      </ul>
-
-      <pre><code>{"data": [{"timestamp": "2026-04-01T00:00:00Z", "temperature": 25, "humidity": 60, "pm25": 15}, {"timestamp": "2026-04-01T01:00:00Z", "temperature": 24, "humidity": 62, "pm25": 18}]}</code></pre>
-
-      <ul>
-        <li><strong>响应示例</strong>:</li>
-      </ul>
-
-      <pre><code>{"code": 200, "message": "success", "data": {"prediction": "基于历史数据分析，未来24小时温度将保持在23-26°C之间..."}, "timestamp": "2026-04-02T00:00:00Z"}</code></pre>
-
-      <h4>4.6.2 设备故障预测</h4>
-
-      <ul>
-        <li><strong>URL</strong>: <code>POST /api/ai/predict/device-failure</code></li>
-        <li><strong>描述</strong>: 预测设备故障风险</li>
-        <li><strong>请求参数</strong>:</li>
-      </ul>
-
-      <table>
-        <tr>
-          <th>参数名</th>
-          <th>类型</th>
-          <th>必填</th>
-          <th>描述</th>
-        </tr>
-        <tr>
-          <td>deviceData</td>
-          <td>object</td>
-          <td>是</td>
-          <td>设备状态数据</td>
-        </tr>
-      </table>
-
-      <ul>
-        <li><strong>请求示例</strong>:</li>
-      </ul>
-
-      <pre><code>{"deviceData": {"deviceId": "D001", "status": "online", "temperature": 45, "operatingHours": 1200}}</code></pre>
-
-      <h4>4.6.3 异常检测</h4>
-
-      <ul>
-        <li><strong>URL</strong>: <code>POST /api/ai/detect/anomalies</code></li>
-        <li><strong>描述</strong>: 检测数据中的异常模式</li>
-        <li><strong>请求参数</strong>:</li>
-      </ul>
-
-      <table>
-        <tr>
-          <th>参数名</th>
-          <th>类型</th>
-          <th>必填</th>
-          <th>描述</th>
-        </tr>
-        <tr>
-          <td>data</td>
-          <td>array</td>
-          <td>是</td>
-          <td>待检测数据</td>
-        </tr>
-        <tr>
-          <td>type</td>
-          <td>string</td>
-          <td>是</td>
-          <td>数据类型</td>
-        </tr>
-      </table>
-
-      <h4>4.6.4 智能分析报告</h4>
-
-      <ul>
-        <li><strong>URL</strong>: <code>POST /api/ai/generate/report</code></li>
-        <li><strong>描述</strong>: 生成智能分析报告</li>
-        <li><strong>请求参数</strong>:</li>
-      </ul>
-
-      <table>
-        <tr>
-          <th>参数名</th>
-          <th>类型</th>
-          <th>必填</th>
-          <th>描述</th>
-        </tr>
-        <tr>
-          <td>data</td>
-          <td>array</td>
-          <td>是</td>
-          <td>分析数据</td>
-        </tr>
-        <tr>
-          <td>reportType</td>
-          <td>string</td>
-          <td>是</td>
-          <td>报告类型</td>
-        </tr>
-      </table>
-
-      <h4>4.6.5 自然语言查询</h4>
-
-      <ul>
-        <li><strong>URL</strong>: <code>POST /api/ai/query</code></li>
-        <li><strong>描述</strong>: 处理自然语言查询</li>
-        <li><strong>请求参数</strong>:</li>
-      </ul>
-
-      <table>
-        <tr>
-          <th>参数名</th>
-          <th>类型</th>
-          <th>必填</th>
-          <th>描述</th>
-        </tr>
-        <tr>
-          <td>query</td>
-          <td>string</td>
-          <td>是</td>
-          <td>查询问题</td>
-        </tr>
-        <tr>
-          <td>context</td>
-          <td>object</td>
-          <td>否</td>
-          <td>上下文信息</td>
-        </tr>
-      </table>
-
-      <ul>
-        <li><strong>请求示例</strong>:</li>
-      </ul>
-
-      <pre><code>{"query": "今天的环境数据如何？", "context": {"type": "environment", "date": "2026-04-02"}}</code></pre>
-
-      <ul>
-        <li><strong>响应示例</strong>:</li>
-      </ul>
-
-      <pre><code>{"code": 200, "message": "success", "data": {"response": "根据今天的环境数据，温度保持在25°C左右，湿度60%，空气质量良好..."}, "timestamp": "2026-04-02T00:00:00Z"}</code></pre>
-
-      <h4>4.6.6 环境数据分析</h4>
-
-      <ul>
-        <li><strong>URL</strong>: <code>GET /api/ai/analyze/environment</code></li>
-        <li><strong>描述</strong>: 分析最近24小时的环境数据</li>
-        <li><strong>响应示例</strong>:</li>
-      </ul>
-
-      <pre><code>{"code": 200, "message": "success", "data": {"report": "环境数据分析报告...", "dataPoints": 100}, "timestamp": "2026-04-02T00:00:00Z"}</code></pre>
-
-      <hr>
-
-      <h3>4.7 Qwen聊天接口</h3>
-
-      <h4>4.7.1 聊天对话</h4>
-
-      <ul>
-        <li><strong>URL</strong>: <code>POST /api/qwen/chat</code></li>
-        <li><strong>描述</strong>: 与Qwen AI进行对话</li>
-        <li><strong>请求参数</strong>:</li>
-      </ul>
-
-      <table>
-        <tr>
-          <th>参数名</th>
-          <th>类型</th>
-          <th>必填</th>
-          <th>默认值</th>
-          <th>描述</th>
-        </tr>
-        <tr>
-          <td>messages</td>
-          <td>array</td>
-          <td>是</td>
-          <td>-</td>
-          <td>消息数组</td>
-        </tr>
-        <tr>
-          <td>model</td>
-          <td>string</td>
-          <td>否</td>
-          <td>qwen-max</td>
-          <td>模型名称</td>
-        </tr>
-        <tr>
-          <td>temperature</td>
-          <td>number</td>
-          <td>否</td>
-          <td>0.7</td>
-          <td>温度参数</td>
-        </tr>
-      </table>
-
-      <ul>
-        <li><strong>请求示例</strong>:</li>
-      </ul>
-
-      <pre><code>{"messages": [{"role": "user", "content": "你好，请介绍一下你自己"}]}</code></pre>
-
-      <ul>
-        <li><strong>响应示例</strong>:</li>
-      </ul>
-
-      <pre><code>{"code": 200, "message": "success", "data": {"choices": [{"message": {"role": "assistant", "content": "你好！我是Qwen，一个由阿里云开发的大语言模型..."}}]}}</code></pre>
-
-      <h4>4.7.2 获取配置</h4>
-
-      <ul>
-        <li><strong>URL</strong>: <code>GET /api/qwen/config</code></li>
-        <li><strong>描述</strong>: 获取Qwen API配置信息</li>
-      </ul>
-
-      <hr>
-
-      <h3>4.8 系统管理接口</h3>
-
-      <h4>4.8.1 获取系统状态</h4>
+      <h4>4.6.1 获取系统状态</h4>
 
       <ul>
         <li><strong>URL</strong>: <code>GET /api/system/status</code></li>
@@ -799,28 +535,28 @@ npm run socket-server</code></pre>
 
       <pre><code>{"code": 200, "message": "success", "data": {"database": "connected", "uptime": "1天 2小时 30分钟", "memory": {"used": "512MB", "total": "2GB", "percentage": "25%"}, "cpu": {"1min": 0.1, "5min": 0.2, "15min": 0.15}, "disk": {"used": "0MB", "total": "0MB", "percentage": "0%"}, "network": {"status": "connected", "interfaces": []}, "os": "Windows Server 2019"}}</code></pre>
 
-      <h4>4.8.2 获取系统配置</h4>
+      <h4>4.6.2 获取系统配置</h4>
 
       <ul>
         <li><strong>URL</strong>: <code>GET /api/system/config</code></li>
         <li><strong>描述</strong>: 获取系统配置信息</li>
       </ul>
 
-      <h4>4.8.3 获取数据库状态</h4>
+      <h4>4.6.3 获取数据库状态</h4>
 
       <ul>
         <li><strong>URL</strong>: <code>GET /api/system/database</code></li>
         <li><strong>描述</strong>: 获取数据库连接状态</li>
       </ul>
 
-      <h4>4.8.4 获取系统设置</h4>
+      <h4>4.6.4 获取系统设置</h4>
 
       <ul>
         <li><strong>URL</strong>: <code>GET /api/system/settings</code></li>
         <li><strong>描述</strong>: 获取系统设置</li>
       </ul>
 
-      <h4>4.8.5 更新系统设置</h4>
+      <h4>4.6.5 更新系统设置</h4>
 
       <ul>
         <li><strong>URL</strong>: <code>PUT /api/system/settings</code></li>
@@ -849,7 +585,7 @@ npm run socket-server</code></pre>
         </tr>
       </table>
 
-      <h4>4.8.6 获取系统日志</h4>
+      <h4>4.6.6 获取系统日志</h4>
 
       <ul>
         <li><strong>URL</strong>: <code>GET /api/system/logs</code></li>
@@ -858,71 +594,9 @@ npm run socket-server</code></pre>
 
       <hr>
 
-      <h2>5. AI功能说明</h2>
+      <h2>5. 数据库设计</h2>
 
-      <h3>5.1 AI服务架构</h3>
-
-      <p>AI功能通过 <code>services/aiService.js</code> 实现，集成了Qwen大语言模型：</p>
-
-      <pre><code>class AIService {
-  static async predictEnvironmentalData(data) { }
-  static async predictDeviceFailure(deviceData) { }
-  static async detectAnomalies(data, type) { }
-  static async generateAnalysisReport(data, reportType) { }
-  static async processNaturalLanguageQuery(query, context) { }
-}</code></pre>
-
-      <h3>5.2 AI功能特性</h3>
-
-      <table>
-        <tr>
-          <th>功能</th>
-          <th>描述</th>
-          <th>应用场景</th>
-        </tr>
-        <tr>
-          <td>环境预测</td>
-          <td>基于历史数据预测未来24小时环境趋势</td>
-          <td>提前预警、资源调度</td>
-        </tr>
-        <tr>
-          <td>故障预测</td>
-          <td>预测设备故障风险</td>
-          <td>预防性维护</td>
-        </tr>
-        <tr>
-          <td>异常检测</td>
-          <td>检测数据异常模式</td>
-          <td>实时监控、告警</td>
-        </tr>
-        <tr>
-          <td>智能报告</td>
-          <td>生成数据分析报告</td>
-          <td>决策支持</td>
-        </tr>
-        <tr>
-          <td>自然语言</td>
-          <td>处理用户查询</td>
-          <td>智能交互</td>
-        </tr>
-      </table>
-
-      <h3>5.3 聊天界面</h3>
-
-      <p>访问 <code>http://localhost:3000/chat.html</code> 使用AI聊天功能：</p>
-
-      <ul>
-        <li>实时对话</li>
-        <li>环境数据查询</li>
-        <li>智能问答</li>
-        <li>输入状态指示</li>
-      </ul>
-
-      <hr>
-
-      <h2>6. 数据库设计</h2>
-
-      <h3>6.1 主要数据表</h3>
+      <h3>5.1 主要数据表</h3>
 
       <table>
         <tr>
@@ -963,7 +637,7 @@ npm run socket-server</code></pre>
         </tr>
       </table>
 
-      <h3>6.2 传感器数据表结构</h3>
+      <h3>5.2 传感器数据表结构</h3>
 
       <pre><code>CREATE TABLE sensor_data (
   id INT AUTO_INCREMENT PRIMARY KEY,
@@ -992,7 +666,7 @@ npm run socket-server</code></pre>
   PARTITION pmax VALUES LESS THAN MAXVALUE
 );</code></pre>
 
-      <h3>6.3 用户表结构</h3>
+      <h3>5.3 用户表结构</h3>
 
       <pre><code>CREATE TABLE users (
   id VARCHAR(50) PRIMARY KEY,
@@ -1014,9 +688,9 @@ npm run socket-server</code></pre>
 
       <hr>
 
-      <h2>7. 测试</h2>
+      <h2>6. 测试</h2>
 
-      <h3>7.1 运行测试</h3>
+      <h3>6.1 运行测试</h3>
 
       <pre><code># 运行所有测试
 npm test
@@ -1024,23 +698,18 @@ npm test
 # 运行特定测试
 npm test -- --testNamePattern="auth"</code></pre>
 
-      <h3>7.2 API测试示例</h3>
+      <h3>6.2 API测试示例</h3>
 
       <pre><code># 测试登录
 curl -X POST http://localhost:3000/api/auth/login \
   -H "Content-Type: application/json" \
-  -d '{"username":"admin","password":"123456","phone":"13800138000"}'
-
-# 测试AI查询
-curl -X POST http://localhost:3000/api/ai/query \
-  -H "Content-Type: application/json" \
-  -d '{"query":"今天的环境数据如何？"}'</code></pre>
+  -d '{"username":"admin","password":"123456","phone":"13800138000"}'</code></pre>
 
       <hr>
 
-      <h2>8. 部署与运维</h2>
+      <h2>7. 部署与运维</h2>
 
-      <h3>8.1 生产环境部署</h3>
+      <h3>7.1 生产环境部署</h3>
 
       <ol>
         <li>设置环境变量 <code>NODE_ENV=production</code></li>
@@ -1049,7 +718,7 @@ curl -X POST http://localhost:3000/api/ai/query \
         <li>配置PM2进程管理</li>
       </ol>
 
-      <h3>8.2 监控与日志</h3>
+      <h3>7.2 监控与日志</h3>
 
       <ul>
         <li>使用Winston记录应用日志</li>
@@ -1057,7 +726,7 @@ curl -X POST http://localhost:3000/api/ai/query \
         <li>定期检查数据库连接状态</li>
       </ul>
 
-      <h3>8.3 常见问题</h3>
+      <h3>7.3 常见问题</h3>
 
       <table>
         <tr>
@@ -1069,10 +738,6 @@ curl -X POST http://localhost:3000/api/ai/query \
           <td>检查数据库配置和网络连接</td>
         </tr>
         <tr>
-          <td>AI API调用失败</td>
-          <td>检查API密钥和网络连接</td>
-        </tr>
-        <tr>
           <td>内存使用过高</td>
           <td>优化查询，启用缓存</td>
         </tr>
@@ -1080,24 +745,16 @@ curl -X POST http://localhost:3000/api/ai/query \
 
       <hr>
 
-      <h2>9. 总结</h2>
+      <h2>8. 总结</h2>
 
-      <p>AI Project 通过集成Qwen大语言模型，实现了从传统监控系统到智能监控系统的升级。AI功能的加入使得系统能够：</p>
+      <p>AI Project 是一个集环境数据采集、设备管理、机器人控制于一体的监控系统。</p>
 
-      <ul>
-        <li><strong>预测环境趋势</strong>：提前预警，优化资源配置</li>
-        <li><strong>预测设备故障</strong>：实现预防性维护，降低故障率</li>
-        <li><strong>检测数据异常</strong>：实时监控，及时发现问题</li>
-        <li><strong>生成智能报告</strong>：提供决策支持</li>
-        <li><strong>自然语言交互</strong>：提高系统易用性</li>
-      </ul>
-
-      <p>项目具备良好的扩展性和维护性，可以根据业务需求持续添加新的AI功能模块。</p>
+      <p>项目具备良好的扩展性和维护性，可以根据业务需求持续扩展新的功能模块。</p>
 
       <hr>
 
-      <p><strong>文档版本</strong>: 3.0<br>
-      <strong>更新日期</strong>: 2026-04-02<br>
+      <p><strong>文档版本</strong>: 3.1<br>
+      <strong>更新日期</strong>: 2026-09-16<br>
       <strong>作者</strong>: AI Project Team</p>
     </div>
   </body>
