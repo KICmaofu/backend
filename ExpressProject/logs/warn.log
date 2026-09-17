@@ -3118,3 +3118,94 @@
 {"level":"error","message":"检查新数据失败","metadata":{"error":"Unknown column 'device_id' in 'field list'"},"service":"ai-project","timestamp":"2026-09-14 11:00:00.191"}
 {"level":"error","message":"查询 sensor_data 数据失败","metadata":{"error":"Unknown column 'device_id' in 'field list'","stack":"Error: Unknown column 'device_id' in 'field list'\n    at PromisePool.query (D:\\git\\fire-project1\\node_modules\\mysql2\\lib\\promise\\pool.js:36:22)\n    at getLatestSensorData (D:\\git\\fire-project1\\routes\\api\\sse.js:101:29)\n    at Timeout.checkForNewData [as _onTimeout] (D:\\git\\fire-project1\\routes\\api\\sse.js:240:30)\n    at listOnTimeout (node:internal/timers:685:17)\n    at process.processTimers (node:internal/timers:618:7)"},"service":"ai-project","timestamp":"2026-09-14 11:00:02.195"}
 {"level":"error","message":"检查新数据失败","metadata":{"error":"Unknown column 'device_id' in 'field list'"},"service":"ai-project","timestamp":"2026-09-14 11:00:02.196"}
+{"level":"warn","message":"客户端 #1 心跳超时，断开连接","metadata":{"clientInfo":"172.20.10.13:18241","timeSinceLastReceived":120006},"service":"ai-project","timestamp":"2026-09-16 20:44:27.400"}
+{"level":"error","message":"客户端 #1 (172.20.10.13:18241) 连接错误","metadata":{"errorCode":"ERR_STREAM_WRITE_AFTER_END","errorMessage":"write after end"},"service":"ai-project","timestamp":"2026-09-16 20:44:27.409"}
+{"level":"warn","message":"客户端 #1 (172.20.10.13:18241) 连接异常关闭","metadata":{"currentConnections":-1},"service":"ai-project","timestamp":"2026-09-16 20:44:27.411"}
+{"level":"warn","message":"客户端 #2 心跳超时，断开连接","metadata":{"clientInfo":"172.20.10.13:46851","timeSinceLastReceived":150009},"service":"ai-project","timestamp":"2026-09-16 20:48:27.437"}
+{"level":"error","message":"客户端 #2 (172.20.10.13:46851) 连接错误","metadata":{"errorCode":"ERR_STREAM_WRITE_AFTER_END","errorMessage":"write after end"},"service":"ai-project","timestamp":"2026-09-16 20:48:27.453"}
+{"level":"warn","message":"客户端 #2 (172.20.10.13:46851) 连接异常关闭","metadata":{"currentConnections":-1},"service":"ai-project","timestamp":"2026-09-16 20:48:27.455"}
+{"level":"warn","message":"客户端 #3 心跳超时，断开连接","metadata":{"clientInfo":"172.20.10.13:6557","timeSinceLastReceived":119990},"service":"ai-project","timestamp":"2026-09-16 20:51:27.454"}
+{"level":"error","message":"客户端 #3 (172.20.10.13:6557) 连接错误","metadata":{"errorCode":"ERR_STREAM_WRITE_AFTER_END","errorMessage":"write after end"},"service":"ai-project","timestamp":"2026-09-16 20:51:27.486"}
+{"level":"warn","message":"客户端 #3 (172.20.10.13:6557) 连接异常关闭","metadata":{"currentConnections":-1},"service":"ai-project","timestamp":"2026-09-16 20:51:27.488"}
+{"level":"warn","message":"客户端 #4 心跳超时，断开连接","metadata":{"clientInfo":"172.20.10.13:12349","timeSinceLastReceived":149981},"service":"ai-project","timestamp":"2026-09-16 20:54:27.477"}
+{"level":"error","message":"客户端 #4 (172.20.10.13:12349) 连接错误","metadata":{"errorCode":"ERR_STREAM_WRITE_AFTER_END","errorMessage":"write after end"},"service":"ai-project","timestamp":"2026-09-16 20:54:27.555"}
+{"level":"warn","message":"客户端 #4 (172.20.10.13:12349) 连接异常关闭","metadata":{"currentConnections":-1},"service":"ai-project","timestamp":"2026-09-16 20:54:27.556"}
+{"level":"warn","message":"客户端 #5 心跳超时，断开连接","metadata":{"clientInfo":"172.20.10.13:6445","timeSinceLastReceived":149935},"service":"ai-project","timestamp":"2026-09-16 20:57:27.503"}
+{"level":"warn","message":"客户端 #6 心跳超时，断开连接","metadata":{"clientInfo":"172.20.10.13:17336","timeSinceLastReceived":149923},"service":"ai-project","timestamp":"2026-09-16 21:00:27.534"}
+{"level":"warn","message":"客户端 #7 心跳超时，断开连接","metadata":{"clientInfo":"172.20.10.13:41153","timeSinceLastReceived":149906},"service":"ai-project","timestamp":"2026-09-16 21:03:27.553"}
+{"level":"warn","message":"客户端 #1 心跳超时，断开连接","metadata":{"clientInfo":"172.20.10.13:49686","timeSinceLastReceived":149991},"service":"ai-project","timestamp":"2026-09-16 21:12:50.840"}
+{"level":"warn","message":"客户端 #2 心跳超时，断开连接","metadata":{"clientInfo":"172.20.10.13:48292","timeSinceLastReceived":149965},"service":"ai-project","timestamp":"2026-09-16 21:15:50.853"}
+{"level":"error","message":"客户端 #2 (172.20.10.13:48292) 连接错误","metadata":{"errorCode":"ERR_STREAM_WRITE_AFTER_END","errorMessage":"write after end"},"service":"ai-project","timestamp":"2026-09-16 21:15:50.903"}
+{"level":"warn","message":"客户端 #2 (172.20.10.13:48292) 连接异常关闭","metadata":{"currentConnections":-1},"service":"ai-project","timestamp":"2026-09-16 21:15:50.905"}
+{"level":"error","message":"客户端 #3 (172.20.10.13:5042) 连接错误","metadata":{"errorCode":"ECONNRESET","errorMessage":"read ECONNRESET"},"service":"ai-project","timestamp":"2026-09-16 21:18:13.632"}
+{"level":"warn","message":"客户端 #3 (172.20.10.13:5042) 连接异常关闭","metadata":{"currentConnections":0},"service":"ai-project","timestamp":"2026-09-16 21:18:13.634"}
+{"level":"error","message":"客户端 #4 (172.20.10.13:28131) 连接错误","metadata":{"errorCode":"ECONNRESET","errorMessage":"read ECONNRESET"},"service":"ai-project","timestamp":"2026-09-16 21:19:40.210"}
+{"level":"warn","message":"客户端 #4 (172.20.10.13:28131) 连接异常关闭","metadata":{"currentConnections":-1},"service":"ai-project","timestamp":"2026-09-16 21:19:40.211"}
+{"level":"warn","message":"客户端 #1 心跳超时，断开连接","metadata":{"clientInfo":"172.20.10.13:3378","timeSinceLastReceived":90022},"service":"ai-project","timestamp":"2026-09-16 21:23:26.162"}
+{"level":"error","message":"客户端 #1 (172.20.10.13:3378) 连接错误","metadata":{"errorCode":"ERR_STREAM_WRITE_AFTER_END","errorMessage":"write after end"},"service":"ai-project","timestamp":"2026-09-16 21:23:26.184"}
+{"level":"warn","message":"客户端 #1 (172.20.10.13:3378) 连接异常关闭","metadata":{"currentConnections":-1},"service":"ai-project","timestamp":"2026-09-16 21:23:26.189"}
+{"level":"error","message":"客户端 #2 (172.20.10.14:22375) 连接错误","metadata":{"errorCode":"ECONNRESET","errorMessage":"read ECONNRESET"},"service":"ai-project","timestamp":"2026-09-16 21:26:26.842"}
+{"level":"warn","message":"客户端 #2 (172.20.10.14:22375) 连接异常关闭","metadata":{"currentConnections":-1},"service":"ai-project","timestamp":"2026-09-16 21:26:26.844"}
+{"level":"warn","message":"客户端 #3 心跳超时，断开连接","metadata":{"clientInfo":"172.20.10.14:9959","timeSinceLastReceived":149959},"service":"ai-project","timestamp":"2026-09-16 21:30:26.216"}
+{"level":"warn","message":"客户端 #4 心跳超时，断开连接","metadata":{"clientInfo":"172.20.10.14:39763","timeSinceLastReceived":119933},"service":"ai-project","timestamp":"2026-09-16 21:32:26.223"}
+{"level":"error","message":"客户端 #5 (172.20.10.14:15254) 连接错误","metadata":{"errorCode":"ECONNRESET","errorMessage":"read ECONNRESET"},"service":"ai-project","timestamp":"2026-09-16 21:34:15.984"}
+{"level":"warn","message":"客户端 #5 (172.20.10.14:15254) 连接异常关闭","metadata":{"currentConnections":-1},"service":"ai-project","timestamp":"2026-09-16 21:34:15.985"}
+{"level":"error","message":"客户端 #6 (172.20.10.13:49118) 连接错误","metadata":{"errorCode":"ECONNRESET","errorMessage":"read ECONNRESET"},"service":"ai-project","timestamp":"2026-09-16 21:49:08.525"}
+{"level":"warn","message":"客户端 #6 (172.20.10.13:49118) 连接异常关闭","metadata":{"currentConnections":-1},"service":"ai-project","timestamp":"2026-09-16 21:49:08.527"}
+{"level":"error","message":"客户端 #7 (172.20.10.13:36130) 连接错误","metadata":{"errorCode":"ECONNRESET","errorMessage":"read ECONNRESET"},"service":"ai-project","timestamp":"2026-09-16 21:49:40.167"}
+{"level":"warn","message":"客户端 #7 (172.20.10.13:36130) 连接异常关闭","metadata":{"currentConnections":-1},"service":"ai-project","timestamp":"2026-09-16 21:49:40.169"}
+{"level":"error","message":"客户端 #8 (172.20.10.13:31000) 连接错误","metadata":{"errorCode":"ECONNRESET","errorMessage":"read ECONNRESET"},"service":"ai-project","timestamp":"2026-09-16 21:50:17.053"}
+{"level":"warn","message":"客户端 #8 (172.20.10.13:31000) 连接异常关闭","metadata":{"currentConnections":0},"service":"ai-project","timestamp":"2026-09-16 21:50:17.054"}
+{"level":"error","message":"客户端 #9 (172.20.10.13:1270) 连接错误","metadata":{"errorCode":"ECONNRESET","errorMessage":"read ECONNRESET"},"service":"ai-project","timestamp":"2026-09-16 21:50:47.105"}
+{"level":"warn","message":"客户端 #9 (172.20.10.13:1270) 连接异常关闭","metadata":{"currentConnections":-1},"service":"ai-project","timestamp":"2026-09-16 21:50:47.107"}
+{"level":"error","message":"客户端 #1 (172.20.10.13:8520) 连接错误","metadata":{"errorCode":"ECONNRESET","errorMessage":"read ECONNRESET"},"service":"ai-project","timestamp":"2026-09-16 21:52:09.882"}
+{"level":"warn","message":"客户端 #1 (172.20.10.13:8520) 连接异常关闭","metadata":{"currentConnections":-1},"service":"ai-project","timestamp":"2026-09-16 21:52:09.888"}
+{"level":"warn","message":"客户端 #1 心跳超时，断开连接","metadata":{"clientInfo":"172.20.10.14:42241","timeSinceLastReceived":90004},"service":"ai-project","timestamp":"2026-09-17 10:25:16.870"}
+{"level":"warn","message":"客户端 #2 心跳超时，断开连接","metadata":{"clientInfo":"172.20.10.14:37872","timeSinceLastReceived":149984},"service":"ai-project","timestamp":"2026-09-17 10:28:16.879"}
+{"level":"warn","message":"客户端 #3 心跳超时，断开连接","metadata":{"clientInfo":"172.20.10.14:31524","timeSinceLastReceived":149962},"service":"ai-project","timestamp":"2026-09-17 10:31:16.901"}
+{"level":"error","message":"客户端 #3 (172.20.10.14:31524) 连接错误","metadata":{"errorCode":"ERR_STREAM_WRITE_AFTER_END","errorMessage":"write after end"},"service":"ai-project","timestamp":"2026-09-17 10:31:16.982"}
+{"level":"warn","message":"客户端 #3 (172.20.10.14:31524) 连接异常关闭","metadata":{"currentConnections":-1},"service":"ai-project","timestamp":"2026-09-17 10:31:16.983"}
+{"level":"warn","message":"客户端 #4 心跳超时，断开连接","metadata":{"clientInfo":"172.20.10.14:12134","timeSinceLastReceived":149923},"service":"ai-project","timestamp":"2026-09-17 10:34:16.918"}
+{"level":"error","message":"客户端 #4 (172.20.10.14:12134) 连接错误","metadata":{"errorCode":"ERR_STREAM_WRITE_AFTER_END","errorMessage":"write after end"},"service":"ai-project","timestamp":"2026-09-17 10:34:17.030"}
+{"level":"warn","message":"客户端 #4 (172.20.10.14:12134) 连接异常关闭","metadata":{"currentConnections":-1},"service":"ai-project","timestamp":"2026-09-17 10:34:17.031"}
+{"level":"warn","message":"客户端 #5 心跳超时，断开连接","metadata":{"clientInfo":"172.20.10.14:1405","timeSinceLastReceived":149905},"service":"ai-project","timestamp":"2026-09-17 10:37:16.949"}
+{"level":"warn","message":"客户端 #6 心跳超时，断开连接","metadata":{"clientInfo":"172.20.10.14:25815","timeSinceLastReceived":149906},"service":"ai-project","timestamp":"2026-09-17 10:40:16.979"}
+{"level":"warn","message":"客户端 #7 心跳超时，断开连接","metadata":{"clientInfo":"172.20.10.14:12537","timeSinceLastReceived":149898},"service":"ai-project","timestamp":"2026-09-17 10:43:17.005"}
+{"level":"warn","message":"客户端 #8 心跳超时，断开连接","metadata":{"clientInfo":"172.20.10.14:23168","timeSinceLastReceived":149864},"service":"ai-project","timestamp":"2026-09-17 10:46:17.017"}
+{"level":"error","message":"客户端 #8 (172.20.10.14:23168) 连接错误","metadata":{"errorCode":"ERR_STREAM_WRITE_AFTER_END","errorMessage":"write after end"},"service":"ai-project","timestamp":"2026-09-17 10:46:17.206"}
+{"level":"warn","message":"客户端 #8 (172.20.10.14:23168) 连接异常关闭","metadata":{"currentConnections":-1},"service":"ai-project","timestamp":"2026-09-17 10:46:17.207"}
+{"level":"warn","message":"客户端 #9 心跳超时，断开连接","metadata":{"clientInfo":"172.20.10.14:18651","timeSinceLastReceived":119784},"service":"ai-project","timestamp":"2026-09-17 10:53:17.075"}
+{"level":"warn","message":"客户端 #10 心跳超时，断开连接","metadata":{"clientInfo":"172.20.10.14:16035","timeSinceLastReceived":119764},"service":"ai-project","timestamp":"2026-09-17 10:55:17.086"}
+{"level":"warn","message":"客户端 #11 心跳超时，断开连接","metadata":{"clientInfo":"172.20.10.14:19460","timeSinceLastReceived":119757},"service":"ai-project","timestamp":"2026-09-17 10:57:17.107"}
+{"level":"warn","message":"客户端 #12 心跳超时，断开连接","metadata":{"clientInfo":"172.20.10.14:38009","timeSinceLastReceived":119748},"service":"ai-project","timestamp":"2026-09-17 10:59:17.119"}
+{"level":"warn","message":"客户端 #13 心跳超时，断开连接","metadata":{"clientInfo":"172.20.10.14:1360","timeSinceLastReceived":119731},"service":"ai-project","timestamp":"2026-09-17 11:01:17.132"}
+{"level":"warn","message":"客户端 #14 心跳超时，断开连接","metadata":{"clientInfo":"172.20.10.14:47680","timeSinceLastReceived":119726},"service":"ai-project","timestamp":"2026-09-17 11:03:17.155"}
+{"level":"warn","message":"客户端 #15 心跳超时，断开连接","metadata":{"clientInfo":"172.20.10.14:10530","timeSinceLastReceived":119719},"service":"ai-project","timestamp":"2026-09-17 11:05:17.173"}
+{"level":"warn","message":"客户端 #16 心跳超时，断开连接","metadata":{"clientInfo":"172.20.10.14:40152","timeSinceLastReceived":119713},"service":"ai-project","timestamp":"2026-09-17 11:07:17.197"}
+{"level":"warn","message":"客户端 #17 心跳超时，断开连接","metadata":{"clientInfo":"172.20.10.14:45283","timeSinceLastReceived":119714},"service":"ai-project","timestamp":"2026-09-17 11:09:17.226"}
+{"level":"warn","message":"客户端 #18 心跳超时，断开连接","metadata":{"clientInfo":"172.20.10.14:32890","timeSinceLastReceived":119697},"service":"ai-project","timestamp":"2026-09-17 11:11:17.233"}
+{"level":"warn","message":"客户端 #19 心跳超时，断开连接","metadata":{"clientInfo":"172.20.10.14:12750","timeSinceLastReceived":119688},"service":"ai-project","timestamp":"2026-09-17 11:13:17.247"}
+{"level":"warn","message":"客户端 #20 心跳超时，断开连接","metadata":{"clientInfo":"172.20.10.14:47395","timeSinceLastReceived":119669},"service":"ai-project","timestamp":"2026-09-17 11:15:17.259"}
+{"level":"error","message":"客户端 #21 (172.20.10.14:40913) 连接错误","metadata":{"errorCode":"ECONNRESET","errorMessage":"read ECONNRESET"},"service":"ai-project","timestamp":"2026-09-17 11:17:06.896"}
+{"level":"warn","message":"客户端 #21 (172.20.10.14:40913) 连接异常关闭","metadata":{"currentConnections":-1},"service":"ai-project","timestamp":"2026-09-17 11:17:06.897"}
+{"level":"warn","message":"客户端 #22 心跳超时，断开连接","metadata":{"clientInfo":"172.20.10.14:36467","timeSinceLastReceived":149550},"service":"ai-project","timestamp":"2026-09-17 11:29:17.368"}
+{"level":"warn","message":"客户端 #23 心跳超时，断开连接","metadata":{"clientInfo":"172.20.10.14:18615","timeSinceLastReceived":119501},"service":"ai-project","timestamp":"2026-09-17 11:31:17.369"}
+{"level":"warn","message":"客户端 #24 心跳超时，断开连接","metadata":{"clientInfo":"172.20.10.14:1138","timeSinceLastReceived":119489},"service":"ai-project","timestamp":"2026-09-17 11:33:17.386"}
+{"level":"warn","message":"客户端 #25 心跳超时，断开连接","metadata":{"clientInfo":"172.20.10.14:6513","timeSinceLastReceived":119472},"service":"ai-project","timestamp":"2026-09-17 11:35:17.405"}
+{"level":"warn","message":"客户端 #26 心跳超时，断开连接","metadata":{"clientInfo":"172.20.10.14:43192","timeSinceLastReceived":119429},"service":"ai-project","timestamp":"2026-09-17 11:37:17.415"}
+{"level":"warn","message":"客户端 #27 心跳超时，断开连接","metadata":{"clientInfo":"172.20.10.14:46479","timeSinceLastReceived":119418},"service":"ai-project","timestamp":"2026-09-17 11:39:17.433"}
+{"level":"error","message":"客户端 #28 (172.20.10.14:41790) 连接错误","metadata":{"errorCode":"ECONNRESET","errorMessage":"read ECONNRESET"},"service":"ai-project","timestamp":"2026-09-17 11:40:07.277"}
+{"level":"warn","message":"客户端 #28 (172.20.10.14:41790) 连接异常关闭","metadata":{"currentConnections":-1},"service":"ai-project","timestamp":"2026-09-17 11:40:07.278"}
+{"level":"error","message":"客户端 #1 (172.20.10.14:43619) 连接错误","metadata":{"errorCode":"ECONNRESET","errorMessage":"read ECONNRESET"},"service":"ai-project","timestamp":"2026-09-17 13:17:18.212"}
+{"level":"warn","message":"客户端 #1 (172.20.10.14:43619) 连接异常关闭","metadata":{"currentConnections":-1},"service":"ai-project","timestamp":"2026-09-17 13:17:18.214"}
+{"level":"warn","message":"客户端 #2 心跳超时，断开连接","metadata":{"clientInfo":"172.20.10.14:34467","timeSinceLastReceived":119726},"service":"ai-project","timestamp":"2026-09-17 13:28:58.817"}
+{"level":"warn","message":"客户端 #3 心跳超时，断开连接","metadata":{"clientInfo":"172.20.10.14:43701","timeSinceLastReceived":119709},"service":"ai-project","timestamp":"2026-09-17 13:30:58.836"}
+{"level":"error","message":"客户端 #4 (172.20.10.14:43427) 连接错误","metadata":{"errorCode":"ECONNRESET","errorMessage":"read ECONNRESET"},"service":"ai-project","timestamp":"2026-09-17 13:31:48.432"}
+{"level":"warn","message":"客户端 #4 (172.20.10.14:43427) 连接异常关闭","metadata":{"currentConnections":-1},"service":"ai-project","timestamp":"2026-09-17 13:31:48.433"}
+{"level":"warn","message":"客户端 #5 心跳超时，断开连接","metadata":{"clientInfo":"172.20.10.14:12833","timeSinceLastReceived":119684},"service":"ai-project","timestamp":"2026-09-17 13:37:58.894"}
+{"level":"warn","message":"客户端 #6 心跳超时，断开连接","metadata":{"clientInfo":"172.20.10.14:15242","timeSinceLastReceived":119654},"service":"ai-project","timestamp":"2026-09-17 13:39:58.899"}
+{"level":"warn","message":"客户端 #7 心跳超时，断开连接","metadata":{"clientInfo":"172.20.10.14:3553","timeSinceLastReceived":119619},"service":"ai-project","timestamp":"2026-09-17 13:41:58.909"}
+{"level":"error","message":"客户端 #7 (172.20.10.14:3553) 连接错误","metadata":{"errorCode":"ERR_STREAM_WRITE_AFTER_END","errorMessage":"write after end"},"service":"ai-project","timestamp":"2026-09-17 13:41:59.317"}
+{"level":"warn","message":"客户端 #7 (172.20.10.14:3553) 连接异常关闭","metadata":{"currentConnections":-1},"service":"ai-project","timestamp":"2026-09-17 13:41:59.318"}
+{"level":"error","message":"客户端 #8 (172.20.10.14:49692) 连接错误","metadata":{"errorCode":"ECONNRESET","errorMessage":"read ECONNRESET"},"service":"ai-project","timestamp":"2026-09-17 13:50:48.676"}
+{"level":"warn","message":"客户端 #8 (172.20.10.14:49692) 连接异常关闭","metadata":{"currentConnections":-1},"service":"ai-project","timestamp":"2026-09-17 13:50:48.677"}

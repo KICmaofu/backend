@@ -2,8 +2,9 @@
 
 from typing import Annotated
 
-from fastapi import APIRouter, Path, Query, status
+from fastapi import APIRouter, Depends, Path, Query, status
 
+from dependencies import Pagination, get_current_user
 from exceptions import BusinessException
 from schemas.items import Item, ItemUpdate
 from schemas.response import ApiResponse
@@ -26,14 +27,14 @@ def _get_or_404(item_id: int) -> Item:
 @router.get(
     "/",
     summary="查询商品列表",
-    description="支持按名称模糊过滤（`q`）与分页（`skip`/`limit`）。",
+    description="支持按名称模糊过滤（`q`）与分页（`skip`/`limit`）；分页参数由依赖注入统一提供。",
     response_model=ApiResponse[list[Item]],
 )
 async def list_items(
+    pagination: Pagination,
     q: Annotated[str | None, Query(max_length=20, description="按名称模糊过滤")] = None,
-    skip: Annotated[int, Query(ge=0, description="跳过条数")] = 0,
-    limit: Annotated[int, Query(ge=1, le=100, description="返回条数上限")] = 10,
 ) -> ApiResponse[list[Item]]:
+    skip, limit = pagination
     result = list(items_db.values())
     if q:
         result = [item for item in result if q in item.name]
@@ -43,10 +44,17 @@ async def list_items(
 @router.post(
     "/",
     summary="创建商品",
-    description="接收商品 JSON，校验通过后写入内存存储。名称会自动去除首尾空白，标签会去重。",
+    description=(
+        "接收商品 JSON，校验通过后写入内存存储；名称自动去除首尾空白，标签去重。"
+        "写操作通过依赖注入鉴权：需携带 `X-Token: secret`。"
+    ),
     status_code=status.HTTP_201_CREATED,
     response_model=ApiResponse[Item],
-    responses={422: {"description": "请求参数校验失败"}},
+    responses={
+        401: {"description": "令牌无效（依赖注入鉴权示例）"},
+        422: {"description": "请求参数校验失败"},
+    },
+    dependencies=[Depends(get_current_user)],
 )
 async def create_item(item: Item) -> ApiResponse[Item]:
     item_id = max(items_db) + 1 if items_db else 1

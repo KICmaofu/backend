@@ -1,6 +1,7 @@
 # Test your FastAPI endpoints
 # 所有接口（含异常）均返回统一格式：{"code": 0, "message": "success", "data": ...}
 # 失败时 code 为 HTTP 状态码（404/422/500），data 可能包含错误详情
+# 所有响应均带 X-Process-Time 头（计时中间件示例），值为服务端处理耗时（秒）
 
 GET http://127.0.0.1:8000/
 Accept: application/json
@@ -26,8 +27,10 @@ Accept: application/json
 
 # 创建商品（请求体，201），成功后统一返回 {"code": 0, "message": "创建成功", "data": {...}}
 # name 会自动去除首尾空白；tags 会去重（["电子产品", "电子产品", " 外设 "] -> ["电子产品", "外设"]）
+# 写操作由依赖注入鉴权：必须携带 X-Token: secret
 POST http://127.0.0.1:8000/items/
 Content-Type: application/json
+X-Token: secret
 
 {
   "name": "无线鼠标",
@@ -38,8 +41,10 @@ Content-Type: application/json
 ###
 
 # 创建商品失败示例：price <= 0 -> 422，data 中携带字段级错误详情
+# （依赖先于请求体校验执行，令牌正确才会看到 422）
 POST http://127.0.0.1:8000/items/
 Content-Type: application/json
+X-Token: secret
 
 {
   "name": "鼠标",
@@ -84,6 +89,33 @@ Accept: application/json
 
 # 查询不存在的商品 -> 404，{"code": 404, "message": "商品不存在", "data": null}
 GET http://127.0.0.1:8000/items/999
+Accept: application/json
+
+###
+
+# 创建商品未携带令牌 -> 401，{"code": 401, "message": "无效的令牌", "data": null}
+POST http://127.0.0.1:8000/items/
+Content-Type: application/json
+
+{
+  "name": "无线鼠标",
+  "price": 99.9
+}
+
+###
+
+# CORS 预检请求（浏览器跨域前自动发送，由 CORSMiddleware 直接应答，不会到达路由）
+# 响应头应包含 Access-Control-Allow-Origin: http://localhost:5173
+OPTIONS http://127.0.0.1:8000/items/
+Origin: http://localhost:5173
+Access-Control-Request-Method: POST
+Access-Control-Request-Headers: x-token
+
+###
+
+# 跨域简单请求：响应头带 Access-Control-Allow-Origin（可对照无 Origin 的请求）
+GET http://127.0.0.1:8000/items/1
+Origin: http://localhost:5173
 Accept: application/json
 
 ###
