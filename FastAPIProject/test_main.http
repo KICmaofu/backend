@@ -119,3 +119,89 @@ Origin: http://localhost:5173
 Accept: application/json
 
 ###
+
+# ---------- 文件上传 / 下载 / 静态资源 ----------
+
+# 上传文件（multipart/form-data，表单字段名为 file，需携带令牌，201）
+# 服务端校验：扩展名白名单、大小上限 5 MiB、落盘名 uuid_安全化原名
+# 先在项目根目录准备一个 test.txt 再执行（< 后为本地文件路径）
+POST http://127.0.0.1:8000/files/upload
+X-Token: secret
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+
+--WebAppBoundary
+Content-Disposition: form-data; name="file"; filename="测试文档.txt"
+Content-Type: text/plain
+
+< ./test.txt
+--WebAppBoundary--
+
+###
+
+# 上传未携带令牌 -> 401（依赖注入鉴权）
+POST http://127.0.0.1:8000/files/upload
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+
+--WebAppBoundary
+Content-Disposition: form-data; name="file"; filename="test.txt"
+Content-Type: text/plain
+
+< ./test.txt
+--WebAppBoundary--
+
+###
+
+# 上传被拒绝的扩展名（如 .exe）-> 400，{"code": 400, "message": "不支持的扩展名 .exe ..."}
+POST http://127.0.0.1:8000/files/upload
+X-Token: secret
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+
+--WebAppBoundary
+Content-Disposition: form-data; name="file"; filename="evil.exe"
+Content-Type: application/octet-stream
+
+< ./test.txt
+--WebAppBoundary--
+
+###
+
+# 查询已上传文件（分页复用 Pagination 依赖；stored_name 可用于下方下载）
+GET http://127.0.0.1:8000/files/?skip=0&limit=10
+Accept: application/json
+
+###
+
+# 下载文件（文件流 + Content-Disposition: attachment，浏览器直接下载）
+# 把 <stored_name> 替换为上传接口返回的 stored_name
+GET http://127.0.0.1:8000/files/download/<stored_name>
+Accept: application/octet-stream
+
+###
+
+# 路径穿越攻击示例（编码反斜杠）-> 400，{"code": 400, "message": "非法的文件名"}
+GET http://127.0.0.1:8000/files/download/..%5Cmain.py
+Accept: application/json
+
+###
+
+# 路径穿越攻击示例（编码斜杠）-> 404：%2F 解码出 "/" 后路径参数不匹配，路由层直接拦截
+GET http://127.0.0.1:8000/files/download/..%2Fmain.py
+Accept: application/json
+
+###
+
+# 下载不存在的文件 -> 404，{"code": 404, "message": "文件不存在"}
+GET http://127.0.0.1:8000/files/download/not-exist.txt
+Accept: application/json
+
+###
+
+# 静态资源直链：把任意文件放入 static/ 目录后，通过 /static/<文件名> 访问（无 ApiResponse 包装）
+GET http://127.0.0.1:8000/static/<文件名>
+
+###
+
+# 上传文件的直链访问（内联展示，适合 <img src>；需下载请用 /files/download 接口）
+GET http://127.0.0.1:8000/uploads/<stored_name>
+
+###

@@ -1,27 +1,21 @@
-"""商品接口：演示 Pydantic 校验、统一响应格式与业务异常处理。"""
+"""商品接口：演示 SQLAlchemy 异步 ORM 的单表 CRUD。
+
+数据流：请求体经 Pydantic 校验（schemas）→ CRUD 层操作数据库（crud）→
+ORM 对象经 from_attributes 转回响应模型；提交/回滚由 database.get_db 依赖统一管理，
+路由层只负责编排，不接触提交与回滚细节。
+"""
 
 from typing import Annotated
 
 from fastapi import APIRouter, Depends, Path, Query, status
 
+from crud import item_crud
+from database import DbSession
 from dependencies import Pagination, get_current_user
-from exceptions import BusinessException
-from schemas.items import Item, ItemUpdate
+from schemas.items import Item, ItemCreate, ItemUpdate
 from schemas.response import ApiResponse
 
 router = APIRouter(prefix="/items", tags=["items"])
-
-# 内存存储，仅用于演示，后续可替换为数据库
-items_db: dict[int, Item] = {
-    1: Item(name="机械键盘", price=299.0, tags=["电子产品", "外设"]),
-}
-
-
-def _get_or_404(item_id: int) -> Item:
-    """取出商品，不存在时抛出业务异常，由全局处理器统一转为 404 响应。"""
-    if item_id not in items_db:
-        raise BusinessException("商品不存在", status_code=status.HTTP_404_NOT_FOUND)
-    return items_db[item_id]
 
 
 @router.get(
@@ -31,21 +25,20 @@ def _get_or_404(item_id: int) -> Item:
     response_model=ApiResponse[list[Item]],
 )
 async def list_items(
+    session: DbSession,
     pagination: Pagination,
     q: Annotated[str | None, Query(max_length=20, description="按名称模糊过滤")] = None,
 ) -> ApiResponse[list[Item]]:
     skip, limit = pagination
-    result = list(items_db.values())
-    if q:
-        result = [item for item in result if q in item.name]
-    return ApiResponse.ok(data=result[skip : skip + limit])
+    items = await item_crud.search(session, q, skip=skip, limit=limit)
+    return ApiResponse.ok(data=items)
 
 
 @router.post(
     "/",
     summary="创建商品",
     description=(
-        "接收商品 JSON，校验通过后写入内存存储；名称自动去除首尾空白，标签去重。"
+        "接收商品 JSON，校验通过后写入数据库；名称自动去除首尾空白，标签去重。"
         "写操作通过依赖注入鉴权：需携带 `X-Token: secret`。"
     ),
     status_code=status.HTTP_201_CREATED,
@@ -56,9 +49,8 @@ async def list_items(
     },
     dependencies=[Depends(get_current_user)],
 )
-async def create_item(item: Item) -> ApiResponse[Item]:
-    item_id = max(items_db) + 1 if items_db else 1
-    items_db[item_id] = item
+async def create_item(session: DbSession, payload: ItemCreate) -> ApiResponse[Item]:
+    item = await item_crud.create(session, payload)
     return ApiResponse.ok(data=item, message="创建成功")
 
 
@@ -69,8 +61,10 @@ async def create_item(item: Item) -> ApiResponse[Item]:
     response_model=ApiResponse[Item],
     responses={404: {"description": "商品不存在"}},
 )
-async def get_item(item_id: Annotated[int, Path(ge=1, description="商品 ID")]) -> ApiResponse[Item]:
-    return ApiResponse.ok(data=_get_or_404(item_id))
+async def get_item(
+    session: DbSession, item_id: Annotated[int, Path(ge=1, description="商品 ID")]
+) -> ApiResponse[Item]:
+    return ApiResponse.ok(data=await item_crud.get_or_404(session, item_id))
 
 
 @router.put(
@@ -84,13 +78,12 @@ async def get_item(item_id: Annotated[int, Path(ge=1, description="商品 ID")])
     },
 )
 async def update_item(
+    session: DbSession,
     item_id: Annotated[int, Path(ge=1, description="商品 ID")],
     patch: ItemUpdate,
 ) -> ApiResponse[Item]:
-    current = _get_or_404(item_id)
-    updated = current.model_copy(update=patch.model_dump(exclude_unset=True))
-    items_db[item_id] = updated
-    return ApiResponse.ok(data=updated, message="更新成功")
+    item = await item_crud.update(session, item_id, patch)
+    return ApiResponse.ok(data=item, message="更新成功")
 
 
 @router.delete(
@@ -100,7 +93,8 @@ async def update_item(
     response_model=ApiResponse[None],
     responses={404: {"description": "商品不存在"}},
 )
-async def delete_item(item_id: Annotated[int, Path(ge=1, description="商品 ID")]) -> ApiResponse[None]:
-    _get_or_404(item_id)
-    del items_db[item_id]
+async def delete_item(
+    session: DbSession, item_id: Annotated[int, Path(ge=1, description="商品 ID")]
+) -> ApiResponse[None]:
+    await item_crud.delete(session, item_id)
     return ApiResponse.ok(message="删除成功")

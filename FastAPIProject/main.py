@@ -1,16 +1,32 @@
 import time
+from collections.abc import AsyncIterator
+from contextlib import asynccontextmanager
 
 from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.staticfiles import StaticFiles
 
+from database import engine, init_db
 from exceptions import register_exception_handlers
-from routers import items
+from routers import files, items, users
 from schemas.response import ApiResponse
+from storage import STATIC_DIR, UPLOAD_DIR, ensure_directories
+
+
+@asynccontextmanager
+async def lifespan(app: FastAPI) -> AsyncIterator[None]:
+    """应用生命周期：启动时确保数据库存在并创建缺失的表（见 database.init_db），
+    关闭时释放连接池。真实项目的表结构变更应改用 Alembic 迁移。"""
+    await init_db()
+    yield
+    await engine.dispose()
+
 
 app = FastAPI(
     title="FastAPIProject API",
-    description="演示路由定义、参数自动解析、Swagger 自动文档生成、统一响应格式、全局异常处理、依赖注入、中间件与 CORS 跨域配置。",
+    description="演示路由定义、参数自动解析、Swagger 自动文档生成、统一响应格式、全局异常处理、依赖注入、中间件、CORS 跨域配置、文件上传/下载与静态资源托管，以及 PostgreSQL + SQLAlchemy 异步 ORM 的单表 CRUD。",
     version="1.0.0",
+    lifespan=lifespan,
     # 在文档中为所有接口补充 500 兜底响应说明
     responses={500: {"description": "服务器内部错误（未捕获异常的兜底响应）"}},
 )
@@ -40,6 +56,17 @@ async def add_process_time_header(request: Request, call_next):
     return response
 
 
+# 静态资源托管（StaticFiles）：把整个目录挂到 URL 前缀下，由 Starlette 直接读磁盘返回，
+# 不经过路由函数与统一响应模型，因此没有 ApiResponse 包装（与文件下载接口同理）。
+# - /static：随服务发布的静态资源（前端构建产物、图片等）；
+# - /uploads：上传文件的直链访问（如 <img src> 预览、<a> 下载）；
+# - check_dir 默认为 True，目录不存在会在启动时报错，先 ensure_directories() 兜底创建；
+# - 挂载点下找不到文件时抛 HTTPException(404)，仍会被全局异常处理器转成统一 JSON。
+ensure_directories()
+app.mount("/static", StaticFiles(directory=STATIC_DIR), name="static")
+app.mount("/uploads", StaticFiles(directory=UPLOAD_DIR), name="uploads")
+
+
 @app.get("/", tags=["default"], summary="健康检查", response_model=ApiResponse[dict[str, str]])
 async def root() -> ApiResponse[dict[str, str]]:
     return ApiResponse.ok(data={"message": "Hello World"})
@@ -52,3 +79,5 @@ async def say_hello(name: str) -> ApiResponse[dict[str, str]]:
 
 # 注册业务路由：接口在 Swagger 中会按 tags 分组展示
 app.include_router(items.router)
+app.include_router(files.router)
+app.include_router(users.router)

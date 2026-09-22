@@ -2157,3 +2157,12 @@
 {"level":"error","message":"客户端 #4 (172.20.10.14:43427) 连接错误","metadata":{"errorCode":"ECONNRESET","errorMessage":"read ECONNRESET"},"service":"ai-project","timestamp":"2026-09-17 13:31:48.432"}
 {"level":"error","message":"客户端 #7 (172.20.10.14:3553) 连接错误","metadata":{"errorCode":"ERR_STREAM_WRITE_AFTER_END","errorMessage":"write after end"},"service":"ai-project","timestamp":"2026-09-17 13:41:59.317"}
 {"level":"error","message":"客户端 #8 (172.20.10.14:49692) 连接错误","metadata":{"errorCode":"ECONNRESET","errorMessage":"read ECONNRESET"},"service":"ai-project","timestamp":"2026-09-17 13:50:48.676"}
+{"level":"error","message":"客户端 #1 (172.20.10.14:14523) 连接错误","metadata":{"errorCode":"ERR_STREAM_WRITE_AFTER_END","errorMessage":"write after end"},"service":"ai-project","timestamp":"2026-09-18 09:40:21.424"}
+{"level":"error","message":"客户端 #2 (172.20.10.14:24019) 连接错误","metadata":{"errorCode":"ERR_STREAM_WRITE_AFTER_END","errorMessage":"write after end"},"service":"ai-project","timestamp":"2026-09-18 09:43:21.489"}
+{"level":"error","message":"客户端 #1 (172.20.10.14:23105) 连接错误","metadata":{"errorCode":"ERR_STREAM_WRITE_AFTER_END","errorMessage":"write after end"},"service":"ai-project","timestamp":"2026-09-18 09:47:34.355"}
+{"level":"error","message":"客户端 #1 (172.20.10.14:18076) 连接错误","metadata":{"errorCode":"ECONNRESET","errorMessage":"read ECONNRESET"},"service":"ai-project","timestamp":"2026-09-18 10:01:41.031"}
+{"level":"error","message":"客户端 #3 (172.20.10.14:2581) 连接错误","metadata":{"errorCode":"ERR_STREAM_WRITE_AFTER_END","errorMessage":"write after end"},"service":"ai-project","timestamp":"2026-09-18 10:07:11.022"}
+{"level":"error","message":"客户端 #5 (172.20.10.14:11102) 连接错误","metadata":{"errorCode":"ECONNRESET","errorMessage":"read ECONNRESET"},"service":"ai-project","timestamp":"2026-09-18 12:04:10.582"}
+{"level":"error","message":"客户端 #14 (172.20.10.14:32435) 连接错误","metadata":{"errorCode":"ERR_STREAM_WRITE_AFTER_END","errorMessage":"write after end"},"service":"ai-project","timestamp":"2026-09-18 12:23:21.346"}
+{"level":"error","message":"客户端 #15 (172.20.10.14:40090) 连接错误","metadata":{"errorCode":"ERR_STREAM_WRITE_AFTER_END","errorMessage":"write after end"},"service":"ai-project","timestamp":"2026-09-18 12:25:21.693"}
+{"level":"error","message":"客户端 #16 (172.20.10.14:10149) 连接错误","metadata":{"errorCode":"ECONNRESET","errorMessage":"read ECONNRESET"},"service":"ai-project","timestamp":"2026-09-18 12:26:10.968"}

@@ -1,0 +1,4 @@
+[2026-09-18T04:17:14.354Z] [WARNING] 保存到数据库失败，第1次重试: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-09-18T04:17:15.358Z] [WARNING] 保存到数据库失败，第2次重试: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-09-18T04:17:17.363Z] [ERROR] 保存到数据库失败（重试3次后仍失败）: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+[2026-09-18T04:17:17.400Z] [ERROR] 数据处理失败 [ID: 2026-09-18T04-17-14-353Z]: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
