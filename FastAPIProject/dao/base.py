@@ -1,6 +1,7 @@
-"""单表 CRUD 封装：通用基类承担通用逻辑，子类只声明实体与个性化查询。
+"""DAO 基类：通用单表数据访问封装（原 crud.py 的 BaseCRUD）。
 
-设计约定：
+三层架构中 DAO 层的职责边界：
+- 只做数据访问：SQL 构建、行读写、数据层错误转换，不掺任何业务规则；
 - 写操作只 flush 不 commit：提交/回滚统一由 database.get_db 依赖管理（请求级事务），
   flush 保证数据库生成的主键与默认值（如 created_at）立即可用；
 - 资源不存在统一抛 BusinessException(404)，由全局异常处理器转为统一响应；
@@ -12,14 +13,10 @@ from typing import Any, Generic, TypeVar
 from fastapi import status
 from pydantic import BaseModel
 from sqlalchemy import select
-from sqlalchemy.exc import IntegrityError
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from database import Base
 from exceptions import BusinessException
-from models import Item, User
-from schemas.items import ItemCreate, ItemUpdate
-from schemas.users import UserCreate, UserUpdate
 
 # 泛型参数：实体类型、创建入参类型、更新入参类型，由子类实例化时确定
 ModelT = TypeVar("ModelT", bound=Base)
@@ -27,12 +24,12 @@ CreateT = TypeVar("CreateT", bound=BaseModel)
 UpdateT = TypeVar("UpdateT", bound=BaseModel)
 
 
-class BaseCRUD(Generic[ModelT, CreateT, UpdateT]):
-    """单表 CRUD 基类。
+class BaseDAO(Generic[ModelT, CreateT, UpdateT]):
+    """单表 DAO 基类。
 
     子类只需声明实体类即可获得通用增删改查能力：
 
-        class ItemCRUD(BaseCRUD[Item, ItemCreate, ItemUpdate]):
+        class ItemDAO(BaseDAO[Item, ItemCreate, ItemUpdate]):
             model = Item
     """
 
@@ -99,77 +96,3 @@ class BaseCRUD(Generic[ModelT, CreateT, UpdateT]):
         真正发出 DELETE 由请求结束时的统一 commit 完成。"""
         obj = await self.get_or_404(session, entity_id)
         await session.delete(obj)
-
-
-class ItemCRUD(BaseCRUD[Item, ItemCreate, ItemUpdate]):
-    """商品 CRUD：基类已提供通用增删改查，此处只补充业务化查询。"""
-
-    model = Item
-
-    async def search(
-        self,
-        session: AsyncSession,
-        q: str | None = None,
-        *,
-        skip: int = 0,
-        limit: int | None = None,
-    ) -> list[Item]:
-        """按名称模糊过滤的分页查询；ilike 在 PG 下大小写不敏感。"""
-        stmt = select(Item)
-        if q:
-            stmt = stmt.where(Item.name.ilike(f"%{q}%"))
-        stmt = stmt.order_by(Item.id).offset(skip)
-        if limit is not None:
-            stmt = stmt.limit(limit)
-        return list((await session.scalars(stmt)).all())
-
-
-class UserCRUD(BaseCRUD[User, UserCreate, UserUpdate]):
-    """用户 CRUD：通用增删改查之外，补充按关键字搜索与唯一约束冲突转换。
-
-    username/email 的唯一性由数据库唯一约束保证（而非先查后插，后者存在竞态）：
-    flush 触发 IntegrityError 时统一转为 409 业务异常，get_db 依赖会自动 rollback 失败事务。
-    """
-
-    model = User
-
-    async def create(self, session: AsyncSession, data: UserCreate) -> User:
-        """创建用户；username/email 撞唯一约束时抛 409。"""
-        try:
-            return await super().create(session, data)
-        except IntegrityError as exc:
-            raise BusinessException(
-                "用户名或邮箱已存在", status_code=status.HTTP_409_CONFLICT
-            ) from exc
-
-    async def update(self, session: AsyncSession, entity_id: int, patch: UserUpdate) -> User:
-        """更新用户；改出的 username/email 撞唯一约束时抛 409。"""
-        try:
-            return await super().update(session, entity_id, patch)
-        except IntegrityError as exc:
-            raise BusinessException(
-                "用户名或邮箱已存在", status_code=status.HTTP_409_CONFLICT
-            ) from exc
-
-    async def search(
-        self,
-        session: AsyncSession,
-        q: str | None = None,
-        *,
-        skip: int = 0,
-        limit: int | None = None,
-    ) -> list[User]:
-        """按用户名或邮箱模糊过滤的分页查询（OR 条件）。"""
-        stmt = select(User)
-        if q:
-            pattern = f"%{q}%"
-            stmt = stmt.where(User.username.ilike(pattern) | User.email.ilike(pattern))
-        stmt = stmt.order_by(User.id).offset(skip)
-        if limit is not None:
-            stmt = stmt.limit(limit)
-        return list((await session.scalars(stmt)).all())
-
-
-# 模块级单例：CRUD 是无状态组件，全部实例共享即可
-item_crud = ItemCRUD()
-user_crud = UserCRUD()

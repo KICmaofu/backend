@@ -50,7 +50,18 @@ class UserBase(BaseModel):
 
 
 class UserCreate(UserBase):
-    """创建用户入参：字段与 UserBase 一致，语义上作为创建接口的请求体。"""
+    """创建用户入参：公共字段之外必须提供密码（注册/创建共用）。
+
+    密码只在入参出现：入库前由 service 层哈希为 password_hash，
+    响应模型（User）不包含任何密码相关字段，永不对客户端返回。
+    """
+
+    password: str = Field(
+        min_length=8,  # 最低强度要求
+        max_length=72,  # bcrypt 只处理前 72 字节，更长的部分被静默截断
+        description="密码，8-72 个字符",
+        examples=["secret123"],
+    )
 
 
 class UserUpdate(BaseModel):

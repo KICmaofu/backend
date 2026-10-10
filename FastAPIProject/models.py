@@ -62,6 +62,8 @@ class User(Base):
     id: Mapped[int] = mapped_column(primary_key=True, autoincrement=True, comment="主键")
     username: Mapped[str] = mapped_column(String(50), unique=True, index=True, comment="用户名，唯一")
     email: Mapped[str] = mapped_column(String(100), unique=True, index=True, comment="邮箱，唯一")
+    # 只存 bcrypt 哈希不存明文（见 security.hash_password）；响应模型不包含本字段，永不对外返回
+    password_hash: Mapped[str] = mapped_column(String(255), comment="密码哈希（bcrypt）")
     is_active: Mapped[bool] = mapped_column(Boolean, default=True, server_default="true", comment="是否启用")
     # 时间戳与 Item 同套路：数据库生成，crud 层 flush 后 refresh 取回
     created_at: Mapped[datetime] = mapped_column(

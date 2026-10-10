@@ -2,6 +2,9 @@
 # 所有接口（含异常）均返回统一格式：{"code": 0, "message": "success", "data": ...}
 # 失败时 code 为 HTTP 状态码（404/422/500），data 可能包含错误详情
 # 所有响应均带 X-Process-Time 头（计时中间件示例），值为服务端处理耗时（秒）
+#
+# JWT 认证流程：先注册（POST /auth/register）→ 登录（POST /auth/login）拿 token →
+# 写接口携带 Authorization: Bearer <token>（把下方登录响应的 access_token 替换进 <token>）
 
 GET http://127.0.0.1:8000/
 Accept: application/json
@@ -9,6 +12,58 @@ Accept: application/json
 ###
 
 GET http://127.0.0.1:8000/hello/User
+Accept: application/json
+
+###
+
+# ---------- JWT 认证：注册 / 登录 / 当前用户 ----------
+
+# 注册用户（201）：密码在服务端 bcrypt 哈希后入库，响应不含密码字段
+# username/email 重复 -> 409；密码少于 8 位 -> 422
+POST http://127.0.0.1:8000/auth/register
+Content-Type: application/json
+
+{
+  "username": "alice",
+  "email": "alice@example.com",
+  "password": "secret123"
+}
+
+###
+
+# 登录（200）：data.access_token 即 JWT，后续写接口放 Authorization 头
+# 用户名或密码错误 -> 401 {"code": 401, "message": "用户名或密码错误"}
+POST http://127.0.0.1:8000/auth/login
+Content-Type: application/json
+
+{
+  "username": "alice",
+  "password": "secret123"
+}
+
+###
+
+# 登录失败示例：密码错误 -> 401（用户不存在与密码错误返回同一提示，防用户名枚举）
+POST http://127.0.0.1:8000/auth/login
+Content-Type: application/json
+
+{
+  "username": "alice",
+  "password": "wrong-password"
+}
+
+###
+
+# 查询当前登录用户（200）：返回令牌对应的用户信息，账号禁用 -> 403
+GET http://127.0.0.1:8000/users/me
+Authorization: Bearer <token>
+Accept: application/json
+
+###
+
+# 查询当前用户但令牌无效 -> 401，{"code": 401, "message": "令牌无效或已过期"}
+GET http://127.0.0.1:8000/users/me
+Authorization: Bearer not-a-valid-token
 Accept: application/json
 
 ###
@@ -27,10 +82,10 @@ Accept: application/json
 
 # 创建商品（请求体，201），成功后统一返回 {"code": 0, "message": "创建成功", "data": {...}}
 # name 会自动去除首尾空白；tags 会去重（["电子产品", "电子产品", " 外设 "] -> ["电子产品", "外设"]）
-# 写操作由依赖注入鉴权：必须携带 X-Token: secret
+# 写操作需 JWT 鉴权：先调 /auth/login 拿 token，把 <token> 替换后携带 Authorization 头
 POST http://127.0.0.1:8000/items/
 Content-Type: application/json
-X-Token: secret
+Authorization: Bearer <token>
 
 {
   "name": "无线鼠标",
@@ -44,7 +99,7 @@ X-Token: secret
 # （依赖先于请求体校验执行，令牌正确才会看到 422）
 POST http://127.0.0.1:8000/items/
 Content-Type: application/json
-X-Token: secret
+Authorization: Bearer <token>
 
 {
   "name": "鼠标",
@@ -93,7 +148,7 @@ Accept: application/json
 
 ###
 
-# 创建商品未携带令牌 -> 401，{"code": 401, "message": "无效的令牌", "data": null}
+# 创建商品未携带令牌 -> 401，{"code": 401, "message": "未提供认证令牌", "data": null}
 POST http://127.0.0.1:8000/items/
 Content-Type: application/json
 
@@ -109,7 +164,7 @@ Content-Type: application/json
 OPTIONS http://127.0.0.1:8000/items/
 Origin: http://localhost:5173
 Access-Control-Request-Method: POST
-Access-Control-Request-Headers: x-token
+Access-Control-Request-Headers: authorization
 
 ###
 
@@ -122,11 +177,11 @@ Accept: application/json
 
 # ---------- 文件上传 / 下载 / 静态资源 ----------
 
-# 上传文件（multipart/form-data，表单字段名为 file，需携带令牌，201）
+# 上传文件（multipart/form-data，表单字段名为 file，需携带 JWT，201）
 # 服务端校验：扩展名白名单、大小上限 5 MiB、落盘名 uuid_安全化原名
 # 先在项目根目录准备一个 test.txt 再执行（< 后为本地文件路径）
 POST http://127.0.0.1:8000/files/upload
-X-Token: secret
+Authorization: Bearer <token>
 Content-Type: multipart/form-data; boundary=WebAppBoundary
 
 --WebAppBoundary
@@ -138,7 +193,7 @@ Content-Type: text/plain
 
 ###
 
-# 上传未携带令牌 -> 401（依赖注入鉴权）
+# 上传未携带令牌 -> 401（JWT 鉴权依赖）
 POST http://127.0.0.1:8000/files/upload
 Content-Type: multipart/form-data; boundary=WebAppBoundary
 
@@ -153,7 +208,7 @@ Content-Type: text/plain
 
 # 上传被拒绝的扩展名（如 .exe）-> 400，{"code": 400, "message": "不支持的扩展名 .exe ..."}
 POST http://127.0.0.1:8000/files/upload
-X-Token: secret
+Authorization: Bearer <token>
 Content-Type: multipart/form-data; boundary=WebAppBoundary
 
 --WebAppBoundary

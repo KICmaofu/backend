@@ -28,7 +28,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-eff1e8def5f5-5bd6d13a2a75-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-262.10315.174" />
+        <option value="bundled-python-sdk-73a66231627c-5bd6d13a2a75-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-262.10968.92" />
       </set>
     </attachedChunks>
   </component>
@@ -40,6 +40,7 @@
       <option name="presentableId" value="Default" />
       <updated>1790075588585</updated>
       <workItem from="1790075615233" duration="3000" />
+      <workItem from="1791612226326" duration="2000" />
     </task>
     <servers />
   </component>
